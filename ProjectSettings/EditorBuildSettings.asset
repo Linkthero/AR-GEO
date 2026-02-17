@@ -9,5 +9,7 @@ EditorBuildSettings:
     path: Assets/MonsterHunterAR/Scenes/EscenaJuego.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c960917f4f2b7b848b975e4147229823, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ed7072f4b42dba040a5f85fd08def1a6, type: 2}
   m_UseUCBPForAssetBundles: 0
