@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class compassController : MonoBehaviour
 {
-    GPSTracker gpsTracker;
     public double monsterLat;
     public double monsterLon;
     public RectTransform arrowUI;
@@ -10,8 +9,8 @@ public class compassController : MonoBehaviour
     void Start()
     {
         Input.compass.enabled = true;
-        monsterLat = gpsTracker.targetLat;
-        monsterLon = gpsTracker.targetLon;
+        monsterLat = GPSTracker.instance.monsterLat[GPSTracker.instance.TargetActual];
+        monsterLon = GPSTracker.instance.monsterLon[GPSTracker.instance.TargetActual];
     }
 
     // Update is called once per frame
