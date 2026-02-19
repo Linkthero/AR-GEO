@@ -28,7 +28,6 @@ public class GPSTracker : MonoBehaviour
     private bool isSpawned = false; //Para evitar múltiples spawns
 
     public double[] monsterLat;
-    
     public double[] monsterLon; 
     public GameObject[] pokemonPrefabs;
     private GameObject spawnedObject;
@@ -58,8 +57,10 @@ public class GPSTracker : MonoBehaviour
         Input.compass.enabled = true;
 
         //inicializamos ls arrays
-        monsterLat = new double[] { instance.targetLat1, instance.targetLat2, instance.targetLat3, instance.targetLat3, instance.targetLat4 };
-        monsterLon = new double[] { instance.targetLon1, instance.targetLon2, instance.targetLon3, instance.targetLon3, instance.targetLon4 };
+        double[] a = new double[] { targetLat1, targetLat2, targetLat3, targetLat3, targetLat4 };
+        double[] b = new double[] { targetLon1, targetLon2, targetLon3, targetLon3, targetLon4 };
+        monsterLat = a;
+        monsterLon = b;
 
         TargetActual = 0; //Iniciamos con el primer monstruo
         
