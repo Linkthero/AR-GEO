@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/MonsterHunterAR/Scenes/EscenaMenu.unity
+    guid: 61c089a77a5266e408d2416f239cd643
+  - enabled: 1
     path: Assets/MonsterHunterAR/Scenes/EscenaJuego.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
