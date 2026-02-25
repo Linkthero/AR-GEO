@@ -60,6 +60,11 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("EscenaJuego");
     }
 
+    public void Tutorial()
+    {
+        SceneManager.LoadScene("EscenaTutorial");
+    }
+
     public void VolverAMenuPrincipal() // Volver al menu principal
     {
         SceneManager.LoadScene("EscenaMenu");
