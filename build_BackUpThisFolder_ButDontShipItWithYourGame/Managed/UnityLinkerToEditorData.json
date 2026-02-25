@@ -19,7 +19,8 @@
           {
             "name": "NavMeshSettings",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -34,14 +35,26 @@
         "name": "Animation",
         "dependencies": [
           {
+            "name": "AnimationClip",
+            "scenes": [
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Animator",
-            "scenes": [],
+            "scenes": [
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AnimatorController",
-            "scenes": [],
+            "scenes": [
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+            ],
             "dependencyType": 1,
             "icon": null
           },
@@ -49,6 +62,20 @@
             "name": "AnimatorOverrideController",
             "scenes": [],
             "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Avatar",
+            "scenes": [
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Motion",
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -65,7 +92,8 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -79,7 +107,8 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -122,7 +151,8 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -142,7 +172,8 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -162,7 +193,8 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -176,7 +208,8 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -208,7 +241,8 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -216,7 +250,8 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -242,7 +277,8 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -262,7 +298,8 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -277,24 +314,21 @@
           },
           {
             "name": "MeshFilter",
-            "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "MeshRenderer",
-            "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -308,7 +342,8 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -316,7 +351,8 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -354,7 +390,8 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -368,7 +405,8 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -381,8 +419,10 @@
           },
           {
             "name": "Renderer",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -400,7 +440,8 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -409,6 +450,14 @@
             "name": "ShaderNameRegistry",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "SkinnedMeshRenderer",
+            "scenes": [
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -426,7 +475,7 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -925,9 +974,7 @@
         "dependencies": [
           {
             "name": "BoxCollider",
-            "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -940,7 +987,7 @@
           {
             "name": "Collider",
             "scenes": [],
-            "dependencyType": 1,
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -1344,7 +1391,8 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1387,7 +1435,8 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1401,7 +1450,8 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity",
+              "Assets/MonsterHunterAR/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null

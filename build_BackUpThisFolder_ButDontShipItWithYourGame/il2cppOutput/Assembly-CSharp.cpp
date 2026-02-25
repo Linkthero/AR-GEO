@@ -40,7 +40,9 @@ struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
 struct DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615;
+struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE;
 struct FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
 struct HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622;
 struct HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
@@ -72,6 +74,7 @@ struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
 struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
 struct LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2;
 struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16;
 struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
@@ -107,26 +110,35 @@ struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
 struct ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24;
 struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
 
+IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_t0754071572EFE7A5C92A59495D2524FC935364E3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LocationServiceStatus_tF9F78681F963A53FD6CA4CDC2DDDBD7B4DF517F7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____7A8F26EB509A598E509063740EE85A8EB301208B9B8902BEBFA647D930186A9E_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____BAFC9520533C6516D8CB817775E7A78DFA86928AD4F23773EC53D0ED127881E8_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____0E2E198BCB1B58B9FFB537618F7510F9D5A0AB5354ACAD94B7F1F6E366EC2EF0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____CA27432188579BD5C67EF2011D3D861DC71F8219C281261747B0A3D73D455E76_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral2C826E4EA6E866B4088A9F32CE5A214449C12EF7;
+IL2CPP_EXTERN_C String_t* _stringLiteral2E7A50EB80077709660565FD5776E25EBF89D6AC;
 IL2CPP_EXTERN_C String_t* _stringLiteral730B2BBC756517292C144DAE1841E7B1ED24195E;
 IL2CPP_EXTERN_C String_t* _stringLiteral736AAE8A01234699298A7221FB3297C45122B116;
+IL2CPP_EXTERN_C String_t* _stringLiteral84D4B4F9191DEC4F0E3D57FB7AE89CBC1972073D;
 IL2CPP_EXTERN_C String_t* _stringLiteralD0A4CE7A78EF33D27EBEEA6029438232BB8BD3CB;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralF2E68DF050F5D704F0C5C3395E9C8423C9A272CC;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 
 IL2CPP_EXTERN_C_BEGIN
@@ -357,6 +369,10 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974
 	float ___z;
 	float ___w;
 };
+struct Scene_tA1DC762B79745EB5140F054C884855B922318356 
+{
+	int32_t ___m_Handle;
+};
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
 	float ___m_value;
@@ -415,7 +431,7 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 	};
 };
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D211_t1D09ACB9D108A1FEE4DB5EA8B5793D3F13B10F4B 
+struct __StaticArrayInitTypeSizeU3D102_tD0C9DC4403E919C21F96924A201863E3EBC65DE0 
 {
 	union
 	{
@@ -425,12 +441,12 @@ struct __StaticArrayInitTypeSizeU3D211_t1D09ACB9D108A1FEE4DB5EA8B5793D3F13B10F4B
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D211_t1D09ACB9D108A1FEE4DB5EA8B5793D3F13B10F4B__padding[211];
+		uint8_t __StaticArrayInitTypeSizeU3D102_tD0C9DC4403E919C21F96924A201863E3EBC65DE0__padding[102];
 	};
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D85_tEAA89366325161E011E456DAF336FE1AA5B4941E 
+struct __StaticArrayInitTypeSizeU3D270_t0CE92B4B0DEF1A500988469FDE2B3A68D3CB5276 
 {
 	union
 	{
@@ -440,7 +456,7 @@ struct __StaticArrayInitTypeSizeU3D85_tEAA89366325161E011E456DAF336FE1AA5B4941E
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D85_tEAA89366325161E011E456DAF336FE1AA5B4941E__padding[85];
+		uint8_t __StaticArrayInitTypeSizeU3D270_t0CE92B4B0DEF1A500988469FDE2B3A68D3CB5276__padding[270];
 	};
 };
 #pragma pack(pop, tp)
@@ -976,15 +992,29 @@ struct SubsystemLifecycleManager_3_tF871EF43DE89B354DB5832CC545E7E0EEF19DC8C  : 
 };
 struct GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	double ___targetLat;
-	double ___targetLon;
+	int32_t ___TargetActual;
+	double ___targetLat1;
+	double ___targetLon1;
+	double ___targetLat2;
+	double ___targetLon2;
+	double ___targetLat3;
+	double ___targetLon3;
+	double ___targetLat4;
+	double ___targetLon4;
 	float ___detectionRadius;
 	bool ___isSpawned;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pokemonPrefab;
+	DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___monsterLat;
+	DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___monsterLon;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___pokemonPrefabs;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___spawnedObject;
 	ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* ___raycastManager;
 	double ___currentLat;
 	double ___currentLon;
+};
+struct MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelOpciones;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelMenuPrincipal;
 };
 struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -995,7 +1025,6 @@ struct UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3  : public MonoBehavio
 };
 struct compassController_t386A449D5F1127C6DDAAB70796B52A2316DC5247  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* ___gpsTracker;
 	double ___monsterLat;
 	double ___monsterLon;
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___arrowUI;
@@ -1272,8 +1301,8 @@ struct List_1_t0754071572EFE7A5C92A59495D2524FC935364E3_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D85_tEAA89366325161E011E456DAF336FE1AA5B4941E ___7A8F26EB509A598E509063740EE85A8EB301208B9B8902BEBFA647D930186A9E;
-	__StaticArrayInitTypeSizeU3D211_t1D09ACB9D108A1FEE4DB5EA8B5793D3F13B10F4B ___BAFC9520533C6516D8CB817775E7A78DFA86928AD4F23773EC53D0ED127881E8;
+	__StaticArrayInitTypeSizeU3D102_tD0C9DC4403E919C21F96924A201863E3EBC65DE0 ___0E2E198BCB1B58B9FFB537618F7510F9D5A0AB5354ACAD94B7F1F6E366EC2EF0;
+	__StaticArrayInitTypeSizeU3D270_t0CE92B4B0DEF1A500988469FDE2B3A68D3CB5276 ___CA27432188579BD5C67EF2011D3D861DC71F8219C281261747B0A3D73D455E76;
 };
 struct String_t_StaticFields
 {
@@ -1377,6 +1406,38 @@ struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE  : public RuntimeArray
+{
+	ALIGN_FIELD (8) double m_Items[1];
+
+	inline double GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline double* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, double value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline double GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline double* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, double value)
+	{
+		m_Items[index] = value;
+	}
+};
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
 {
 	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
@@ -1406,6 +1467,40 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeA
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF  : public RuntimeArray
+{
+	ALIGN_FIELD (8) GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* m_Items[1];
+
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
@@ -1497,6 +1592,13 @@ inline ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 List_1_get_Item_m4
 	return ((  ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 (*) (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3*, int32_t, const RuntimeMethod*))List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F_gshared)(__this, ___0_index, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ARRaycastHit_get_pose_m84C13E71E21FE12CBA9AAD98DC28B1E414C9EFFD (ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972 (float* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
@@ -1516,30 +1618,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 85244
+// Method Definition Index: 86448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void compassController_Start_m200FD188F9BF9D2F2740A1EF0039CBB676DFD2AF (compassController_t386A449D5F1127C6DDAAB70796B52A2316DC5247* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:12>
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:11>
 		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_0;
 		L_0 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
 		NullCheck(L_0);
 		Compass_set_enabled_m26DFB64F789DA4B875359E8CE1C3E9E2270CFCA9(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:13>
-		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_1 = __this->___gpsTracker;
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:12>
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_1 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_1);
-		double L_2 = L_1->___targetLat;
-		__this->___monsterLat = L_2;
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:14>
-		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_3 = __this->___gpsTracker;
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_2 = L_1->___monsterLat;
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_3 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_3);
-		double L_4 = L_3->___targetLon;
-		__this->___monsterLon = L_4;
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:15>
+		int32_t L_4 = L_3->___TargetActual;
+		NullCheck(L_2);
+		int32_t L_5 = L_4;
+		double L_6 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		__this->___monsterLat = L_6;
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:13>
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_7 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_7);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_8 = L_7->___monsterLon;
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_9 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_9);
+		int32_t L_10 = L_9->___TargetActual;
+		NullCheck(L_8);
+		int32_t L_11 = L_10;
+		double L_12 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		__this->___monsterLon = L_12;
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 85245
+// Method Definition Index: 86449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void compassController_Update_m54E7DDBC4641AE29722BA6C23A772E317F17A360 (compassController_t386A449D5F1127C6DDAAB70796B52A2316DC5247* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1551,17 +1671,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void compassController_Update_m54E7DDBC4641AE
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:20>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:19>
 		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_0;
 		L_0 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
 		NullCheck(L_0);
 		float L_1;
 		L_1 = Compass_get_trueHeading_m5546F74294A5CC2B4A731ECE1E02F0BE7085582C(L_0, NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:20>
 		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:21>
 		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:22>
 		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:23>
 		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:24>
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:25>
 		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_2 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_2);
 		double L_3 = L_2->___currentLat;
@@ -1573,45 +1693,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void compassController_Update_m54E7DDBC4641AE
 		float L_8;
 		L_8 = compassController_CalculateBearing_mA4CC9CF79CFF30022E47251D8D9F3277C263DE47(__this, L_3, L_5, L_6, L_7, NULL);
 		V_0 = L_8;
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:27>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:26>
 		float L_9 = V_0;
 		V_1 = ((float)il2cpp_codegen_subtract(L_1, L_9));
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:28>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:27>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10 = __this->___arrowUI;
 		float L_11 = V_1;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
 		L_12 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), (0.0f), L_11, NULL);
 		NullCheck(L_10);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_10, L_12, NULL);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:29>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 85246
+// Method Definition Index: 86450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float compassController_CalculateBearing_mA4CC9CF79CFF30022E47251D8D9F3277C263DE47 (compassController_t386A449D5F1127C6DDAAB70796B52A2316DC5247* __this, double ___0_lat1, double ___1_lon1, double ___2_lat2, double ___3_lon2, const RuntimeMethod* method) 
 {
 	double V_0 = 0.0;
 	double V_1 = 0.0;
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:33>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:32>
 		double L_0 = ___3_lon2;
 		double L_1 = ___1_lon1;
 		V_0 = ((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_subtract(L_0, L_1)), (0.01745329238474369)));
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:34>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:33>
 		double L_2 = ___0_lat1;
 		___0_lat1 = ((double)il2cpp_codegen_multiply(L_2, (0.01745329238474369)));
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:35>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:34>
 		double L_3 = ___2_lat2;
 		___2_lat2 = ((double)il2cpp_codegen_multiply(L_3, (0.01745329238474369)));
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:37>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:36>
 		double L_4 = V_0;
 		float L_5;
 		L_5 = sinf(((float)L_4));
 		double L_6 = ___2_lat2;
 		float L_7;
 		L_7 = cosf(((float)L_6));
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:37>
 		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:38>
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:39>
 		double L_8 = ___0_lat1;
 		float L_9;
 		L_9 = cosf(((float)L_8));
@@ -1628,16 +1748,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float compassController_CalculateBearing_mA4C
 		float L_17;
 		L_17 = cosf(((float)L_16));
 		V_1 = ((double)((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_9, L_11)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_13, L_15)), L_17)))));
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:41>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:40>
 		double L_18 = V_1;
 		float L_19;
 		L_19 = atan2f(((float)((double)((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)L_18));
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:41>
 		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:42>
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:43>
 		return ((float)(fmod(((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(((double)L_19), (57.295780181884766))), (360.0))), (360.0))));
 	}
 }
-// Method Definition Index: 85247
+// Method Definition Index: 86451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void compassController__ctor_m1CFD89A3ECD9A50BF6A2D54135D5E3907D7D55EA (compassController_t386A449D5F1127C6DDAAB70796B52A2316DC5247* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1653,7 +1773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void compassController__ctor_m1CFD89A3ECD9A50
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 85248
+// Method Definition Index: 86452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Awake_mCE4D10DB9669A7472153D6F2A10498D4D5B07486 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1664,7 +1784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Awake_mCE4D10DB9669A7472153D6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:24>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:41>
 		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_0 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -1675,10 +1795,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Awake_mCE4D10DB9669A7472153D6
 		}
 	}
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:26>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:43>
 		((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance), (void*)__this);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:27>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:44>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -1688,27 +1808,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Awake_mCE4D10DB9669A7472153D6
 
 IL_001f:
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:31>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:48>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_3, NULL);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:33>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:50>
 		return;
 	}
 }
-// Method Definition Index: 85249
+// Method Definition Index: 86453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Start_m2DBF76153F47A4A6A59063283698D1365F32EED8 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral730B2BBC756517292C144DAE1841E7B1ED24195E);
 		s_Il2CppMethodInitialized = true;
 	}
+	DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* V_0 = NULL;
+	DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* V_1 = NULL;
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:37>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:54>
 		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_0;
 		L_0 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
 		NullCheck(L_0);
@@ -1720,31 +1843,87 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Start_m2DBF76153F47A4A6A59063
 		}
 	}
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:37>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:54>
 		return;
 	}
 
 IL_000d:
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:38>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:55>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_2 = ((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_2);
 		UIManager_MostrarMensaje_mE66E9A474142FB5424F8B8FD0F8AFD1E1A28EDC8(L_2, _stringLiteral730B2BBC756517292C144DAE1841E7B1ED24195E, NULL);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:39>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:56>
 		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_3;
 		L_3 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
 		NullCheck(L_3);
 		LocationService_Start_mC2A90619923D4BEB5F9B5CCD95F317B98D67AF3A(L_3, NULL);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:40>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:57>
 		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_4;
 		L_4 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
 		NullCheck(L_4);
 		Compass_set_enabled_m26DFB64F789DA4B875359E8CE1C3E9E2270CFCA9(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:41>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:60>
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_5 = (DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE*)(DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE*)SZArrayNew(DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE_il2cpp_TypeInfo_var, (uint32_t)5);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_6 = L_5;
+		double L_7 = __this->___targetLat1;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (double)L_7);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_8 = L_6;
+		double L_9 = __this->___targetLat2;
+		NullCheck(L_8);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(1), (double)L_9);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_10 = L_8;
+		double L_11 = __this->___targetLat3;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (double)L_11);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_12 = L_10;
+		double L_13 = __this->___targetLat3;
+		NullCheck(L_12);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(3), (double)L_13);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_14 = L_12;
+		double L_15 = __this->___targetLat4;
+		NullCheck(L_14);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(4), (double)L_15);
+		V_0 = L_14;
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:61>
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_16 = (DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE*)(DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE*)SZArrayNew(DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE_il2cpp_TypeInfo_var, (uint32_t)5);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_17 = L_16;
+		double L_18 = __this->___targetLon1;
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(0), (double)L_18);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_19 = L_17;
+		double L_20 = __this->___targetLon2;
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(1), (double)L_20);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_21 = L_19;
+		double L_22 = __this->___targetLon3;
+		NullCheck(L_21);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(2), (double)L_22);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_23 = L_21;
+		double L_24 = __this->___targetLon3;
+		NullCheck(L_23);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(3), (double)L_24);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_25 = L_23;
+		double L_26 = __this->___targetLon4;
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(4), (double)L_26);
+		V_1 = L_25;
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:62>
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_27 = V_0;
+		__this->___monsterLat = L_27;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___monsterLat), (void*)L_27);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:63>
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_28 = V_1;
+		__this->___monsterLon = L_28;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___monsterLon), (void*)L_28);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:65>
+		__this->___TargetActual = 0;
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 85250
+// Method Definition Index: 86454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Update_mAA674EDF14E78B406377A21093622CEC8C576240 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1762,7 +1941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Update_mAA674EDF14E78B406377A
 	LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:45>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:71>
 		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_0 = ((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___Instance;
 		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_1;
 		L_1 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
@@ -1775,7 +1954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Update_mAA674EDF14E78B406377A
 		L_4 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_3), NULL);
 		NullCheck(L_0);
 		UIManager_MostrarMensaje_mE66E9A474142FB5424F8B8FD0F8AFD1E1A28EDC8(L_0, L_4, NULL);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:46>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:72>
 		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_5;
 		L_5 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
 		NullCheck(L_5);
@@ -1783,11 +1962,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Update_mAA674EDF14E78B406377A
 		L_6 = LocationService_get_status_m25B7C4012B9529265D9746BB73ED689737E9C9CD(L_5, NULL);
 		if ((!(((uint32_t)L_6) == ((uint32_t)2))))
 		{
-			goto IL_0106;
+			goto IL_0122;
 		}
 	}
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:48>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:74>
 		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_7;
 		L_7 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
 		NullCheck(L_7);
@@ -1797,7 +1976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Update_mAA674EDF14E78B406377A
 		float L_9;
 		L_9 = LocationInfo_get_latitude_mAF0A46443555AF18EA3C516292CB92B1669CA863((&V_2), NULL);
 		__this->___currentLat = ((double)L_9);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:49>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:75>
 		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_10;
 		L_10 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
 		NullCheck(L_10);
@@ -1807,92 +1986,108 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Update_mAA674EDF14E78B406377A
 		float L_12;
 		L_12 = LocationInfo_get_longitude_mCB720DD0E139B7C614F78D40595E1BBF1F5433A2((&V_2), NULL);
 		__this->___currentLon = ((double)L_12);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:51>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:77>
 		double L_13 = __this->___currentLat;
 		double L_14 = __this->___currentLon;
-		double L_15 = __this->___targetLat;
-		double L_16 = __this->___targetLon;
-		double L_17;
-		L_17 = GPSTracker_CalculateDistance_m88A4CCF53CD4060616B8B2CA5ADBEF5D82BE3FD2(__this, L_13, L_14, L_15, L_16, NULL);
-		V_1 = L_17;
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:52>
-		double L_18 = V_1;
-		float L_19 = __this->___detectionRadius;
-		if ((!(((double)L_18) <= ((double)((double)L_19)))))
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_15 = __this->___monsterLat;
+		int32_t L_16 = __this->___TargetActual;
+		NullCheck(L_15);
+		int32_t L_17 = L_16;
+		double L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_19 = __this->___monsterLon;
+		int32_t L_20 = __this->___TargetActual;
+		NullCheck(L_19);
+		int32_t L_21 = L_20;
+		double L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		double L_23;
+		L_23 = GPSTracker_CalculateDistance_m88A4CCF53CD4060616B8B2CA5ADBEF5D82BE3FD2(__this, L_13, L_14, L_18, L_22, NULL);
+		V_1 = L_23;
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:78>
+		double L_24 = V_1;
+		float L_25 = __this->___detectionRadius;
+		if ((!(((double)L_24) <= ((double)((double)L_25)))))
 		{
-			goto IL_00ab;
+			goto IL_00b9;
 		}
 	}
 	{
-		bool L_20 = __this->___isSpawned;
-		if (L_20)
+		bool L_26 = __this->___isSpawned;
+		if (L_26)
 		{
-			goto IL_00ab;
+			goto IL_00b9;
 		}
 	}
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:54>
-		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_21 = ((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___Instance;
-		NullCheck(L_21);
-		UIManager_MostrarMensaje_mE66E9A474142FB5424F8B8FD0F8AFD1E1A28EDC8(L_21, _stringLiteralD0A4CE7A78EF33D27EBEEA6029438232BB8BD3CB, NULL);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:56>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:80>
+		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_27 = ((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_27);
+		UIManager_MostrarMensaje_mE66E9A474142FB5424F8B8FD0F8AFD1E1A28EDC8(L_27, _stringLiteralD0A4CE7A78EF33D27EBEEA6029438232BB8BD3CB, NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:82>
 		GPSTracker_SpawnObjectInAR_Plane_mAC5198AD3ADEFE4BC1ABB8845520EDD83B848495(__this, NULL);
 		return;
 	}
 
-IL_00ab:
+IL_00b9:
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:59>
-		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_22 = ((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___Instance;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24 = L_23;
-		double L_25 = __this->___currentLat;
-		double L_26 = L_25;
-		RuntimeObject* L_27 = Box(il2cpp_defaults.double_class, &L_26);
-		NullCheck(L_24);
-		ArrayElementTypeCheck (L_24, L_27);
-		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_27);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_28 = L_24;
-		double L_29 = __this->___currentLon;
-		double L_30 = L_29;
-		RuntimeObject* L_31 = Box(il2cpp_defaults.double_class, &L_30);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:85>
+		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_28 = ((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___Instance;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_29 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_30 = L_29;
+		double L_31 = __this->___currentLat;
+		double L_32 = L_31;
+		RuntimeObject* L_33 = Box(il2cpp_defaults.double_class, &L_32);
+		NullCheck(L_30);
+		ArrayElementTypeCheck (L_30, L_33);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_33);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_34 = L_30;
+		double L_35 = __this->___currentLon;
+		double L_36 = L_35;
+		RuntimeObject* L_37 = Box(il2cpp_defaults.double_class, &L_36);
+		NullCheck(L_34);
+		ArrayElementTypeCheck (L_34, L_37);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_37);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_38 = L_34;
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_39 = __this->___monsterLat;
+		int32_t L_40 = __this->___TargetActual;
+		NullCheck(L_39);
+		int32_t L_41 = L_40;
+		double L_42 = (L_39)->GetAt(static_cast<il2cpp_array_size_t>(L_41));
+		double L_43 = L_42;
+		RuntimeObject* L_44 = Box(il2cpp_defaults.double_class, &L_43);
+		NullCheck(L_38);
+		ArrayElementTypeCheck (L_38, L_44);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_44);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_45 = L_38;
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_46 = __this->___monsterLon;
+		int32_t L_47 = __this->___TargetActual;
+		NullCheck(L_46);
+		int32_t L_48 = L_47;
+		double L_49 = (L_46)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
+		double L_50 = L_49;
+		RuntimeObject* L_51 = Box(il2cpp_defaults.double_class, &L_50);
+		NullCheck(L_45);
+		ArrayElementTypeCheck (L_45, L_51);
+		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_51);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_52 = L_45;
+		double L_53 = V_1;
+		double L_54 = L_53;
+		RuntimeObject* L_55 = Box(il2cpp_defaults.double_class, &L_54);
+		NullCheck(L_52);
+		ArrayElementTypeCheck (L_52, L_55);
+		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_55);
+		String_t* L_56;
+		L_56 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral736AAE8A01234699298A7221FB3297C45122B116, L_52, NULL);
 		NullCheck(L_28);
-		ArrayElementTypeCheck (L_28, L_31);
-		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_31);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_32 = L_28;
-		double L_33 = __this->___targetLat;
-		double L_34 = L_33;
-		RuntimeObject* L_35 = Box(il2cpp_defaults.double_class, &L_34);
-		NullCheck(L_32);
-		ArrayElementTypeCheck (L_32, L_35);
-		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_35);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_36 = L_32;
-		double L_37 = __this->___targetLon;
-		double L_38 = L_37;
-		RuntimeObject* L_39 = Box(il2cpp_defaults.double_class, &L_38);
-		NullCheck(L_36);
-		ArrayElementTypeCheck (L_36, L_39);
-		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_39);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_40 = L_36;
-		double L_41 = V_1;
-		double L_42 = L_41;
-		RuntimeObject* L_43 = Box(il2cpp_defaults.double_class, &L_42);
-		NullCheck(L_40);
-		ArrayElementTypeCheck (L_40, L_43);
-		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_43);
-		String_t* L_44;
-		L_44 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral736AAE8A01234699298A7221FB3297C45122B116, L_40, NULL);
-		NullCheck(L_22);
-		UIManager_MostrarMensaje_mE66E9A474142FB5424F8B8FD0F8AFD1E1A28EDC8(L_22, L_44, NULL);
+		UIManager_MostrarMensaje_mE66E9A474142FB5424F8B8FD0F8AFD1E1A28EDC8(L_28, L_56, NULL);
 	}
 
-IL_0106:
+IL_0122:
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:62>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 85251
+// Method Definition Index: 86455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double GPSTracker_CalculateDistance_m88A4CCF53CD4060616B8B2CA5ADBEF5D82BE3FD2 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, double ___0_lat1, double ___1_lon1, double ___2_lat2, double ___3_lon2, const RuntimeMethod* method) 
 {
 	double V_0 = 0.0;
@@ -1900,22 +2095,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double GPSTracker_CalculateDistance_m88A4CCF5
 	double V_2 = 0.0;
 	double V_3 = 0.0;
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:67>
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:68>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:93>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:94>
 		double L_0 = ___2_lat2;
 		double L_1 = ___0_lat1;
 		double L_2;
 		L_2 = GPSTracker_ToRadians_mFD451212384249A4758C8FA2516A60087F00D251(__this, ((double)il2cpp_codegen_subtract(L_0, L_1)), NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:69>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:95>
 		double L_3 = ___3_lon2;
 		double L_4 = ___1_lon1;
 		double L_5;
 		L_5 = GPSTracker_ToRadians_mFD451212384249A4758C8FA2516A60087F00D251(__this, ((double)il2cpp_codegen_subtract(L_3, L_4)), NULL);
 		V_1 = L_5;
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:70>
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:71>
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:72>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:96>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:97>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:98>
 		double L_6 = V_0;
 		float L_7;
 		L_7 = sinf(((float)(((float)L_6)/(2.0f))));
@@ -1939,7 +2134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double GPSTracker_CalculateDistance_m88A4CCF5
 		float L_19;
 		L_19 = sinf(((float)(((float)L_18)/(2.0f))));
 		V_2 = ((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_7, L_9)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_12, L_15)), L_17)), L_19)))));
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:74>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:100>
 		double L_20 = V_2;
 		float L_21;
 		L_21 = sqrtf(((float)L_20));
@@ -1949,21 +2144,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double GPSTracker_CalculateDistance_m88A4CCF5
 		float L_24;
 		L_24 = atan2f(L_21, L_23);
 		V_3 = ((double)((float)il2cpp_codegen_multiply((2.0f), L_24)));
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:75>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:101>
 		double L_25 = V_3;
 		return ((double)il2cpp_codegen_multiply((6371000.0), L_25));
 	}
 }
-// Method Definition Index: 85252
+// Method Definition Index: 86456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double GPSTracker_ToRadians_mFD451212384249A4758C8FA2516A60087F00D251 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, double ___0_degrees, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:78>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:104>
 		double L_0 = ___0_degrees;
 		return ((double)(((double)il2cpp_codegen_multiply(L_0, (3.1415926535897931)))/(180.0)));
 	}
 }
-// Method Definition Index: 85253
+// Method Definition Index: 86457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_SpawnObjectInAR_m373B40D83D88FAA3C39565EA89ACA5DFBC717B2E (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1976,7 +2171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_SpawnObjectInAR_m373B40D83D88
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:83>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:109>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_0);
@@ -1998,25 +2193,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_SpawnObjectInAR_m373B40D83D88
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:86>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:112>
 		(&V_0)->___y = (-1.5f);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:88>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___pokemonPrefab;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10;
-		L_10 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:114>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = __this->___pokemonPrefabs;
+		int32_t L_9 = __this->___TargetActual;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
+		L_13 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
-		L_11 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_8, L_9, L_10, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
-		__this->___spawnedObject = L_11;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___spawnedObject), (void*)L_11);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:89>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_11, L_12, L_13, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		__this->___spawnedObject = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___spawnedObject), (void*)L_14);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:115>
 		__this->___isSpawned = (bool)1;
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:90>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:116>
 		return;
 	}
 }
-// Method Definition Index: 85254
+// Method Definition Index: 86458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_SpawnObjectInAR_Plane_mAC5198AD3ADEFE4BC1ABB8845520EDD83B848495 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2033,14 +2232,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_SpawnObjectInAR_Plane_mAC5198
 	ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:94>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:120>
 		List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* L_0 = (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3*)il2cpp_codegen_object_new(List_1_t0754071572EFE7A5C92A59495D2524FC935364E3_il2cpp_TypeInfo_var);
 		List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9(L_0, List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:95>
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:96>
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:97>
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:98>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:121>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:122>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:123>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:124>
 		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_1 = __this->___raycastManager;
 		int32_t L_2;
 		L_2 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
@@ -2055,45 +2254,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_SpawnObjectInAR_Plane_mAC5198
 		L_6 = ARRaycastManager_Raycast_mF56A1E2D7CBB61131E4D844ADA9D0CC1F6B53EAC(L_1, L_4, L_5, ((int32_t)15), NULL);
 		if (!L_6)
 		{
-			goto IL_0057;
+			goto IL_005e;
 		}
 	}
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:100>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___pokemonPrefab;
-		List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* L_8 = V_0;
-		NullCheck(L_8);
-		ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 L_9;
-		L_9 = List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F(L_8, 0, List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F_RuntimeMethod_var);
-		V_1 = L_9;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_10;
-		L_10 = ARRaycastHit_get_pose_m84C13E71E21FE12CBA9AAD98DC28B1E414C9EFFD((&V_1), NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = L_10.___position;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
-		L_12 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:127>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_7 = __this->___pokemonPrefabs;
+		int32_t L_8 = __this->___TargetActual;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* L_11 = V_0;
+		NullCheck(L_11);
+		ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 L_12;
+		L_12 = List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F(L_11, 0, List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F_RuntimeMethod_var);
+		V_1 = L_12;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_13;
+		L_13 = ARRaycastHit_get_pose_m84C13E71E21FE12CBA9AAD98DC28B1E414C9EFFD((&V_1), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = L_13.___position;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15;
+		L_15 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
-		L_13 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_7, L_11, L_12, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:101>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
+		L_16 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_10, L_14, L_15, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:128>
 		__this->___isSpawned = (bool)1;
 	}
 
-IL_0057:
+IL_005e:
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:103>
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:132>
 		return;
 	}
 }
-// Method Definition Index: 85255
+// Method Definition Index: 86459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker__ctor_mC339952E520F4CB4BDBDC09A755A62E94F0FAC8E (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:10>
-		__this->___targetLat = (37.196516089889158);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:11>
-		__this->___targetLon = (-3.6216332462451146);
-		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:13>
-		__this->___detectionRadius = (2.0f);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:27>
+		__this->___detectionRadius = (20.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -2106,7 +2305,184 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker__ctor_mC339952E520F4CB4BDBDC0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 85256
+// Method Definition Index: 86460
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Start_m58062825AA9A256E42311B4A4833E7425589BBDF (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:15>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0;
+		L_0 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
+		V_0 = L_0;
+		int32_t L_1;
+		L_1 = Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E((&V_0), NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:16>
+		if (L_1)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:18>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___panelMenuPrincipal;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:19>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___panelOpciones;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 86461
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Update_mE8D4FFA199E069DAFD4314D5F28EBF5B9644C8A3 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:27>
+		return;
+	}
+}
+// Method Definition Index: 86462
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_AbrirOpciones_m77CC95BEF0CC33B0F3812BE20EAD5BC5406BA666 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:31>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___panelMenuPrincipal;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:33>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___panelMenuPrincipal;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:35>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___panelOpciones;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:36>
+		return;
+	}
+}
+// Method Definition Index: 86463
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_VolverAlMenu_mD51F11C19A294C03020F329C47715796B78193AD (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:40>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___panelMenuPrincipal;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:41>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___panelOpciones;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:42>
+		return;
+	}
+}
+// Method Definition Index: 86464
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Salir_m58A7C2A6FEE253CCDB470D478B6EAD1A7C889B7B (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2E7A50EB80077709660565FD5776E25EBF89D6AC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:46>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral2E7A50EB80077709660565FD5776E25EBF89D6AC, NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:54>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:56>
+		return;
+	}
+}
+// Method Definition Index: 86465
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Cargar_m1E0628DFE1CD7986BF4F410DD2C5425F55BB52FF (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF2E68DF050F5D704F0C5C3395E9C8423C9A272CC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:60>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralF2E68DF050F5D704F0C5C3395E9C8423C9A272CC, NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 86466
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_VolverAMenuPrincipal_m88A6162D03C4EEF03D7039FD3ECAF76AB14E944A (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral84D4B4F9191DEC4F0E3D57FB7AE89CBC1972073D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:65>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral84D4B4F9191DEC4F0E3D57FB7AE89CBC1972073D, NULL);
+		//<source_info:C:/Users/Adri/Documents/GitHub/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:66>
+		return;
+	}
+}
+// Method Definition Index: 86467
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager__ctor_m07A22DFDD90E3164393F8BDE06DAEF5AFA786CF2 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 86468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Awake_m7EC364BDD53CE056E998BAB28F79998608BB16DF (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2128,7 +2504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Awake_m7EC364BDD53CE056E998BAB
 		return;
 	}
 }
-// Method Definition Index: 85257
+// Method Definition Index: 86469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_MostrarGameOver_m3F447BECAB7702A0065E0790422A2DB303160257 (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2146,7 +2522,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_MostrarGameOver_m3F447BECAB770
 		return;
 	}
 }
-// Method Definition Index: 85258
+// Method Definition Index: 86470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_MostrarYAW_mEDCE65765FC423C119D7F8E23FFEE7018B74A5B9 (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, float ___0_yaw, const RuntimeMethod* method) 
 {
 	{
@@ -2160,7 +2536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_MostrarYAW_mEDCE65765FC423C119
 		return;
 	}
 }
-// Method Definition Index: 85259
+// Method Definition Index: 86471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_MostrarMensaje_mE66E9A474142FB5424F8B8FD0F8AFD1E1A28EDC8 (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, String_t* ___0_msj, const RuntimeMethod* method) 
 {
 	{
@@ -2173,7 +2549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_MostrarMensaje_mE66E9A474142FB
 		return;
 	}
 }
-// Method Definition Index: 85260
+// Method Definition Index: 86472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager__ctor_mC9DC2B8984E76F424E73C1860AD4BD3DEBF6573F (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2189,7 +2565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager__ctor_mC9DC2B8984E76F424E73C18
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 85261
+// Method Definition Index: 86473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2205,7 +2581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 85262
+// Method Definition Index: 86474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2221,41 +2597,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 85263
+// Method Definition Index: 86475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____7A8F26EB509A598E509063740EE85A8EB301208B9B8902BEBFA647D930186A9E_FieldInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____BAFC9520533C6516D8CB817775E7A78DFA86928AD4F23773EC53D0ED127881E8_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____0E2E198BCB1B58B9FFB537618F7510F9D5A0AB5354ACAD94B7F1F6E366EC2EF0_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____CA27432188579BD5C67EF2011D3D861DC71F8219C281261747B0A3D73D455E76_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)211));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)270));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____BAFC9520533C6516D8CB817775E7A78DFA86928AD4F23773EC53D0ED127881E8_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____CA27432188579BD5C67EF2011D3D861DC71F8219C281261747B0A3D73D455E76_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)85));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)102));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____7A8F26EB509A598E509063740EE85A8EB301208B9B8902BEBFA647D930186A9E_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____0E2E198BCB1B58B9FFB537618F7510F9D5A0AB5354ACAD94B7F1F6E366EC2EF0_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
-		(&V_0)->___TotalFiles = 4;
-		(&V_0)->___TotalTypes = 5;
+		(&V_0)->___TotalFiles = 5;
+		(&V_0)->___TotalTypes = 6;
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
 		return L_6;
 	}
 }
-// Method Definition Index: 85264
+// Method Definition Index: 86476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2360,7 +2736,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 38088
+// Method Definition Index: 38109
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -2386,7 +2762,7 @@ IL_001b:
 		return L_6;
 	}
 }
-// Method Definition Index: 38061
+// Method Definition Index: 38082
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -2414,7 +2790,7 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 38058
+// Method Definition Index: 38079
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -2445,7 +2821,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 38079
+// Method Definition Index: 38100
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2468,7 +2844,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 38160
+// Method Definition Index: 38181
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -2479,7 +2855,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 38029
+// Method Definition Index: 38050
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
