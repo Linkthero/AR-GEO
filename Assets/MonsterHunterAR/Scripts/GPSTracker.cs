@@ -11,17 +11,17 @@ public class GPSTracker : MonoBehaviour
 
     [Header("Monstruos")]
     //Monstruo 1
-    public double targetLat1;
-    public double targetLon1;
-    //Monstruo 2
-    public double targetLat2;
-    public double targetLon2;
-    //Monstruo 3
-    public double targetLat3;
-    public double targetLon3;
-    //Monstruo 4
-    public double targetLat4;
-    public double targetLon4;
+    //public double targetLat1;
+    //public double targetLon1;
+    ////Monstruo 2
+    //public double targetLat2;
+    //public double targetLon2;
+    ////Monstruo 3
+    //public double targetLat3;
+    //public double targetLon3;
+    ////Monstruo 4
+    //public double targetLat4;
+    //public double targetLon4;
 
 
     public float detectionRadius = 20f; //Radio de detección en metros
@@ -33,6 +33,8 @@ public class GPSTracker : MonoBehaviour
     private GameObject spawnedObject;
     public ARRaycastManager raycastManager;
 
+
+    //lat y lon de tu posicion
     public double currentLat;
     public double currentLon;
 
@@ -56,11 +58,11 @@ public class GPSTracker : MonoBehaviour
         Input.location.Start();
         Input.compass.enabled = true;
 
-        //inicializamos ls arrays
-        double[] a = new double[] { targetLat1, targetLat2, targetLat3, targetLat3, targetLat4 };
-        double[] b = new double[] { targetLon1, targetLon2, targetLon3, targetLon3, targetLon4 };
-        monsterLat = a;
-        monsterLon = b;
+        ////inicializamos ls arrays
+        //double[] a = new double[] { targetLat1, targetLat2, targetLat3, targetLat3, targetLat4 };
+        //double[] b = new double[] { targetLon1, targetLon2, targetLon3, targetLon3, targetLon4 };
+        //monsterLat = a;
+        //monsterLon = b;
 
         TargetActual = 0; //Iniciamos con el primer monstruo
         

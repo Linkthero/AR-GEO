@@ -974,7 +974,9 @@
         "dependencies": [
           {
             "name": "BoxCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/MonsterHunterAR/Scenes/EscenaJuego.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -987,7 +989,7 @@
           {
             "name": "Collider",
             "scenes": [],
-            "dependencyType": 0,
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -1000,6 +1002,12 @@
             "name": "PhysicsManager",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "Rigidbody",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           },
           {
