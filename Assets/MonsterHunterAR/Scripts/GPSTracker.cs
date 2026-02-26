@@ -126,7 +126,8 @@ public class GPSTracker : MonoBehaviour
             UnityEngine.XR.ARSubsystems.TrackableType.Planes))
         {
 
-            Instantiate(pokemonPrefabs[TargetActual], hits[0].pose.position, Quaternion.identity);
+            GameObject e = Instantiate(pokemonPrefabs[TargetActual], hits[0].pose.position, Quaternion.identity);
+            e.GetComponent<Enemigo>().apareceVida();
             isSpawned = true;
 
             //CUANDO SE DERROTE SE CAMBIA AL SIGUIENTE TARGET

@@ -15,6 +15,7 @@ public class Enemigo : MonoBehaviour
         vida = 15;
         animator = GetComponent<Animator>();
         animator.SetInteger("vidas", vida);
+        txtVida = GameObject.Find("txtVida").GetComponent<TextMeshProUGUI>();
     }
 
     public void GetHurt()
@@ -40,8 +41,17 @@ public class Enemigo : MonoBehaviour
 
     private void Update()
     {
-        txtVida.text = vida.ToString();
+        txtVida.text = "Vida:" + vida.ToString();
     }
 
+    public void apareceVida()
+    {
+        txtVida.gameObject.SetActive(true);
+    }
+
+     public void desapareceVida()
+    {
+        txtVida.gameObject.SetActive(false);
+    }
 }
 
