@@ -33,6 +33,7 @@ extern void MenuManager_AbrirOpciones_m77CC95BEF0CC33B0F3812BE20EAD5BC5406BA666 
 extern void MenuManager_VolverAlMenu_mD51F11C19A294C03020F329C47715796B78193AD (void);
 extern void MenuManager_Salir_m58A7C2A6FEE253CCDB470D478B6EAD1A7C889B7B (void);
 extern void MenuManager_Cargar_m1E0628DFE1CD7986BF4F410DD2C5425F55BB52FF (void);
+extern void MenuManager_Tutorial_m8B8D7008C8D7F5E9F39B7ECE6C2B447D6C4F6376 (void);
 extern void MenuManager_VolverAMenuPrincipal_m88A6162D03C4EEF03D7039FD3ECAF76AB14E944A (void);
 extern void MenuManager__ctor_m07A22DFDD90E3164393F8BDE06DAEF5AFA786CF2 (void);
 extern void UIManager_Awake_m7EC364BDD53CE056E998BAB28F79998608BB16DF (void);
@@ -44,7 +45,7 @@ extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[37] = 
+static Il2CppMethodPointer s_methodPointers[38] = 
 {
 	compassController_Start_m200FD188F9BF9D2F2740A1EF0039CBB676DFD2AF,
 	compassController_Update_m54E7DDBC4641AE29722BA6C23A772E317F17A360,
@@ -72,6 +73,7 @@ static Il2CppMethodPointer s_methodPointers[37] =
 	MenuManager_VolverAlMenu_mD51F11C19A294C03020F329C47715796B78193AD,
 	MenuManager_Salir_m58A7C2A6FEE253CCDB470D478B6EAD1A7C889B7B,
 	MenuManager_Cargar_m1E0628DFE1CD7986BF4F410DD2C5425F55BB52FF,
+	MenuManager_Tutorial_m8B8D7008C8D7F5E9F39B7ECE6C2B447D6C4F6376,
 	MenuManager_VolverAMenuPrincipal_m88A6162D03C4EEF03D7039FD3ECAF76AB14E944A,
 	MenuManager__ctor_m07A22DFDD90E3164393F8BDE06DAEF5AFA786CF2,
 	UIManager_Awake_m7EC364BDD53CE056E998BAB28F79998608BB16DF,
@@ -84,7 +86,7 @@ static Il2CppMethodPointer s_methodPointers[37] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[37] = 
+static const int32_t s_InvokerIndices[38] = 
 {
 	15392,
 	15392,
@@ -116,6 +118,7 @@ static const int32_t s_InvokerIndices[37] =
 	15392,
 	15392,
 	15392,
+	15392,
 	11809,
 	11716,
 	15392,
@@ -128,7 +131,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	37,
+	38,
 	s_methodPointers,
 	0,
 	NULL,

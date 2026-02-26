@@ -8,7 +8,7 @@ public class Enemigo : MonoBehaviour
     [SerializeField] private int vida;
     public GameObject particle;
     private Animator animator;
-    [SerializeField] private TextMeshProUGUI txtVida;
+    [SerializeField] public TextMeshProUGUI txtVida;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -37,21 +37,24 @@ public class Enemigo : MonoBehaviour
     public void Death()
     {
         animator.SetTrigger("Death");
+        GameObject.Find("GPSTracker").GetComponent<GPSTracker>().isSpawned = false; // Permite que el monstruo vuelva a aparecer después de morir
+        txtVida.text = "";
     }
 
     private void Update()
     {
         txtVida.text = "Vida:" + vida.ToString();
+
+        if(Camera.main != null)
+        {
+            Vector3 direction = Camera.main.transform.position - transform.position;
+            direction.y = 0f; //evita q mire hacia arriba o abajo
+            if(direction != Vector3.zero)
+            {
+                transform.rotation = Quaternion.LookRotation(direction);
+            }
+        }
     }
 
-    public void apareceVida()
-    {
-        txtVida.gameObject.SetActive(true);
-    }
-
-     public void desapareceVida()
-    {
-        txtVida.gameObject.SetActive(false);
-    }
 }
 

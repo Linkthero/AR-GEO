@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 
@@ -7,7 +8,7 @@ public class GPSTracker : MonoBehaviour
 {
     public static GPSTracker instance;
 
-    public int TargetActual = 0; //indice del monstruo actual, sirve para latitud como longitud como pokemon
+    public int targetActual = 0; //indice del monstruo actual, sirve para latitud como longitud como pokemon
 
     [Header("Monstruos")]
     //Monstruo 1
@@ -25,13 +26,14 @@ public class GPSTracker : MonoBehaviour
 
 
     public float detectionRadius = 20f; //Radio de detección en metros
-    private bool isSpawned = false; //Para evitar múltiples spawns
+    public bool isSpawned = false; //Para evitar múltiples spawns
 
     public double[] monsterLat;
     public double[] monsterLon; 
     public GameObject[] pokemonPrefabs;
     private GameObject spawnedObject;
     public ARRaycastManager raycastManager;
+    //public TextMeshProUGUI textoPruebas;
 
 
     //lat y lon de tu posicion
@@ -64,27 +66,27 @@ public class GPSTracker : MonoBehaviour
         //monsterLat = a;
         //monsterLon = b;
 
-        TargetActual = 0; //Iniciamos con el primer monstruo
+        targetActual = 0; //Iniciamos con el primer monstruo
         
     }
-
+    
     private void Update()
     {
-        UIManager.Instance.MostrarMensaje(Input.location.status.ToString());
+        //UIManager.Instance.MostrarMensaje(Input.location.status.ToString());
         if(Input.location.status == LocationServiceStatus.Running)
         {
             currentLat = Input.location.lastData.latitude;
             currentLon = Input.location.lastData.longitude;
 
-            double distance = CalculateDistance(currentLat, currentLon, monsterLat[TargetActual], monsterLon[TargetActual]);
-            if(distance <= detectionRadius && !isSpawned)
+            double distance = CalculateDistance(currentLat, currentLon, monsterLat[targetActual], monsterLon[targetActual]);
+            if(distance <= detectionRadius && isSpawned == false)
             {
                 UIManager.Instance.MostrarMensaje("¡Has encontrado un objeto Iniciando RA...");
                 //Aquí activarías tu modelo 3d o cambiarias de escena
                 SpawnObjectInAR_Plane();
             } else
             {
-                UIManager.Instance.MostrarMensaje($"GPS Móvil: { currentLat}, {currentLon} Target (Google): {monsterLat[TargetActual]}, {monsterLon[TargetActual]} Distancia: {distance}");
+                UIManager.Instance.MostrarMensaje($"GPS Móvil: { currentLat}, {currentLon} Target (Google): {monsterLat[targetActual]}, {monsterLon[targetActual]} Distancia: {distance}");
             }
         }
     }
@@ -113,7 +115,7 @@ public class GPSTracker : MonoBehaviour
         //Ajustamos la altura al suelo 
         spawnPosition.y = -1.5f;
 
-        spawnedObject = Instantiate(pokemonPrefabs[TargetActual], spawnPosition, Quaternion.identity);
+        spawnedObject = Instantiate(pokemonPrefabs[targetActual], spawnPosition, Quaternion.identity);
         isSpawned = true;
     }
 
@@ -125,12 +127,13 @@ public class GPSTracker : MonoBehaviour
             hits,
             UnityEngine.XR.ARSubsystems.TrackableType.Planes))
         {
-
-            GameObject e = Instantiate(pokemonPrefabs[TargetActual], hits[0].pose.position, Quaternion.identity);
-            e.GetComponent<Enemigo>().apareceVida();
-            isSpawned = true;
-
-            //CUANDO SE DERROTE SE CAMBIA AL SIGUIENTE TARGET
+            if (isSpawned == false)
+            {
+                isSpawned = true;
+                GameObject e = Instantiate(pokemonPrefabs[targetActual], hits[0].pose.position, Quaternion.identity);
+                GPSTracker.instance.targetActual++;
+            }
+            
         }
     }
 }

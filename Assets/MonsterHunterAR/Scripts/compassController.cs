@@ -9,8 +9,8 @@ public class compassController : MonoBehaviour
     void Start()
     {
         Input.compass.enabled = true;
-        monsterLat = GPSTracker.instance.monsterLat[GPSTracker.instance.TargetActual];
-        monsterLon = GPSTracker.instance.monsterLon[GPSTracker.instance.TargetActual];
+        monsterLat = GPSTracker.instance.monsterLat[GPSTracker.instance.targetActual];
+        monsterLon = GPSTracker.instance.monsterLon[GPSTracker.instance.targetActual];
     }
 
     // Update is called once per frame
