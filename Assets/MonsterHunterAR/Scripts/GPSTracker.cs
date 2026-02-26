@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.ARFoundation;
 
 public class GPSTracker : MonoBehaviour
@@ -33,7 +34,7 @@ public class GPSTracker : MonoBehaviour
     public GameObject[] pokemonPrefabs;
     private GameObject spawnedObject;
     public ARRaycastManager raycastManager;
-    //public TextMeshProUGUI textoPruebas;
+    public TextMeshProUGUI textoPruebas;
 
 
     //lat y lon de tu posicion
@@ -132,8 +133,19 @@ public class GPSTracker : MonoBehaviour
                 isSpawned = true;
                 GameObject e = Instantiate(pokemonPrefabs[targetActual], hits[0].pose.position, Quaternion.identity);
                 GPSTracker.instance.targetActual++;
+                textoPruebas.text = targetActual.ToString();
+                //if (GPSTracker.instance.targetActual == 4)
+                //{
+                //    isSpawned = false;
+                //    GPSTracker.instance.targetActual++;
+                //    if(GPSTracker.instance.targetActual == 5)
+                //    {
+                //        SceneManager.LoadScene("EscenaFinal");
+                //    }
+                //}
             }
             
         }
     }
+
 }

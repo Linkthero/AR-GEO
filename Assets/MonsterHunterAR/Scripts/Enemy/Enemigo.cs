@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem.EnhancedTouch;
+using UnityEngine.SceneManagement;
 
 public class Enemigo : MonoBehaviour
 {
@@ -9,6 +10,10 @@ public class Enemigo : MonoBehaviour
     public GameObject particle;
     private Animator animator;
     [SerializeField] public TextMeshProUGUI txtVida;
+    public AudioSource audioHit;
+    public AudioSource audioDeath;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,11 +27,13 @@ public class Enemigo : MonoBehaviour
     {
         
         vida--;
+        audioHit.Play();
         animator.SetInteger("vidas", vida);
         
         if (vida <= 0)
         {
             Death();
+            audioDeath.Play();
             Destroy(gameObject, 4f); // Destruye el enemigo después de 2 segundo para permitir que la animación de muerte se reproduzca
         } else
         {
@@ -54,6 +61,12 @@ public class Enemigo : MonoBehaviour
                 transform.rotation = Quaternion.LookRotation(direction);
             }
         }
+    }
+
+    private void FinJuego()
+    {
+        // Activamos la pantalla de victoria
+        SceneManager.LoadScene("EscenaFinal");
     }
 
 }
