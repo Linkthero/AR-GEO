@@ -22,14 +22,15 @@ public class Enemigo : MonoBehaviour
         
         vida--;
         animator.SetInteger("vidas", vida);
-        animator.SetTrigger("Hit");
+        
         if (vida <= 0)
         {
             Death();
-            Destroy(gameObject, 2f); // Destruye el enemigo después de 2 segundo para permitir que la animación de muerte se reproduzca
-        }
-        
-
+            Destroy(gameObject, 4f); // Destruye el enemigo después de 2 segundo para permitir que la animación de muerte se reproduzca
+        } else
+        {
+            animator.SetTrigger("Hit");
+        }          
     }
 
     public void Death()
