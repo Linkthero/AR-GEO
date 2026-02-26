@@ -1,0 +1,7426 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+
+struct Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1;
+struct Comparison_1_t0E0A9C99A8D29FBC5FA5ED9B9B2175A13C6578C0;
+struct Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180;
+struct Dictionary_2_t4D1D3AB1188A73B9F0416424BA9B873577C418FD;
+struct Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C;
+struct Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5;
+struct Func_4_t917A5E0B468B7C0436CA84D065BEB6FC43C9B906;
+struct Func_4_t0755A61145E99905AC47DF85416091FB30758B8A;
+struct List_1_t5C30ECC7AC369D4C0BF32582943CB7A75BA94B55;
+struct List_1_t554F70DABEBFEED67B5400AB73777A6D987F0D36;
+struct List_1_tE7BEADF38CADBCC46B040CF07A1B719A7F7E5123;
+struct List_1_t0754071572EFE7A5C92A59495D2524FC935364E3;
+struct List_1_t50405350B03FC84D28784364F500CB08B82435B5;
+struct List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607;
+struct ReadOnlyList_1_t3E58601F464F96D29EE88D97F4ED668924BC8288;
+struct ReadOnlyList_1_t122ABB80EC9D951C6AAF4A9AF1CC85CD2A1C8810;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct UnityEvent_1_t682C7869A469795DD35ABC8107729999CA25A5C0;
+struct TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2;
+struct ARRaycastHitU5BU5D_t34FE14E360F945895923A0FE69CC277E7D13027E;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
+struct DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615;
+struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE;
+struct FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622;
+struct HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
+struct MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A;
+struct RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99;
+struct TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A;
+struct TMP_SubMeshUIU5BU5D_tC77B263183A59A75345C26152457207EAC3BBF29;
+struct TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
+struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
+struct TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113;
+struct ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44;
+struct ARTrackable_t1D98417758C08E98A333CDEC0C2C1688CE10B2E0;
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883;
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299;
+struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C;
+struct GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3;
+struct GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
+struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
+struct LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
+struct MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct String_t;
+struct TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35;
+struct TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB;
+struct TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160;
+struct TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4;
+struct TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39;
+struct TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C;
+struct TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859;
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9;
+struct TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5;
+struct TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D;
+struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct Type_t;
+struct UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE;
+struct XRRaycastSubsystem_t48087E79DE9617C7E866875C8DDD3124C9E068B7;
+struct audio_t3989071FA5F451379809C713A6644156D70B78D7;
+struct compassController_t386A449D5F1127C6DDAAB70796B52A2316DC5247;
+struct PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E;
+struct PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072;
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
+struct ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24;
+struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
+
+IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t0754071572EFE7A5C92A59495D2524FC935364E3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____8F72A9F4EA9E348C0EECC6C5351FEAC3057429C2BC5A8DB16DCF7DCB8A87E81F_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A0A3A162A77ECC31BB3E3F8598956F50DB36473D646E7D27B5FB983630BA0428_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral055BC4B96EC86BB8F7E81E39CA3934A4C17796F1;
+IL2CPP_EXTERN_C String_t* _stringLiteral08B6C33343450D719C09233313C6BD152B5FC7B7;
+IL2CPP_EXTERN_C String_t* _stringLiteral0E03947FBCB4C8DB1D5258F686390806F80C8568;
+IL2CPP_EXTERN_C String_t* _stringLiteral1CAE6644F01B58B44D7A884951476D0A35F83158;
+IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
+IL2CPP_EXTERN_C String_t* _stringLiteral292ED8A41F90AD54D52F26D3FB33055E071E42AE;
+IL2CPP_EXTERN_C String_t* _stringLiteral2C826E4EA6E866B4088A9F32CE5A214449C12EF7;
+IL2CPP_EXTERN_C String_t* _stringLiteral2E7A50EB80077709660565FD5776E25EBF89D6AC;
+IL2CPP_EXTERN_C String_t* _stringLiteral357883176FD775BDA2C353C423E79D3647BD8680;
+IL2CPP_EXTERN_C String_t* _stringLiteral463F168C9EF46DBDC46D3C922286AA92357E8FB5;
+IL2CPP_EXTERN_C String_t* _stringLiteral54BCA388B1C4035019F447FBBE662C6BFC12F7E8;
+IL2CPP_EXTERN_C String_t* _stringLiteral68EAF05AA2E5EE72FACB5121720E6CCA75A79EF0;
+IL2CPP_EXTERN_C String_t* _stringLiteral6A66F6704341D9D3FDF8460E30510F61237D1296;
+IL2CPP_EXTERN_C String_t* _stringLiteral6D03F73F3E19B9F9780C3CD69ED2A760FDFFE7C7;
+IL2CPP_EXTERN_C String_t* _stringLiteral6D532BD482F4CA70FD66E2C5FC05FF05E48144FF;
+IL2CPP_EXTERN_C String_t* _stringLiteral6DE1C1E4C47D5ECD168A57606E1FA61B6E900E8F;
+IL2CPP_EXTERN_C String_t* _stringLiteral730B2BBC756517292C144DAE1841E7B1ED24195E;
+IL2CPP_EXTERN_C String_t* _stringLiteral736AAE8A01234699298A7221FB3297C45122B116;
+IL2CPP_EXTERN_C String_t* _stringLiteral7EFAF2F65A5A55F9B88754051BDF743CB711F0A8;
+IL2CPP_EXTERN_C String_t* _stringLiteral84D4B4F9191DEC4F0E3D57FB7AE89CBC1972073D;
+IL2CPP_EXTERN_C String_t* _stringLiteral8964425D5AFA567D9602F7E19CD9E3B473DEBE0C;
+IL2CPP_EXTERN_C String_t* _stringLiteral9B0FDEBC02A581F0EE19E5F7F08733B74482EE3F;
+IL2CPP_EXTERN_C String_t* _stringLiteralA971C21D0791CDDE6359BB3B109148949474E4AE;
+IL2CPP_EXTERN_C String_t* _stringLiteralBD13B4305CB18DB2C4DAF7DD790D022ECA84C0FB;
+IL2CPP_EXTERN_C String_t* _stringLiteralC916AF5C41CB23B3AA8BB139E707565F890AC253;
+IL2CPP_EXTERN_C String_t* _stringLiteralD0A4CE7A78EF33D27EBEEA6029438232BB8BD3CB;
+IL2CPP_EXTERN_C String_t* _stringLiteralD6A30C9E50F58CC82EEFA8EA5D15137CDD0A4F85;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA5F7FC048FC83CFC9673AF1E879B410DB8B60A6;
+IL2CPP_EXTERN_C String_t* _stringLiteralF2E68DF050F5D704F0C5C3395E9C8423C9A272CC;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Sort_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA78721058C141C54FF01304FCF4A2B923406C138_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisEnemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C_mD6F9C5234AF0DD529506FB830DB177DC862E19E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisGPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_m27D01373E4A09883E897F37CC8D8BE5495DE04FA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_0_0_0_var;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
+{
+};
+struct List_1_t0754071572EFE7A5C92A59495D2524FC935364E3  : public RuntimeObject
+{
+	ARRaycastHitU5BU5D_t34FE14E360F945895923A0FE69CC277E7D13027E* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F  : public RuntimeObject
+{
+};
+struct LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2  : public RuntimeObject
+{
+};
+struct MemberInfo_t  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
+{
+	String_t* ___heading;
+	String_t* ___text;
+	String_t* ___linkText;
+	String_t* ___url;
+};
+struct TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C 
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___itemStack;
+	int32_t ___index;
+	float ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C 
+{
+	TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A* ___itemStack;
+	int32_t ___index;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___rgba;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___rgba_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___r;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___r_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___g_OffsetPadding[1];
+			uint8_t ___g;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___g_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___g_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___b_OffsetPadding[2];
+			uint8_t ___b;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___b_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___b_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___a_OffsetPadding[3];
+			uint8_t ___a;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___a_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___a_forAlignmentOnly;
+		};
+	};
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441 
+{
+	double ___m_Timestamp;
+	float ___m_Latitude;
+	float ___m_Longitude;
+	float ___m_Altitude;
+	float ___m_HorizontalAccuracy;
+	float ___m_VerticalAccuracy;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B 
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	bool ___isDefaultMaterial;
+	bool ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_pinvoke
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___isDefaultMaterial;
+	int32_t ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_com
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___isDefaultMaterial;
+	int32_t ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 
+{
+	float ___m00;
+	float ___m10;
+	float ___m20;
+	float ___m30;
+	float ___m01;
+	float ___m11;
+	float ___m21;
+	float ___m31;
+	float ___m02;
+	float ___m12;
+	float ___m22;
+	float ___m32;
+	float ___m03;
+	float ___m13;
+	float ___m23;
+	float ___m33;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D 
+{
+	float ___m_XMin;
+	float ___m_YMin;
+	float ___m_Width;
+	float ___m_Height;
+};
+struct Scene_tA1DC762B79745EB5140F054C884855B922318356 
+{
+	int32_t ___m_Handle;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC 
+{
+	uint8_t ___bold;
+	uint8_t ___italic;
+	uint8_t ___underline;
+	uint8_t ___strikethrough;
+	uint8_t ___highlight;
+	uint8_t ___superscript;
+	uint8_t ___subscript;
+	uint8_t ___uppercase;
+	uint8_t ___lowercase;
+	uint8_t ___smallcaps;
+};
+struct TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 
+{
+	float ___m_Left;
+	float ___m_Right;
+	float ___m_Top;
+	float ___m_Bottom;
+};
+struct TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 
+{
+	uint64_t ___m_SubId1;
+	uint64_t ___m_SubId2;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D175_tB1B4FF2025E405F08F72373DC3119BD0196A5ACE 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D175_tB1B4FF2025E405F08F72373DC3119BD0196A5ACE__padding[175];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D471_t8998B4E6C90E3239EA3C78F616EA66EF5EF7E68D 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D471_t8998B4E6C90E3239EA3C78F616EA66EF5EF7E68D__padding[471];
+	};
+};
+#pragma pack(pop, tp)
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777_marshaled_pinvoke
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777_marshaled_com
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 
+{
+	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___m_Array;
+	int32_t ___m_Index;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___m_Array;
+	int32_t ___m_Index;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_com
+{
+	Il2CppSafeArray* ___m_Array;
+	int32_t ___m_Index;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 
+{
+	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___itemStack;
+	int32_t ___index;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 
+{
+	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___itemStack;
+	int32_t ___index;
+	MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct ColorMode_tA7A815AAB9F175EFBA0AE0814E55728432A880BF 
+{
+	int32_t ___value__;
+};
+struct Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___min;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___max;
+};
+struct FontStyles_t9E611EE6BBE6E192A73EAFF7872596517C527FF5 
+{
+	int32_t ___value__;
+};
+struct FontWeight_tA2585C0A73B70D31CE71E7843149098A5E16BC80 
+{
+	int32_t ___value__;
+};
+struct HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B 
+{
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color;
+	TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 ___padding;
+};
+struct HorizontalAlignmentOptions_tCC21260E9FBEC656BA7783643ED5F44AFF7955A1 
+{
+	int32_t ___value__;
+};
+struct KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9 
+{
+	int32_t ___value__;
+};
+struct LocationServiceStatus_tF9F78681F963A53FD6CA4CDC2DDDBD7B4DF517F7 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation;
+};
+struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
+{
+	intptr_t ___m_Ptr;
+};
+struct Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Direction;
+};
+struct RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Point;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal;
+	uint32_t ___m_FaceID;
+	float ___m_Distance;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_UV;
+	int32_t ___m_Collider;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct TMP_TextElementType_t51EE6662436732F22C6B599F5757B7F35F706342 
+{
+	int32_t ___value__;
+};
+struct TextAlignmentOptions_tF3FA9020F7E2AF1A48660044540254009A22EF01 
+{
+	int32_t ___value__;
+};
+struct TextOverflowModes_t7DCCD00C16E3223CE50CDDCC53F785C0405BE203 
+{
+	int32_t ___value__;
+};
+struct TextRenderFlags_tE023FF398ECFE57A1DBC6FD2A1AF4AE9620F6E1C 
+{
+	int32_t ___value__;
+};
+struct TextWrappingModes_t982BC65D6DA703E73C04B99286285ECD3DDF207E 
+{
+	int32_t ___value__;
+};
+struct TextureMappingOptions_t0E1A47C529DEB45A875486256E7026E97C940DAE 
+{
+	int32_t ___value__;
+};
+struct TouchPhase_t54E0A1AF80465997849420A72317B733E1D49A9E 
+{
+	int32_t ___value__;
+};
+struct TouchType_t84F82C73BC1A6012141735AD84DA67AA7F7AB43F 
+{
+	int32_t ___value__;
+};
+struct TrackableType_t8B4D3C5D68805ECC40B1C8CA6C7174184BB2C110 
+{
+	int32_t ___value__;
+};
+struct VertexGradient_t2C057B53C0EA6E987C2B7BAB0305E686DA1C9A8F 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___topLeft;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___topRight;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___bottomLeft;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___bottomRight;
+};
+struct VertexSortingOrder_t95B7AEDBDCAACC3459B6476E5CCC594A6422FFA8 
+{
+	int32_t ___value__;
+};
+struct VerticalAlignmentOptions_tCEF70AF60282B71AEEE14D51253CE6A61E72D855 
+{
+	int32_t ___value__;
+};
+struct TextInputSources_t41387D6C9CB16E60390F47A15AEB8185BE966D26 
+{
+	int32_t ___value__;
+};
+struct TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 
+{
+	FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D 
+{
+	HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622* ___itemStack;
+	int32_t ___index;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 
+{
+	HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct AudioResource_t35B84706031E4F08C928B1640B804839F4B6500A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 
+{
+	int32_t ___controlCharacterCount;
+	int32_t ___characterCount;
+	int32_t ___visibleCharacterCount;
+	int32_t ___spaceCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___wordCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharacterIndex;
+	float ___length;
+	float ___lineHeight;
+	float ___ascender;
+	float ___baseline;
+	float ___descender;
+	float ___maxAdvance;
+	float ___width;
+	float ___marginLeft;
+	float ___marginRight;
+	int32_t ___alignment;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___lineExtents;
+};
+struct Touch_t03E51455ED508492B3F278903A0114FA0E87B417 
+{
+	int32_t ___m_FingerId;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Position;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_RawPosition;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PositionDelta;
+	float ___m_TimeDelta;
+	int32_t ___m_TapCount;
+	int32_t ___m_Phase;
+	int32_t ___m_Type;
+	float ___m_Pressure;
+	float ___m_maximumPossiblePressure;
+	float ___m_Radius;
+	float ___m_RadiusVariance;
+	float ___m_AltitudeAngle;
+	float ___m_AzimuthAngle;
+};
+struct Type_t  : public MemberInfo_t
+{
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 
+{
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___m_TrackableId;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_Pose;
+	float ___m_Distance;
+	int32_t ___m_HitType;
+};
+struct ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 
+{
+	float ___U3CdistanceU3Ek__BackingField;
+	ARTrackable_t1D98417758C08E98A333CDEC0C2C1688CE10B2E0* ___U3CtrackableU3Ek__BackingField;
+	XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 ___m_Hit;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_Transform;
+};
+struct ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70_marshaled_pinvoke
+{
+	float ___U3CdistanceU3Ek__BackingField;
+	ARTrackable_t1D98417758C08E98A333CDEC0C2C1688CE10B2E0* ___U3CtrackableU3Ek__BackingField;
+	XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 ___m_Hit;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_Transform;
+};
+struct ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70_marshaled_com
+{
+	float ___U3CdistanceU3Ek__BackingField;
+	ARTrackable_t1D98417758C08E98A333CDEC0C2C1688CE10B2E0* ___U3CtrackableU3Ek__BackingField;
+	XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 ___m_Hit;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_Transform;
+};
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20  : public AudioResource_t35B84706031E4F08C928B1640B804839F4B6500A
+{
+	PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E* ___m_PCMReaderCallback;
+	PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072* ___m_PCMSetPositionCallback;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___icon;
+	String_t* ___title;
+	SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4* ___sections;
+	bool ___loadedLayout;
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A 
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	bool ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	bool ___tagNoParsing;
+	bool ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_pinvoke
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	int32_t ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	int32_t ___tagNoParsing;
+	int32_t ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_com
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	int32_t ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	int32_t ___tagNoParsing;
+	int32_t ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F 
+{
+	WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9* ___itemStack;
+	int32_t ___index;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	uint32_t ___m_NonSerializedVersion;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5  : public Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1
+{
+};
+struct SubsystemLifecycleManager_3_tF871EF43DE89B354DB5832CC545E7E0EEF19DC8C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	XRRaycastSubsystem_t48087E79DE9617C7E866875C8DDD3124C9E068B7* ___U3CsubsystemU3Ek__BackingField;
+};
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299  : public AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941
+{
+};
+struct Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___vida;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___particle;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___animator;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___txtVida;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioHit;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioDeath;
+};
+struct GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___targetActual;
+	float ___detectionRadius;
+	bool ___isSpawned;
+	DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___monsterLat;
+	DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___monsterLon;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___pokemonPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___spawnedObject;
+	ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* ___raycastManager;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___textoPruebas;
+	double ___currentLat;
+	double ___currentLon;
+};
+struct GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelMenuPrincipal;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___textoGameOver;
+};
+struct audio_t3989071FA5F451379809C713A6644156D70B78D7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___bpm;
+	int32_t ___beatsPerMeasure;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Player;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Soft_exploration;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Loud_exploration;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Battle_start_immediately;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Play_battle1;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Play_battle2;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Play_battle3;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Play_battle_final;
+	ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* ___AudioArray_intro;
+	ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* ___AudioArray_battle1;
+	ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* ___AudioArray_battle2;
+	ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* ___AudioArray_battle3;
+	ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* ___AudioArray_trans;
+	double ___singleMeasureTime;
+	double ___delayEvent;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audio_explorationA;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audio_explorationB;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audio_battleA;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audio_battleB;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audio_melody;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audio_trans;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audio_start_end;
+	bool ___running;
+	bool ___intro;
+	bool ___exploration_soft;
+	bool ___exploration_loud;
+	bool ___battle_start;
+	bool ___battle1;
+	bool ___battle2;
+	bool ___battle3;
+	bool ___battle_final;
+	bool ___melody;
+	bool ___battle_start_initial;
+	bool ___exploration_soft_isPlaying;
+	bool ___exploration_loud_isPlaying;
+	bool ___battle1_isPlaying;
+	bool ___battle2_isPlaying;
+	bool ___battle3_isPlaying;
+	bool ___intro_isPlaying;
+	bool ___pause_and_reset;
+	double ___time;
+	bool ___single_trigger;
+	float ___nearest_gameobject;
+	float ___soft_exploration_distance;
+	float ___loud_exploration_distance;
+	float ___battle_initial_distance;
+	float ___battle1_distance;
+	float ___battle2_distance;
+	float ___battle3_distance;
+	float ___battle_final_distance;
+	float ___trigger_sensitivity;
+	int32_t ___i;
+	int32_t ___j;
+	int32_t ___k;
+	int32_t ___l;
+};
+struct compassController_t386A449D5F1127C6DDAAB70796B52A2316DC5247  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	double ___monsterLat;
+	double ___monsterLon;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___arrowUI;
+};
+struct ARTrackableManager_5_tB0551B87CFE2349D3C8AD77F1642F669F950A409  : public SubsystemLifecycleManager_3_tF871EF43DE89B354DB5832CC545E7E0EEF19DC8C
+{
+	UnityEvent_1_t682C7869A469795DD35ABC8107729999CA25A5C0* ___U3CtrackablesChangedU3Ek__BackingField;
+	Dictionary_2_t4D1D3AB1188A73B9F0416424BA9B873577C418FD* ___m_Trackables;
+	Dictionary_2_t4D1D3AB1188A73B9F0416424BA9B873577C418FD* ___m_PendingAdds;
+	XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* ___U3CoriginU3Ek__BackingField;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44  : public ARTrackableManager_5_tB0551B87CFE2349D3C8AD77F1642F669F950A409
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RaycastPrefab;
+	Func_4_t0755A61145E99905AC47DF85416091FB30758B8A* ___m_RaycastViewportDelegate;
+	Func_4_t917A5E0B468B7C0436CA84D065BEB6FC43C9B906* ___m_RaycastRayDelegate;
+	List_1_t50405350B03FC84D28784364F500CB08B82435B5* ___m_Raycasters;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	String_t* ___m_text;
+	bool ___m_IsTextBackingStringDirty;
+	RuntimeObject* ___m_TextPreprocessor;
+	bool ___m_isRightToLeft;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___m_fontAsset;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___m_currentFontAsset;
+	bool ___m_isSDFShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_sharedMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_currentMaterial;
+	int32_t ___m_currentMaterialIndex;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___m_fontSharedMaterials;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_fontMaterial;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___m_fontMaterials;
+	bool ___m_isMaterialDirty;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_fontColor32;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_fontColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___m_HighlightState;
+	bool ___m_ConvertToLinearSpace;
+	bool ___m_enableVertexGradient;
+	int32_t ___m_colorMode;
+	VertexGradient_t2C057B53C0EA6E987C2B7BAB0305E686DA1C9A8F ___m_fontColorGradient;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_fontColorGradientPreset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_spriteAsset;
+	bool ___m_tintAllSprites;
+	bool ___m_tintSprite;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_spriteColor;
+	TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859* ___m_StyleSheet;
+	TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C* ___m_TextStyle;
+	int32_t ___m_TextStyleHashCode;
+	bool ___m_overrideHtmlColors;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_faceColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_outlineColor;
+	float ___m_outlineWidth;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_currentEnvMapRotation;
+	bool ___m_hasEnvMapProperty;
+	float ___m_fontSize;
+	float ___m_currentFontSize;
+	float ___m_fontSizeBase;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_sizeStack;
+	int32_t ___m_fontWeight;
+	int32_t ___m_FontWeightInternal;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___m_FontWeightStack;
+	bool ___m_enableAutoSizing;
+	float ___m_maxFontSize;
+	float ___m_minFontSize;
+	int32_t ___m_AutoSizeIterationCount;
+	int32_t ___m_AutoSizeMaxIterationCount;
+	bool ___m_IsAutoSizePointSizeSet;
+	float ___m_fontSizeMin;
+	float ___m_fontSizeMax;
+	int32_t ___m_fontStyle;
+	int32_t ___m_FontStyleInternal;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___m_fontStyleStack;
+	bool ___m_isUsingBold;
+	int32_t ___m_HorizontalAlignment;
+	int32_t ___m_VerticalAlignment;
+	int32_t ___m_textAlignment;
+	int32_t ___m_lineJustification;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___m_lineJustificationStack;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_textContainerLocalCorners;
+	float ___m_characterSpacing;
+	float ___m_cSpacing;
+	float ___m_monoSpacing;
+	bool ___m_duoSpace;
+	float ___m_wordSpacing;
+	float ___m_lineSpacing;
+	float ___m_lineSpacingDelta;
+	float ___m_lineHeight;
+	bool ___m_IsDrivenLineSpacing;
+	float ___m_lineSpacingMax;
+	float ___m_paragraphSpacing;
+	float ___m_charWidthMaxAdj;
+	float ___m_charWidthAdjDelta;
+	int32_t ___m_TextWrappingMode;
+	bool ___m_isCharacterWrappingEnabled;
+	bool ___m_isNonBreakingSpace;
+	bool ___m_isIgnoringAlignment;
+	float ___m_wordWrappingRatios;
+	int32_t ___m_overflowMode;
+	int32_t ___m_firstOverflowCharacterIndex;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___m_linkedTextComponent;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___parentLinkedComponent;
+	bool ___m_isTextTruncated;
+	bool ___m_enableKerning;
+	int32_t ___m_LastBaseGlyphIndex;
+	List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607* ___m_ActiveFontFeatures;
+	bool ___m_enableExtraPadding;
+	bool ___checkPaddingRequired;
+	bool ___m_isRichText;
+	bool ___m_EmojiFallbackSupport;
+	bool ___m_parseCtrlCharacters;
+	bool ___m_isOverlay;
+	bool ___m_isOrthographic;
+	bool ___m_isCullingEnabled;
+	bool ___m_isMaskingEnabled;
+	bool ___isMaskUpdateRequired;
+	bool ___m_ignoreCulling;
+	int32_t ___m_horizontalMapping;
+	int32_t ___m_verticalMapping;
+	float ___m_uvLineOffset;
+	int32_t ___m_renderMode;
+	int32_t ___m_geometrySortingOrder;
+	bool ___m_IsTextObjectScaleStatic;
+	bool ___m_VertexBufferAutoSizeReduction;
+	int32_t ___m_firstVisibleCharacter;
+	int32_t ___m_maxVisibleCharacters;
+	int32_t ___m_maxVisibleWords;
+	int32_t ___m_maxVisibleLines;
+	bool ___m_useMaxVisibleDescender;
+	int32_t ___m_pageToDisplay;
+	bool ___m_isNewPage;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_margin;
+	float ___m_marginLeft;
+	float ___m_marginRight;
+	float ___m_marginWidth;
+	float ___m_marginHeight;
+	float ___m_width;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___m_textInfo;
+	bool ___m_havePropertiesChanged;
+	bool ___m_isUsingLegacyAnimationComponent;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_transform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_rectTransform;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PreviousRectTransformSize;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PreviousPivotPosition;
+	bool ___U3CautoSizeTextContainerU3Ek__BackingField;
+	bool ___m_autoSizeTextContainer;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_mesh;
+	bool ___m_isVolumetricText;
+	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* ___OnPreRenderText;
+	TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4* ___m_spriteAnimator;
+	float ___m_flexibleHeight;
+	float ___m_flexibleWidth;
+	float ___m_minWidth;
+	float ___m_minHeight;
+	float ___m_maxWidth;
+	float ___m_maxHeight;
+	LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* ___m_LayoutElement;
+	float ___m_preferredWidth;
+	float ___m_RenderedWidth;
+	bool ___m_isPreferredWidthDirty;
+	float ___m_preferredHeight;
+	float ___m_RenderedHeight;
+	bool ___m_isPreferredHeightDirty;
+	bool ___m_isCalculatingPreferredValues;
+	int32_t ___m_layoutPriority;
+	bool ___m_isLayoutDirty;
+	bool ___m_isAwake;
+	bool ___m_isWaitingOnResourceLoad;
+	int32_t ___m_inputSource;
+	float ___m_fontScaleMultiplier;
+	float ___tag_LineIndent;
+	float ___tag_Indent;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_indentStack;
+	bool ___tag_NoParsing;
+	bool ___m_isTextLayoutPhase;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_FXRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_FXScale;
+	TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113* ___m_TextProcessingArray;
+	int32_t ___m_InternalTextProcessingArraySize;
+	TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* ___m_internalCharacterInfo;
+	int32_t ___m_totalCharacterCount;
+	int32_t ___m_characterCount;
+	int32_t ___m_firstCharacterOfLine;
+	int32_t ___m_firstVisibleCharacterOfLine;
+	int32_t ___m_lastCharacterOfLine;
+	int32_t ___m_lastVisibleCharacterOfLine;
+	int32_t ___m_lineNumber;
+	int32_t ___m_lineVisibleCharacterCount;
+	int32_t ___m_lineVisibleSpaceCount;
+	int32_t ___m_pageNumber;
+	float ___m_PageAscender;
+	float ___m_maxTextAscender;
+	float ___m_maxCapHeight;
+	float ___m_ElementAscender;
+	float ___m_ElementDescender;
+	float ___m_maxLineAscender;
+	float ___m_maxLineDescender;
+	float ___m_startOfLineAscender;
+	float ___m_startOfLineDescender;
+	float ___m_lineOffset;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___m_meshExtents;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_htmlColor;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_strikethroughColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___m_HighlightStateStack;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_colorGradientPreset;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___m_colorGradientStack;
+	bool ___m_colorGradientPresetIsTinted;
+	float ___m_tabSpacing;
+	float ___m_spacing;
+	TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2* ___m_TextStyleStacks;
+	int32_t ___m_TextStyleStackDepth;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___m_ItalicAngleStack;
+	int32_t ___m_ItalicAngle;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___m_actionStack;
+	float ___m_padding;
+	float ___m_baselineOffset;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_baselineOffsetStack;
+	float ___m_xAdvance;
+	int32_t ___m_textElementType;
+	TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* ___m_cached_TextElement;
+	SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 ___m_Ellipsis;
+	SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 ___m_Underline;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_defaultSpriteAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_currentSpriteAsset;
+	int32_t ___m_spriteCount;
+	int32_t ___m_spriteIndex;
+	int32_t ___m_spriteAnimationID;
+	bool ___m_ignoreActiveState;
+	TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 ___m_TextBackingArray;
+	DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615* ___k_Power;
+};
+struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957  : public TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9
+{
+	bool ___m_isRebuildingLayout;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_DelayedGraphicRebuild;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_DelayedMaterialRebuild;
+	bool ___m_ShouldUpdateCulling;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___m_ClipRect;
+	bool ___m_ValidRect;
+	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* ___OnPreRenderText;
+	bool ___m_hasFontAssetChanged;
+	TMP_SubMeshUIU5BU5D_tC77B263183A59A75345C26152457207EAC3BBF29* ___m_subTextObjects;
+	float ___m_previousLossyScaleY;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_RectTransformCorners;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_canvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_canvas;
+	float ___m_CanvasScaleFactor;
+	bool ___m_isFirstAllocation;
+	int32_t ___m_max_characters;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_baseMaterial;
+	bool ___m_isScrollRegionSet;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_maskOffset;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___m_EnvMapMatrix;
+	bool ___m_isRegisteredForEvents;
+	Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* ___materialIndexPairs;
+};
+struct List_1_t0754071572EFE7A5C92A59495D2524FC935364E3_StaticFields
+{
+	ARRaycastHitU5BU5D_t34FE14E360F945895923A0FE69CC277E7D13027E* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D175_tB1B4FF2025E405F08F72373DC3119BD0196A5ACE ___8F72A9F4EA9E348C0EECC6C5351FEAC3057429C2BC5A8DB16DCF7DCB8A87E81F;
+	__StaticArrayInitTypeSizeU3D471_t8998B4E6C90E3239EA3C78F616EA66EF5EF7E68D ___A0A3A162A77ECC31BB3E3F8598956F50DB36473D646E7D27B5FB983630BA0428;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
+{
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___k_Identity;
+};
+struct Type_t_StaticFields
+{
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
+	Il2CppChar ___Delimiter;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes;
+	RuntimeObject* ___Missing;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender;
+};
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
+{
+	ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24* ___reapplyDrivenProperties;
+};
+struct GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields
+{
+	GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* ___instance;
+};
+struct UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields
+{
+	UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* ___Instance;
+};
+struct ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44_StaticFields
+{
+	Comparison_1_t0E0A9C99A8D29FBC5FA5ED9B9B2175A13C6578C0* ___s_RaycastHitComparer;
+	List_1_t554F70DABEBFEED67B5400AB73777A6D987F0D36* ___s_NativeRaycastHits;
+};
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields
+{
+	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___m_materialReferences;
+	Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* ___m_materialReferenceIndexLookup;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___m_materialReferenceStack;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___s_colorWhite;
+	Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C* ___OnFontAssetRequest;
+	Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5* ___OnSpriteAssetRequest;
+	MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6* ___OnMissingCharacter;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_htmlTag;
+	RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D* ___m_xmlAttribute;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___m_attributeParameterValues;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedWordWrapState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedLineState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedEllipsisState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedLastValidState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedSoftLineBreakState;
+	TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F ___m_EllipsisInsertionCandidateStack;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ParseTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_InsertNewLineMarker;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_LargePositiveVector2;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_LargeNegativeVector2;
+	float ___k_LargePositiveFloat;
+	float ___k_LargeNegativeFloat;
+	int32_t ___k_LargePositiveInt;
+	int32_t ___k_LargeNegativeInt;
+};
+struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SetArraySizesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ParseMarkupTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_CharacterLookupMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleGPOSFeaturesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_CalculateVerticesPositionMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ComputeTextMetricsMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleVisibleCharacterMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleWhiteSpacesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleHorizontalLineBreakingMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleVerticalLineBreakingMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveGlyphVertexDataMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ComputeCharacterAdvanceMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleCarriageReturnMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleLineTerminationMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SavePageInfoMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveTextExtentMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveProcessingStatesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIIMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIIIMarker;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE  : public RuntimeArray
+{
+	ALIGN_FIELD (8) double m_Items[1];
+
+	inline double GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline double* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, double value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline double GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline double* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, double value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Touch_t03E51455ED508492B3F278903A0114FA0E87B417 m_Items[1];
+
+	inline Touch_t03E51455ED508492B3F278903A0114FA0E87B417 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Touch_t03E51455ED508492B3F278903A0114FA0E87B417* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Touch_t03E51455ED508492B3F278903A0114FA0E87B417 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Touch_t03E51455ED508492B3F278903A0114FA0E87B417 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Touch_t03E51455ED508492B3F278903A0114FA0E87B417* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Touch_t03E51455ED508492B3F278903A0114FA0E87B417 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF  : public RuntimeArray
+{
+	ALIGN_FIELD (8) GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* m_Items[1];
+
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* m_Items[1];
+
+	inline Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float m_Items[1];
+
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared (RuntimeObject* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_gshared (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F_gshared (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Sort_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA78721058C141C54FF01304FCF4A2B923406C138_gshared (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_array, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Compass_set_enabled_m26DFB64F789DA4B875359E8CE1C3E9E2270CFCA9 (Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Compass_get_trueHeading_m5546F74294A5CC2B4A731ECE1E02F0BE7085582C (Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float compassController_CalculateBearing_mA4CC9CF79CFF30022E47251D8D9F3277C263DE47 (compassController_t386A449D5F1127C6DDAAB70796B52A2316DC5247* __this, double ___0_lat1, double ___1_lon1, double ___2_lat2, double ___3_lon2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+inline Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetInteger_m7B4BB5FD5BD8DE3F713D8E9AD2870C1AAF8E19EF (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_name, int32_t ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300 (String_t* ___0_name, const RuntimeMethod* method) ;
+inline TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enemigo_Death_m87AB61EB3249B6B7A2DB3CF5847EA84D01C04311 (Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, float ___1_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetTrigger_mC9CD54D627C8843EF6E159E167449D216EF6EB30 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+inline GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* GameObject_GetComponent_TisGPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_m27D01373E4A09883E897F37CC8D8BE5495DE04FA (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_forward, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* Input_get_touches_m7CFDF6848F3EC3A8FE458436B2B8BD14B5C65CEF (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_Raycast_mCAC9F02A1AAB49E16B384EBC8318E2DF30F4B0E5 (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* ___1_hitInfo, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* RaycastHit_get_transform_m89DB7FCFC50E0213A37CBE089400064B8FA19155 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) ;
+inline Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C* Component_GetComponent_TisEnemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C_mD6F9C5234AF0DD529506FB830DB177DC862E19E9 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enemigo_GetHurt_m7381BAC411E6245B655B6DFE8A7199DEE4A18B06 (Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LocationService_get_isEnabledByUser_m78FE3A38B1101BAF658E259C1A6B4CD9A008DCAE (LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_MostrarMensaje_mE66E9A474142FB5424F8B8FD0F8AFD1E1A28EDC8 (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, String_t* ___0_msj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocationService_Start_mC2A90619923D4BEB5F9B5CCD95F317B98D67AF3A (LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LocationService_get_status_m25B7C4012B9529265D9746BB73ED689737E9C9CD (LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441 LocationService_get_lastData_m50C68F3DFB23894CF519F00BBA9D72146EE9345F (LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LocationInfo_get_latitude_mAF0A46443555AF18EA3C516292CB92B1669CA863 (LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LocationInfo_get_longitude_mCB720DD0E139B7C614F78D40595E1BBF1F5433A2 (LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double GPSTracker_CalculateDistance_m88A4CCF53CD4060616B8B2CA5ADBEF5D82BE3FD2 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, double ___0_lat1, double ___1_lon1, double ___2_lat2, double ___3_lon2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_SpawnObjectInAR_Plane_mAC5198AD3ADEFE4BC1ABB8845520EDD83B848495 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double GPSTracker_ToRadians_mFD451212384249A4758C8FA2516A60087F00D251 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, double ___0_degrees, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared)(___0_original, ___1_position, ___2_rotation, method);
+}
+inline void List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9 (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3*, const RuntimeMethod*))List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARRaycastManager_Raycast_mF56A1E2D7CBB61131E4D844ADA9D0CC1F6B53EAC (ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_screenPoint, List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___1_hitResults, int32_t ___2_trackableTypes, const RuntimeMethod* method) ;
+inline ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 (*) (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3*, int32_t, const RuntimeMethod*))List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ARRaycastHit_get_pose_m84C13E71E21FE12CBA9AAD98DC28B1E414C9EFFD (ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972 (float* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+inline AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* Resources_LoadAll_m7A2507FF57FF618BC37FDF8E9AB3ACCE18592C51 (String_t* ___0_path, Type_t* ___1_systemTypeInstance, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double AudioSettings_get_dspTime_m246053C21870BC68BF7BBC5C5AC1B8F25337AEEA (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434 (int32_t ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Intro_m9D3C6A72A88E36CA9BC90BB8D3705198F7080E27 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Pause_and_reset_m39B7C49721F7A9EF190F901AB5AE04B2FFA05661 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Exploration_Soft_m854C5FF4615E07109ECD2E6E2BEE4DC0A6B15273 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Exploration_Loud_m3E377804C22F51BB13A007CF6E9EE657819283B1 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Battle1_m6D0B0FDF66FEA74CBF3765A67CFBE0C35B693E3C (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Battle2_mD4E6ECF49BEA3CB879B75F18AD9B8D75F8ADCFCA (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Battle3_mAA0B4EE97014733A42300C39976E199B908FA0B0 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Battle_start_m1905E3927AB187EFD7D911947FB451E17C46BB6B (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Double_ToString_m7499A5D792419537DCB9470A3675CEF5117DE339 (double* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_CheckDistanceToTrigger_m515D4B6F9672FA1FC6F4B97CB4DADD968AC312B4 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, double ___0_time, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+inline void Array_Sort_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA78721058C141C54FF01304FCF4A2B923406C138 (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_array, const RuntimeMethod* method)
+{
+	((  void (*) (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, const RuntimeMethod*))Array_Sort_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA78721058C141C54FF01304FCF4A2B923406C138_gshared)(___0_array, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85740
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void compassController_Start_m200FD188F9BF9D2F2740A1EF0039CBB676DFD2AF (compassController_t386A449D5F1127C6DDAAB70796B52A2316DC5247* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:11>
+		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_0;
+		L_0 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
+		NullCheck(L_0);
+		Compass_set_enabled_m26DFB64F789DA4B875359E8CE1C3E9E2270CFCA9(L_0, (bool)1, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:12>
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_1 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_1);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_2 = L_1->___monsterLat;
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_3 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_3);
+		int32_t L_4 = L_3->___targetActual;
+		NullCheck(L_2);
+		int32_t L_5 = L_4;
+		double L_6 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		__this->___monsterLat = L_6;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:13>
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_7 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_7);
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_8 = L_7->___monsterLon;
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_9 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_9);
+		int32_t L_10 = L_9->___targetActual;
+		NullCheck(L_8);
+		int32_t L_11 = L_10;
+		double L_12 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		__this->___monsterLon = L_12;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:14>
+		return;
+	}
+}
+// Method Definition Index: 85741
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void compassController_Update_m54E7DDBC4641AE29722BA6C23A772E317F17A360 (compassController_t386A449D5F1127C6DDAAB70796B52A2316DC5247* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:19>
+		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_0;
+		L_0 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
+		NullCheck(L_0);
+		float L_1;
+		L_1 = Compass_get_trueHeading_m5546F74294A5CC2B4A731ECE1E02F0BE7085582C(L_0, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:20>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:21>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:22>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:23>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:24>
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_2 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_2);
+		double L_3 = L_2->___currentLat;
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_4 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
+		NullCheck(L_4);
+		double L_5 = L_4->___currentLon;
+		double L_6 = __this->___monsterLat;
+		double L_7 = __this->___monsterLon;
+		float L_8;
+		L_8 = compassController_CalculateBearing_mA4CC9CF79CFF30022E47251D8D9F3277C263DE47(__this, L_3, L_5, L_6, L_7, NULL);
+		V_0 = L_8;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:26>
+		float L_9 = V_0;
+		V_1 = ((float)il2cpp_codegen_subtract(L_1, L_9));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:27>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10 = __this->___arrowUI;
+		float L_11 = V_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
+		L_12 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), (0.0f), L_11, NULL);
+		NullCheck(L_10);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_10, L_12, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 85742
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float compassController_CalculateBearing_mA4CC9CF79CFF30022E47251D8D9F3277C263DE47 (compassController_t386A449D5F1127C6DDAAB70796B52A2316DC5247* __this, double ___0_lat1, double ___1_lon1, double ___2_lat2, double ___3_lon2, const RuntimeMethod* method) 
+{
+	double V_0 = 0.0;
+	double V_1 = 0.0;
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:32>
+		double L_0 = ___3_lon2;
+		double L_1 = ___1_lon1;
+		V_0 = ((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_subtract(L_0, L_1)), (0.01745329238474369)));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:33>
+		double L_2 = ___0_lat1;
+		___0_lat1 = ((double)il2cpp_codegen_multiply(L_2, (0.01745329238474369)));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:34>
+		double L_3 = ___2_lat2;
+		___2_lat2 = ((double)il2cpp_codegen_multiply(L_3, (0.01745329238474369)));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:36>
+		double L_4 = V_0;
+		float L_5;
+		L_5 = sinf(((float)L_4));
+		double L_6 = ___2_lat2;
+		float L_7;
+		L_7 = cosf(((float)L_6));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:37>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:38>
+		double L_8 = ___0_lat1;
+		float L_9;
+		L_9 = cosf(((float)L_8));
+		double L_10 = ___2_lat2;
+		float L_11;
+		L_11 = sinf(((float)L_10));
+		double L_12 = ___0_lat1;
+		float L_13;
+		L_13 = sinf(((float)L_12));
+		double L_14 = ___2_lat2;
+		float L_15;
+		L_15 = cosf(((float)L_14));
+		double L_16 = V_0;
+		float L_17;
+		L_17 = cosf(((float)L_16));
+		V_1 = ((double)((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_9, L_11)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_13, L_15)), L_17)))));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:40>
+		double L_18 = V_1;
+		float L_19;
+		L_19 = atan2f(((float)((double)((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)L_18));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:41>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/compassController.cs:42>
+		return ((float)(fmod(((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(((double)L_19), (57.295780181884766))), (360.0))), (360.0))));
+	}
+}
+// Method Definition Index: 85743
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void compassController__ctor_m1CFD89A3ECD9A50BF6A2D54135D5E3907D7D55EA (compassController_t386A449D5F1127C6DDAAB70796B52A2316DC5247* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85744
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enemigo_Start_m8E483DAC51DC5F3DF3CB2FF3394D7B5B0E5245A3 (Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral08B6C33343450D719C09233313C6BD152B5FC7B7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC916AF5C41CB23B3AA8BB139E707565F890AC253);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:20>
+		__this->___vida = ((int32_t)15);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:21>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0;
+		L_0 = Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE(__this, Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+		__this->___animator = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___animator), (void*)L_0);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:22>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->___animator;
+		int32_t L_2 = __this->___vida;
+		NullCheck(L_1);
+		Animator_SetInteger_m7B4BB5FD5BD8DE3F713D8E9AD2870C1AAF8E19EF(L_1, _stringLiteral08B6C33343450D719C09233313C6BD152B5FC7B7, L_2, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:23>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralC916AF5C41CB23B3AA8BB139E707565F890AC253, NULL);
+		NullCheck(L_3);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4;
+		L_4 = GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E(L_3, GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E_RuntimeMethod_var);
+		__this->___txtVida = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___txtVida), (void*)L_4);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 85745
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enemigo_GetHurt_m7381BAC411E6245B655B6DFE8A7199DEE4A18B06 (Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral08B6C33343450D719C09233313C6BD152B5FC7B7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8964425D5AFA567D9602F7E19CD9E3B473DEBE0C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:29>
+		int32_t L_0 = __this->___vida;
+		__this->___vida = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:30>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_1 = __this->___audioHit;
+		NullCheck(L_1);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_1, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:31>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_2 = __this->___animator;
+		int32_t L_3 = __this->___vida;
+		NullCheck(L_2);
+		Animator_SetInteger_m7B4BB5FD5BD8DE3F713D8E9AD2870C1AAF8E19EF(L_2, _stringLiteral08B6C33343450D719C09233313C6BD152B5FC7B7, L_3, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:33>
+		int32_t L_4 = __this->___vida;
+		if ((((int32_t)L_4) > ((int32_t)0)))
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:35>
+		Enemigo_Death_m87AB61EB3249B6B7A2DB3CF5847EA84D01C04311(__this, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:36>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = __this->___audioDeath;
+		NullCheck(L_5);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_5, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:37>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_6, (4.0f), NULL);
+		return;
+	}
+
+IL_005a:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:40>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_7 = __this->___animator;
+		NullCheck(L_7);
+		Animator_SetTrigger_mC9CD54D627C8843EF6E159E167449D216EF6EB30(L_7, _stringLiteral8964425D5AFA567D9602F7E19CD9E3B473DEBE0C, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:42>
+		return;
+	}
+}
+// Method Definition Index: 85746
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enemigo_Death_m87AB61EB3249B6B7A2DB3CF5847EA84D01C04311 (Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisGPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_m27D01373E4A09883E897F37CC8D8BE5495DE04FA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral54BCA388B1C4035019F447FBBE662C6BFC12F7E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D03F73F3E19B9F9780C3CD69ED2A760FDFFE7C7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:46>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___animator;
+		NullCheck(L_0);
+		Animator_SetTrigger_mC9CD54D627C8843EF6E159E167449D216EF6EB30(L_0, _stringLiteral54BCA388B1C4035019F447FBBE662C6BFC12F7E8, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:47>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
+		L_1 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral6D03F73F3E19B9F9780C3CD69ED2A760FDFFE7C7, NULL);
+		NullCheck(L_1);
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_2;
+		L_2 = GameObject_GetComponent_TisGPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_m27D01373E4A09883E897F37CC8D8BE5495DE04FA(L_1, GameObject_GetComponent_TisGPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_m27D01373E4A09883E897F37CC8D8BE5495DE04FA_RuntimeMethod_var);
+		NullCheck(L_2);
+		L_2->___isSpawned = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:48>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___txtVida;
+		NullCheck(L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 85747
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enemigo_Update_mAFAA89F78E5C9F3CA2DDA77EBA8BD020615AE889 (Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral292ED8A41F90AD54D52F26D3FB33055E071E42AE);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:53>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___txtVida;
+		int32_t* L_1 = (int32_t*)(&__this->___vida);
+		String_t* L_2;
+		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral292ED8A41F90AD54D52F26D3FB33055E071E42AE, L_2, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_3);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:55>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4;
+		L_4 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:57>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6;
+		L_6 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		NullCheck(L_6);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_6, NULL);
+		NullCheck(L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_7, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_9, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_8, L_10, NULL);
+		V_0 = L_11;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:58>
+		(&V_0)->___y = (0.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:59>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		bool L_14;
+		L_14 = Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline(L_12, L_13, NULL);
+		if (!L_14)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:61>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
+		L_15 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7(L_16, NULL);
+		NullCheck(L_15);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_15, L_17, NULL);
+	}
+
+IL_0077:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:64>
+		return;
+	}
+}
+// Method Definition Index: 85748
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enemigo_FinJuego_m0EC2EC37363F64C89F6B7447E6C8598EAFAFA316 (Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0E03947FBCB4C8DB1D5258F686390806F80C8568);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:69>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral0E03947FBCB4C8DB1D5258F686390806F80C8568, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Enemy/Enemigo.cs:70>
+		return;
+	}
+}
+// Method Definition Index: 85749
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enemigo__ctor_mE772466748BBA8C4F36BC656D6F11091E9077C47 (Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85750
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_Start_mD0C79B8B5B5D8EDC88F7F2F88B5954B1342198EF (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GameController.cs:12>
+		return;
+	}
+}
+// Method Definition Index: 85751
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_Update_m5E36D1D6999A7510DFDFBF6805CF9E9CB50F0962 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisEnemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C_mD6F9C5234AF0DD529506FB830DB177DC862E19E9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* V_0 = NULL;
+	int32_t V_1 = 0;
+	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GameController.cs:18>
+		TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* L_0;
+		L_0 = Input_get_touches_m7CFDF6848F3EC3A8FE458436B2B8BD14B5C65CEF(NULL);
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_004f;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GameController.cs:18>
+		TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_2 = L_4;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GameController.cs:20>
+		int32_t L_5;
+		L_5 = Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0((&V_2), NULL);
+		if (L_5)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GameController.cs:23>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6;
+		L_6 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
+		L_7 = Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A((&V_2), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_7, NULL);
+		NullCheck(L_6);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_9;
+		L_9 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_6, L_8, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GameController.cs:24>
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Physics_Raycast_mCAC9F02A1AAB49E16B384EBC8318E2DF30F4B0E5(L_9, (&V_3), NULL);
+		if (!L_10)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GameController.cs:26>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = RaycastHit_get_transform_m89DB7FCFC50E0213A37CBE089400064B8FA19155((&V_3), NULL);
+		NullCheck(L_11);
+		Enemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C* L_12;
+		L_12 = Component_GetComponent_TisEnemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C_mD6F9C5234AF0DD529506FB830DB177DC862E19E9(L_11, Component_GetComponent_TisEnemigo_t522607FECD6F61814ECE2AB17FDE1E040DF0688C_mD6F9C5234AF0DD529506FB830DB177DC862E19E9_RuntimeMethod_var);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GameController.cs:27>
+		NullCheck(L_12);
+		Enemigo_GetHurt_m7381BAC411E6245B655B6DFE8A7199DEE4A18B06(L_12, NULL);
+	}
+
+IL_004b:
+	{
+		int32_t L_13 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
+	}
+
+IL_004f:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GameController.cs:18>
+		int32_t L_14 = V_1;
+		TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* L_15 = V_0;
+		NullCheck(L_15);
+		if ((((int32_t)L_14) < ((int32_t)((int32_t)(((RuntimeArray*)L_15)->max_length)))))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GameController.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 85752
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController__ctor_mB6369F6C5357D5984325D613D589EDA60818CBE9 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85753
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Awake_mCE4D10DB9669A7472153D6F2A10498D4D5B07486 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:46>
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_0 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:48>
+		((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance), (void*)__this);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:49>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_2, NULL);
+		return;
+	}
+
+IL_001f:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:53>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_3, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:55>
+		return;
+	}
+}
+// Method Definition Index: 85754
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Start_m2DBF76153F47A4A6A59063283698D1365F32EED8 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral730B2BBC756517292C144DAE1841E7B1ED24195E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:59>
+		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_0;
+		L_0 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = LocationService_get_isEnabledByUser_m78FE3A38B1101BAF658E259C1A6B4CD9A008DCAE(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:59>
+		return;
+	}
+
+IL_000d:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:60>
+		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_2 = ((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_2);
+		UIManager_MostrarMensaje_mE66E9A474142FB5424F8B8FD0F8AFD1E1A28EDC8(L_2, _stringLiteral730B2BBC756517292C144DAE1841E7B1ED24195E, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:61>
+		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_3;
+		L_3 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
+		NullCheck(L_3);
+		LocationService_Start_mC2A90619923D4BEB5F9B5CCD95F317B98D67AF3A(L_3, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:62>
+		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_4;
+		L_4 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
+		NullCheck(L_4);
+		Compass_set_enabled_m26DFB64F789DA4B875359E8CE1C3E9E2270CFCA9(L_4, (bool)1, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:70>
+		__this->___targetActual = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:72>
+		return;
+	}
+}
+// Method Definition Index: 85755
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_Update_mAA674EDF14E78B406377A21093622CEC8C576240 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral736AAE8A01234699298A7221FB3297C45122B116);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD0A4CE7A78EF33D27EBEEA6029438232BB8BD3CB);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:77>
+		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_0;
+		L_0 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = LocationService_get_status_m25B7C4012B9529265D9746BB73ED689737E9C9CD(L_0, NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
+		{
+			goto IL_0100;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:79>
+		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_2;
+		L_2 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
+		NullCheck(L_2);
+		LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441 L_3;
+		L_3 = LocationService_get_lastData_m50C68F3DFB23894CF519F00BBA9D72146EE9345F(L_2, NULL);
+		V_1 = L_3;
+		float L_4;
+		L_4 = LocationInfo_get_latitude_mAF0A46443555AF18EA3C516292CB92B1669CA863((&V_1), NULL);
+		__this->___currentLat = ((double)L_4);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:80>
+		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_5;
+		L_5 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
+		NullCheck(L_5);
+		LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441 L_6;
+		L_6 = LocationService_get_lastData_m50C68F3DFB23894CF519F00BBA9D72146EE9345F(L_5, NULL);
+		V_1 = L_6;
+		float L_7;
+		L_7 = LocationInfo_get_longitude_mCB720DD0E139B7C614F78D40595E1BBF1F5433A2((&V_1), NULL);
+		__this->___currentLon = ((double)L_7);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:82>
+		double L_8 = __this->___currentLat;
+		double L_9 = __this->___currentLon;
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_10 = __this->___monsterLat;
+		int32_t L_11 = __this->___targetActual;
+		NullCheck(L_10);
+		int32_t L_12 = L_11;
+		double L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_14 = __this->___monsterLon;
+		int32_t L_15 = __this->___targetActual;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		double L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		double L_18;
+		L_18 = GPSTracker_CalculateDistance_m88A4CCF53CD4060616B8B2CA5ADBEF5D82BE3FD2(__this, L_8, L_9, L_13, L_17, NULL);
+		V_0 = L_18;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:83>
+		double L_19 = V_0;
+		float L_20 = __this->___detectionRadius;
+		if ((!(((double)L_19) <= ((double)((double)L_20)))))
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		bool L_21 = __this->___isSpawned;
+		if (L_21)
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:85>
+		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_22 = ((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_22);
+		UIManager_MostrarMensaje_mE66E9A474142FB5424F8B8FD0F8AFD1E1A28EDC8(L_22, _stringLiteralD0A4CE7A78EF33D27EBEEA6029438232BB8BD3CB, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:87>
+		GPSTracker_SpawnObjectInAR_Plane_mAC5198AD3ADEFE4BC1ABB8845520EDD83B848495(__this, NULL);
+		return;
+	}
+
+IL_0097:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:90>
+		UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* L_23 = ((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___Instance;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_25 = L_24;
+		double L_26 = __this->___currentLat;
+		double L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_defaults.double_class, &L_27);
+		NullCheck(L_25);
+		ArrayElementTypeCheck (L_25, L_28);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_28);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_29 = L_25;
+		double L_30 = __this->___currentLon;
+		double L_31 = L_30;
+		RuntimeObject* L_32 = Box(il2cpp_defaults.double_class, &L_31);
+		NullCheck(L_29);
+		ArrayElementTypeCheck (L_29, L_32);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_32);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_33 = L_29;
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_34 = __this->___monsterLat;
+		int32_t L_35 = __this->___targetActual;
+		NullCheck(L_34);
+		int32_t L_36 = L_35;
+		double L_37 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
+		double L_38 = L_37;
+		RuntimeObject* L_39 = Box(il2cpp_defaults.double_class, &L_38);
+		NullCheck(L_33);
+		ArrayElementTypeCheck (L_33, L_39);
+		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_39);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_40 = L_33;
+		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_41 = __this->___monsterLon;
+		int32_t L_42 = __this->___targetActual;
+		NullCheck(L_41);
+		int32_t L_43 = L_42;
+		double L_44 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		double L_45 = L_44;
+		RuntimeObject* L_46 = Box(il2cpp_defaults.double_class, &L_45);
+		NullCheck(L_40);
+		ArrayElementTypeCheck (L_40, L_46);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_46);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_47 = L_40;
+		double L_48 = V_0;
+		double L_49 = L_48;
+		RuntimeObject* L_50 = Box(il2cpp_defaults.double_class, &L_49);
+		NullCheck(L_47);
+		ArrayElementTypeCheck (L_47, L_50);
+		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_50);
+		String_t* L_51;
+		L_51 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral736AAE8A01234699298A7221FB3297C45122B116, L_47, NULL);
+		NullCheck(L_23);
+		UIManager_MostrarMensaje_mE66E9A474142FB5424F8B8FD0F8AFD1E1A28EDC8(L_23, L_51, NULL);
+	}
+
+IL_0100:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:93>
+		return;
+	}
+}
+// Method Definition Index: 85756
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double GPSTracker_CalculateDistance_m88A4CCF53CD4060616B8B2CA5ADBEF5D82BE3FD2 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, double ___0_lat1, double ___1_lon1, double ___2_lat2, double ___3_lon2, const RuntimeMethod* method) 
+{
+	double V_0 = 0.0;
+	double V_1 = 0.0;
+	double V_2 = 0.0;
+	double V_3 = 0.0;
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:98>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:99>
+		double L_0 = ___2_lat2;
+		double L_1 = ___0_lat1;
+		double L_2;
+		L_2 = GPSTracker_ToRadians_mFD451212384249A4758C8FA2516A60087F00D251(__this, ((double)il2cpp_codegen_subtract(L_0, L_1)), NULL);
+		V_0 = L_2;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:100>
+		double L_3 = ___3_lon2;
+		double L_4 = ___1_lon1;
+		double L_5;
+		L_5 = GPSTracker_ToRadians_mFD451212384249A4758C8FA2516A60087F00D251(__this, ((double)il2cpp_codegen_subtract(L_3, L_4)), NULL);
+		V_1 = L_5;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:101>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:102>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:103>
+		double L_6 = V_0;
+		float L_7;
+		L_7 = sinf(((float)(((float)L_6)/(2.0f))));
+		double L_8 = V_0;
+		float L_9;
+		L_9 = sinf(((float)(((float)L_8)/(2.0f))));
+		double L_10 = ___0_lat1;
+		double L_11;
+		L_11 = GPSTracker_ToRadians_mFD451212384249A4758C8FA2516A60087F00D251(__this, L_10, NULL);
+		float L_12;
+		L_12 = cosf(((float)L_11));
+		double L_13 = ___2_lat2;
+		double L_14;
+		L_14 = GPSTracker_ToRadians_mFD451212384249A4758C8FA2516A60087F00D251(__this, L_13, NULL);
+		float L_15;
+		L_15 = cosf(((float)L_14));
+		double L_16 = V_1;
+		float L_17;
+		L_17 = sinf(((float)(((float)L_16)/(2.0f))));
+		double L_18 = V_1;
+		float L_19;
+		L_19 = sinf(((float)(((float)L_18)/(2.0f))));
+		V_2 = ((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_7, L_9)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_12, L_15)), L_17)), L_19)))));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:105>
+		double L_20 = V_2;
+		float L_21;
+		L_21 = sqrtf(((float)L_20));
+		double L_22 = V_2;
+		float L_23;
+		L_23 = sqrtf(((float)((double)il2cpp_codegen_subtract((1.0), L_22))));
+		float L_24;
+		L_24 = atan2f(L_21, L_23);
+		V_3 = ((double)((float)il2cpp_codegen_multiply((2.0f), L_24)));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:106>
+		double L_25 = V_3;
+		return ((double)il2cpp_codegen_multiply((6371000.0), L_25));
+	}
+}
+// Method Definition Index: 85757
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double GPSTracker_ToRadians_mFD451212384249A4758C8FA2516A60087F00D251 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, double ___0_degrees, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:109>
+		double L_0 = ___0_degrees;
+		return ((double)(((double)il2cpp_codegen_multiply(L_0, (3.1415926535897931)))/(180.0)));
+	}
+}
+// Method Definition Index: 85758
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_SpawnObjectInAR_m373B40D83D88FAA3C39565EA89ACA5DFBC717B2E (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:114>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
+		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3;
+		L_3 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		NullCheck(L_3);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_3, NULL);
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_4, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_5, (2.0f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2, L_6, NULL);
+		V_0 = L_7;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:117>
+		(&V_0)->___y = (-1.5f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:119>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = __this->___pokemonPrefabs;
+		int32_t L_9 = __this->___targetActual;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
+		L_13 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_11, L_12, L_13, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		__this->___spawnedObject = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___spawnedObject), (void*)L_14);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:120>
+		__this->___isSpawned = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:121>
+		return;
+	}
+}
+// Method Definition Index: 85759
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker_SpawnObjectInAR_Plane_mAC5198AD3ADEFE4BC1ABB8845520EDD83B848495 (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t0754071572EFE7A5C92A59495D2524FC935364E3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* V_0 = NULL;
+	ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:125>
+		List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* L_0 = (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3*)il2cpp_codegen_object_new(List_1_t0754071572EFE7A5C92A59495D2524FC935364E3_il2cpp_TypeInfo_var);
+		List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9(L_0, List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:126>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:127>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:128>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:129>
+		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_1 = __this->___raycastManager;
+		int32_t L_2;
+		L_2 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		int32_t L_3;
+		L_3 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_4), ((float)((int32_t)(L_2/2))), ((float)((int32_t)(L_3/2))), NULL);
+		List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* L_5 = V_0;
+		NullCheck(L_1);
+		bool L_6;
+		L_6 = ARRaycastManager_Raycast_mF56A1E2D7CBB61131E4D844ADA9D0CC1F6B53EAC(L_1, L_4, L_5, ((int32_t)15), NULL);
+		if (!L_6)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:131>
+		bool L_7 = __this->___isSpawned;
+		if (L_7)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:133>
+		__this->___isSpawned = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:134>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = __this->___pokemonPrefabs;
+		int32_t L_9 = __this->___targetActual;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* L_12 = V_0;
+		NullCheck(L_12);
+		ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 L_13;
+		L_13 = List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F(L_12, 0, List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F_RuntimeMethod_var);
+		V_1 = L_13;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_14;
+		L_14 = ARRaycastHit_get_pose_m84C13E71E21FE12CBA9AAD98DC28B1E414C9EFFD((&V_1), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = L_14.___position;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16;
+		L_16 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
+		L_17 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_11, L_15, L_16, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:135>
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_18 = ((GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_StaticFields*)il2cpp_codegen_static_fields_for(GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3_il2cpp_TypeInfo_var))->___instance;
+		GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* L_19 = L_18;
+		NullCheck(L_19);
+		int32_t L_20 = L_19->___targetActual;
+		NullCheck(L_19);
+		L_19->___targetActual = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:136>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_21 = __this->___textoPruebas;
+		int32_t* L_22 = (int32_t*)(&__this->___targetActual);
+		String_t* L_23;
+		L_23 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_22, NULL);
+		NullCheck(L_21);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_21, L_23);
+	}
+
+IL_008e:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:149>
+		return;
+	}
+}
+// Method Definition Index: 85760
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPSTracker__ctor_mC339952E520F4CB4BDBDC09A755A62E94F0FAC8E (GPSTracker_tF30CCF2CDF7BD2E9EC7BF1D5AD6B1AE02C6113F3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/GPSTracker.cs:29>
+		__this->___detectionRadius = (20.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85761
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Start_m58062825AA9A256E42311B4A4833E7425589BBDF (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:14>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0;
+		L_0 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
+		V_0 = L_0;
+		int32_t L_1;
+		L_1 = Scene_get_buildIndex_m82B6E0C96C85C952B7A2D794DB73CDA99AA9A57E((&V_0), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:15>
+		if (L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:17>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___panelMenuPrincipal;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
+	}
+
+IL_001b:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 85762
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Update_mE8D4FFA199E069DAFD4314D5F28EBF5B9644C8A3 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:26>
+		return;
+	}
+}
+// Method Definition Index: 85763
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_AbrirOpciones_m77CC95BEF0CC33B0F3812BE20EAD5BC5406BA666 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:30>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___panelMenuPrincipal;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:32>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___panelMenuPrincipal;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:35>
+		return;
+	}
+}
+// Method Definition Index: 85764
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_VolverAlMenu_mD51F11C19A294C03020F329C47715796B78193AD (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:39>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___panelMenuPrincipal;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:40>
+		return;
+	}
+}
+// Method Definition Index: 85765
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Salir_m58A7C2A6FEE253CCDB470D478B6EAD1A7C889B7B (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2E7A50EB80077709660565FD5776E25EBF89D6AC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:44>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral2E7A50EB80077709660565FD5776E25EBF89D6AC, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:52>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:54>
+		return;
+	}
+}
+// Method Definition Index: 85766
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Cargar_m1E0628DFE1CD7986BF4F410DD2C5425F55BB52FF (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF2E68DF050F5D704F0C5C3395E9C8423C9A272CC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:58>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralF2E68DF050F5D704F0C5C3395E9C8423C9A272CC, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 85767
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Tutorial_m8B8D7008C8D7F5E9F39B7ECE6C2B447D6C4F6376 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA971C21D0791CDDE6359BB3B109148949474E4AE);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:63>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralA971C21D0791CDDE6359BB3B109148949474E4AE, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:64>
+		return;
+	}
+}
+// Method Definition Index: 85768
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_VolverAMenuPrincipal_m88A6162D03C4EEF03D7039FD3ECAF76AB14E944A (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral84D4B4F9191DEC4F0E3D57FB7AE89CBC1972073D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:68>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral84D4B4F9191DEC4F0E3D57FB7AE89CBC1972073D, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/Menu/MenuManager.cs:69>
+		return;
+	}
+}
+// Method Definition Index: 85769
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager__ctor_m07A22DFDD90E3164393F8BDE06DAEF5AFA786CF2 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85770
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Awake_m7EC364BDD53CE056E998BAB28F79998608BB16DF (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/UIManager.cs:11>
+		((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___Instance = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields*)il2cpp_codegen_static_fields_for(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_il2cpp_TypeInfo_var))->___Instance), (void*)__this);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/UIManager.cs:12>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___textoGameOver;
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/UIManager.cs:13>
+		return;
+	}
+}
+// Method Definition Index: 85771
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_MostrarGameOver_m3F447BECAB7702A0065E0790422A2DB303160257 (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2C826E4EA6E866B4088A9F32CE5A214449C12EF7);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/UIManager.cs:17>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___textoGameOver;
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, _stringLiteral2C826E4EA6E866B4088A9F32CE5A214449C12EF7);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/UIManager.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 85772
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_MostrarYAW_mEDCE65765FC423C119D7F8E23FFEE7018B74A5B9 (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, float ___0_yaw, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/UIManager.cs:22>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___textoGameOver;
+		String_t* L_1;
+		L_1 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&___0_yaw), NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_1);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/UIManager.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 85773
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_MostrarMensaje_mE66E9A474142FB5424F8B8FD0F8AFD1E1A28EDC8 (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, String_t* ___0_msj, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/UIManager.cs:27>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___textoGameOver;
+		String_t* L_1 = ___0_msj;
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_1);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/MonsterHunterAR/Scripts/UIManager.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 85774
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager__ctor_mC9DC2B8984E76F424E73C1860AD4BD3DEBF6573F (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85775
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
+{
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85776
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85777
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____8F72A9F4EA9E348C0EECC6C5351FEAC3057429C2BC5A8DB16DCF7DCB8A87E81F_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A0A3A162A77ECC31BB3E3F8598956F50DB36473D646E7D27B5FB983630BA0428_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)471));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A0A3A162A77ECC31BB3E3F8598956F50DB36473D646E7D27B5FB983630BA0428_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)175));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____8F72A9F4EA9E348C0EECC6C5351FEAC3057429C2BC5A8DB16DCF7DCB8A87E81F_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 8;
+		(&V_0)->___TotalTypes = ((int32_t)9);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 85778
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85779
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Start_mB8D06EF51D461405D62225B1EBD2D4F0CC60DA68 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1CAE6644F01B58B44D7A884951476D0A35F83158);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral463F168C9EF46DBDC46D3C922286AA92357E8FB5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6A66F6704341D9D3FDF8460E30510F61237D1296);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D532BD482F4CA70FD66E2C5FC05FF05E48144FF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD6A30C9E50F58CC82EEFA8EA5D15137CDD0A4F85);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:75>
+		__this->___bpm = (150.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:76>
+		__this->___beatsPerMeasure = 4;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:77>
+		__this->___soft_exploration_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:78>
+		__this->___loud_exploration_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:79>
+		__this->___battle_initial_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:80>
+		__this->___battle1_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:81>
+		__this->___battle2_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:82>
+		__this->___battle3_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:83>
+		__this->___battle_final_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:85>
+		__this->___intro = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:86>
+		__this->___exploration_soft = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:87>
+		__this->___exploration_loud = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:88>
+		__this->___battle_start = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:89>
+		__this->___battle1 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:90>
+		__this->___battle2 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:91>
+		__this->___battle3 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:92>
+		__this->___battle_final = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:93>
+		__this->___melody = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:94>
+		__this->___battle_start_initial = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:96>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_0);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_1;
+		L_1 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_0, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		__this->___audio_explorationA = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___audio_explorationA), (void*)L_1);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:97>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_2);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3;
+		L_3 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_2, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		__this->___audio_explorationB = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___audio_explorationB), (void*)L_3);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:98>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_4);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5;
+		L_5 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_4, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		__this->___audio_melody = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___audio_melody), (void*)L_5);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:99>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_6);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7;
+		L_7 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_6, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		__this->___audio_battleA = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___audio_battleA), (void*)L_7);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:100>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_8);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_9;
+		L_9 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_8, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		__this->___audio_battleB = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___audio_battleB), (void*)L_9);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:101>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
+		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_10);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_11;
+		L_11 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_10, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		__this->___audio_trans = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___audio_trans), (void*)L_11);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:102>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
+		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_12);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_13;
+		L_13 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_12, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
+		__this->___audio_start_end = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___audio_start_end), (void*)L_13);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:103>
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_14 = { reinterpret_cast<intptr_t> (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_15;
+		L_15 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_14, NULL);
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_16;
+		L_16 = Resources_LoadAll_m7A2507FF57FF618BC37FDF8E9AB3ACCE18592C51(_stringLiteral6A66F6704341D9D3FDF8460E30510F61237D1296, L_15, NULL);
+		__this->___AudioArray_intro = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___AudioArray_intro), (void*)L_16);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:104>
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_17 = { reinterpret_cast<intptr_t> (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_0_0_0_var) };
+		Type_t* L_18;
+		L_18 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_17, NULL);
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_19;
+		L_19 = Resources_LoadAll_m7A2507FF57FF618BC37FDF8E9AB3ACCE18592C51(_stringLiteral463F168C9EF46DBDC46D3C922286AA92357E8FB5, L_18, NULL);
+		__this->___AudioArray_battle1 = L_19;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___AudioArray_battle1), (void*)L_19);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:105>
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_20 = { reinterpret_cast<intptr_t> (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_0_0_0_var) };
+		Type_t* L_21;
+		L_21 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_20, NULL);
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_22;
+		L_22 = Resources_LoadAll_m7A2507FF57FF618BC37FDF8E9AB3ACCE18592C51(_stringLiteralD6A30C9E50F58CC82EEFA8EA5D15137CDD0A4F85, L_21, NULL);
+		__this->___AudioArray_battle2 = L_22;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___AudioArray_battle2), (void*)L_22);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:106>
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_23 = { reinterpret_cast<intptr_t> (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_0_0_0_var) };
+		Type_t* L_24;
+		L_24 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_23, NULL);
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_25;
+		L_25 = Resources_LoadAll_m7A2507FF57FF618BC37FDF8E9AB3ACCE18592C51(_stringLiteral6D532BD482F4CA70FD66E2C5FC05FF05E48144FF, L_24, NULL);
+		__this->___AudioArray_battle3 = L_25;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___AudioArray_battle3), (void*)L_25);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:107>
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_26 = { reinterpret_cast<intptr_t> (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_0_0_0_var) };
+		Type_t* L_27;
+		L_27 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_26, NULL);
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_28;
+		L_28 = Resources_LoadAll_m7A2507FF57FF618BC37FDF8E9AB3ACCE18592C51(_stringLiteral1CAE6644F01B58B44D7A884951476D0A35F83158, L_27, NULL);
+		__this->___AudioArray_trans = L_28;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___AudioArray_trans), (void*)L_28);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:109>
+		__this->___exploration_soft_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:110>
+		__this->___exploration_loud_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:111>
+		__this->___battle1_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:112>
+		__this->___battle2_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:113>
+		__this->___battle3_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:114>
+		__this->___intro_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:116>
+		double L_29;
+		L_29 = AudioSettings_get_dspTime_m246053C21870BC68BF7BBC5C5AC1B8F25337AEEA(NULL);
+		__this->___singleMeasureTime = ((double)il2cpp_codegen_add(L_29, (2.0)));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:117>
+		__this->___running = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:118>
+		return;
+	}
+}
+// Method Definition Index: 85780
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Update_m7CB9BEC3FB49038A6996EE88016AC4A3341C9450 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral055BC4B96EC86BB8F7E81E39CA3934A4C17796F1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral357883176FD775BDA2C353C423E79D3647BD8680);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral68EAF05AA2E5EE72FACB5121720E6CCA75A79EF0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7EFAF2F65A5A55F9B88754051BDF743CB711F0A8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B0FDEBC02A581F0EE19E5F7F08733B74482EE3F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBD13B4305CB18DB2C4DAF7DD790D022ECA84C0FB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA5F7FC048FC83CFC9673AF1E879B410DB8B60A6);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:121>
+		bool L_0 = __this->___running;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:122>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:123>
+		double L_1;
+		L_1 = AudioSettings_get_dspTime_m246053C21870BC68BF7BBC5C5AC1B8F25337AEEA(NULL);
+		__this->___time = L_1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:129>
+		bool L_2;
+		L_2 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)108), NULL);
+		if (!L_2)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:132>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral357883176FD775BDA2C353C423E79D3647BD8680, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:134>
+		__this->___melody = (bool)0;
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:139>
+		bool L_3;
+		L_3 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)109), NULL);
+		if (!L_3)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:142>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral055BC4B96EC86BB8F7E81E39CA3934A4C17796F1, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:144>
+		__this->___melody = (bool)1;
+	}
+
+IL_0048:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:149>
+		bool L_4;
+		L_4 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)122), NULL);
+		float L_5 = __this->___soft_exploration_distance;
+		float L_6 = __this->___trigger_sensitivity;
+		float L_7 = __this->___nearest_gameobject;
+		float L_8 = __this->___soft_exploration_distance;
+		if (!((int32_t)((int32_t)L_4|((int32_t)(((((float)L_5) < ((float)L_6))? 1 : 0)&((((float)L_7) == ((float)L_8))? 1 : 0))))))
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:151>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:152>
+		bool L_9 = __this->___pause_and_reset;
+		bool L_10 = __this->___intro_isPlaying;
+		bool L_11 = __this->___exploration_soft_isPlaying;
+		bool L_12 = __this->___exploration_loud_isPlaying;
+		bool L_13 = __this->___battle1_isPlaying;
+		bool L_14 = __this->___battle2_isPlaying;
+		bool L_15 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((((int32_t)L_9) == ((int32_t)0))? 1 : 0)&((((int32_t)L_10) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_11) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_12) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_13) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_14) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_15) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:154>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralDA5F7FC048FC83CFC9673AF1E879B410DB8B60A6, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:155>
+		__this->___intro_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:156>
+		__this->___intro = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:157>
+		__this->___j = ((int32_t)50);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:158>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:159>
+		__this->___k = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:160>
+		audio_Intro_m9D3C6A72A88E36CA9BC90BB8D3705198F7080E27(__this, NULL);
+		goto IL_01a2;
+	}
+
+IL_00f2:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:164>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:165>
+		bool L_16 = __this->___pause_and_reset;
+		bool L_17 = __this->___intro_isPlaying;
+		bool L_18 = __this->___exploration_soft_isPlaying;
+		bool L_19 = __this->___exploration_loud_isPlaying;
+		bool L_20 = __this->___battle1_isPlaying;
+		bool L_21 = __this->___battle2_isPlaying;
+		bool L_22 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((((int32_t)L_16) == ((int32_t)0))? 1 : 0)&((((int32_t)L_17) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_18) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_19) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_20) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_21) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_22) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_014e;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:167>
+		__this->___j = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:168>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:169>
+		__this->___k = 0;
+	}
+
+IL_014e:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:171>
+		bool L_23 = __this->___intro;
+		bool L_24 = __this->___intro_isPlaying;
+		if (!((int32_t)(((((int32_t)L_23) == ((int32_t)0))? 1 : 0)&((((int32_t)L_24) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:173>
+		__this->___intro = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:174>
+		__this->___exploration_soft = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:175>
+		__this->___exploration_loud = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:176>
+		__this->___battle1 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:177>
+		__this->___battle2 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:178>
+		__this->___battle3 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:179>
+		__this->___battle_final = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:180>
+		__this->___melody = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:181>
+		__this->___battle_start = (bool)0;
+	}
+
+IL_01a2:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:191>
+		bool L_25;
+		L_25 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)101), NULL);
+		bool L_26 = __this->___pause_and_reset;
+		float L_27 = __this->___loud_exploration_distance;
+		float L_28 = __this->___trigger_sensitivity;
+		float L_29 = __this->___nearest_gameobject;
+		float L_30 = __this->___loud_exploration_distance;
+		if (!((int32_t)((int32_t)L_25|((int32_t)(((int32_t)(((((int32_t)L_26) == ((int32_t)0))? 1 : 0)&((((float)L_27) < ((float)L_28))? 1 : 0)))&((((float)L_29) == ((float)L_30))? 1 : 0))))))
+		{
+			goto IL_02fc;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:193>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:194>
+		bool L_31 = __this->___pause_and_reset;
+		bool L_32 = __this->___intro_isPlaying;
+		bool L_33 = __this->___exploration_soft_isPlaying;
+		bool L_34 = __this->___exploration_loud_isPlaying;
+		bool L_35 = __this->___battle1_isPlaying;
+		bool L_36 = __this->___battle2_isPlaying;
+		bool L_37 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((((int32_t)L_31) == ((int32_t)0))? 1 : 0)&((((int32_t)L_32) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_33) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_34) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_35) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_36) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_37) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_024c;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:196>
+		__this->___intro_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:197>
+		__this->___intro = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:198>
+		__this->___j = ((int32_t)50);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:199>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:200>
+		__this->___k = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:201>
+		audio_Intro_m9D3C6A72A88E36CA9BC90BB8D3705198F7080E27(__this, NULL);
+		goto IL_02fc;
+	}
+
+IL_024c:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:205>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:206>
+		bool L_38 = __this->___pause_and_reset;
+		bool L_39 = __this->___intro_isPlaying;
+		bool L_40 = __this->___exploration_soft_isPlaying;
+		bool L_41 = __this->___exploration_loud_isPlaying;
+		bool L_42 = __this->___battle1_isPlaying;
+		bool L_43 = __this->___battle2_isPlaying;
+		bool L_44 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((((int32_t)L_38) == ((int32_t)0))? 1 : 0)&((((int32_t)L_39) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_40) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_41) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_42) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_43) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_44) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_02a8;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:208>
+		__this->___j = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:209>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:210>
+		__this->___k = 0;
+	}
+
+IL_02a8:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:212>
+		bool L_45 = __this->___intro;
+		bool L_46 = __this->___intro_isPlaying;
+		if (!((int32_t)(((((int32_t)L_45) == ((int32_t)0))? 1 : 0)&((((int32_t)L_46) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_02fc;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:214>
+		__this->___intro = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:215>
+		__this->___exploration_soft = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:216>
+		__this->___exploration_loud = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:217>
+		__this->___battle1 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:218>
+		__this->___battle2 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:219>
+		__this->___battle3 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:220>
+		__this->___battle_final = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:221>
+		__this->___melody = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:222>
+		__this->___battle_start = (bool)0;
+	}
+
+IL_02fc:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:231>
+		bool L_47;
+		L_47 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)114), NULL);
+		float L_48 = __this->___battle_initial_distance;
+		float L_49 = __this->___trigger_sensitivity;
+		float L_50 = __this->___nearest_gameobject;
+		float L_51 = __this->___battle_initial_distance;
+		if (!((int32_t)((int32_t)L_47|((int32_t)(((((float)L_48) < ((float)L_49))? 1 : 0)&((((float)L_50) == ((float)L_51))? 1 : 0))))))
+		{
+			goto IL_0373;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:233>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:234>
+		bool L_52 = __this->___exploration_soft_isPlaying;
+		bool L_53 = __this->___exploration_loud_isPlaying;
+		bool L_54 = __this->___battle1_isPlaying;
+		bool L_55 = __this->___battle2_isPlaying;
+		bool L_56 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((int32_t)(((int32_t)(((((int32_t)L_52) == ((int32_t)0))? 1 : 0)&((((int32_t)L_53) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_54) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_55) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_56) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_0373;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:236>
+		__this->___j = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:237>
+		__this->___i = ((int32_t)50);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:238>
+		__this->___pause_and_reset = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:239>
+		__this->___battle_start_initial = (bool)1;
+	}
+
+IL_0373:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:245>
+		bool L_57;
+		L_57 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)116), NULL);
+		float L_58 = __this->___battle1_distance;
+		float L_59 = __this->___trigger_sensitivity;
+		float L_60 = __this->___nearest_gameobject;
+		float L_61 = __this->___battle1_distance;
+		if (!((int32_t)((int32_t)L_57|((int32_t)(((((float)L_58) < ((float)L_59))? 1 : 0)&((((float)L_60) == ((float)L_61))? 1 : 0))))))
+		{
+			goto IL_043e;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:247>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:248>
+		bool L_62 = __this->___pause_and_reset;
+		bool L_63 = __this->___exploration_soft_isPlaying;
+		bool L_64 = __this->___exploration_loud_isPlaying;
+		bool L_65 = __this->___battle1_isPlaying;
+		bool L_66 = __this->___battle2_isPlaying;
+		bool L_67 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((((int32_t)L_62) == ((int32_t)0))? 1 : 0)&((((int32_t)L_63) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_64) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_65) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_66) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_67) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_03ef;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:250>
+		__this->___j = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:251>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:252>
+		__this->___k = 0;
+	}
+
+IL_03ef:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:254>
+		bool L_68 = __this->___exploration_soft_isPlaying;
+		bool L_69 = __this->___exploration_loud_isPlaying;
+		if (!((int32_t)((int32_t)L_68|(int32_t)L_69)))
+		{
+			goto IL_0405;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:256>
+		__this->___battle_start = (bool)1;
+	}
+
+IL_0405:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:259>
+		bool L_70 = __this->___pause_and_reset;
+		if (L_70)
+		{
+			goto IL_043e;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:261>
+		__this->___intro = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:262>
+		__this->___exploration_soft = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:263>
+		__this->___exploration_loud = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:264>
+		__this->___battle1 = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:265>
+		__this->___battle2 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:266>
+		__this->___battle3 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:267>
+		__this->___battle_final = (bool)0;
+	}
+
+IL_043e:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:272>
+		bool L_71;
+		L_71 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)117), NULL);
+		float L_72 = __this->___battle3_distance;
+		float L_73 = __this->___trigger_sensitivity;
+		float L_74 = __this->___nearest_gameobject;
+		float L_75 = __this->___battle3_distance;
+		if (!((int32_t)((int32_t)L_71|((int32_t)(((((float)L_72) < ((float)L_73))? 1 : 0)&((((float)L_74) == ((float)L_75))? 1 : 0))))))
+		{
+			goto IL_0508;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:274>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:275>
+		bool L_76 = __this->___pause_and_reset;
+		bool L_77 = __this->___exploration_soft_isPlaying;
+		bool L_78 = __this->___exploration_loud_isPlaying;
+		bool L_79 = __this->___battle1_isPlaying;
+		bool L_80 = __this->___battle2_isPlaying;
+		bool L_81 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((((int32_t)L_76) == ((int32_t)0))? 1 : 0)&((((int32_t)L_77) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_78) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_79) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_80) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_81) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_04ba;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:277>
+		__this->___j = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:278>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:279>
+		__this->___k = 0;
+	}
+
+IL_04ba:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:281>
+		bool L_82 = __this->___exploration_soft_isPlaying;
+		bool L_83 = __this->___exploration_loud_isPlaying;
+		if (!((int32_t)((int32_t)L_82|(int32_t)L_83)))
+		{
+			goto IL_04d0;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:283>
+		__this->___battle_start = (bool)1;
+	}
+
+IL_04d0:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:286>
+		__this->___intro = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:287>
+		__this->___exploration_soft = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:288>
+		__this->___exploration_loud = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:289>
+		__this->___battle1 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:290>
+		__this->___battle2 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:291>
+		__this->___battle3 = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:292>
+		__this->___battle_final = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:293>
+		__this->___melody = (bool)0;
+	}
+
+IL_0508:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:297>
+		bool L_84;
+		L_84 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)121), NULL);
+		float L_85 = __this->___battle2_distance;
+		float L_86 = __this->___trigger_sensitivity;
+		float L_87 = __this->___nearest_gameobject;
+		float L_88 = __this->___battle2_distance;
+		if (!((int32_t)((int32_t)L_84|((int32_t)(((((float)L_85) < ((float)L_86))? 1 : 0)&((((float)L_87) == ((float)L_88))? 1 : 0))))))
+		{
+			goto IL_05d3;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:299>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:300>
+		bool L_89 = __this->___pause_and_reset;
+		bool L_90 = __this->___exploration_soft_isPlaying;
+		bool L_91 = __this->___exploration_loud_isPlaying;
+		bool L_92 = __this->___battle1_isPlaying;
+		bool L_93 = __this->___battle2_isPlaying;
+		bool L_94 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((((int32_t)L_89) == ((int32_t)0))? 1 : 0)&((((int32_t)L_90) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_91) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_92) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_93) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_94) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_057d;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:302>
+		__this->___j = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:303>
+		__this->___i = 0;
+	}
+
+IL_057d:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:305>
+		bool L_95 = __this->___exploration_soft_isPlaying;
+		bool L_96 = __this->___exploration_loud_isPlaying;
+		if (!((int32_t)((int32_t)L_95|(int32_t)L_96)))
+		{
+			goto IL_0593;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:307>
+		__this->___battle_start = (bool)1;
+	}
+
+IL_0593:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:310>
+		bool L_97 = __this->___pause_and_reset;
+		if (L_97)
+		{
+			goto IL_05d3;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:312>
+		__this->___intro = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:313>
+		__this->___exploration_soft = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:314>
+		__this->___exploration_loud = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:315>
+		__this->___battle1 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:316>
+		__this->___battle2 = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:317>
+		__this->___battle3 = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:318>
+		__this->___battle_final = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:319>
+		__this->___melody = (bool)0;
+	}
+
+IL_05d3:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:324>
+		bool L_98;
+		L_98 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)102), NULL);
+		float L_99 = __this->___battle_final_distance;
+		float L_100 = __this->___trigger_sensitivity;
+		float L_101 = __this->___nearest_gameobject;
+		float L_102 = __this->___battle_final_distance;
+		if (!((int32_t)((int32_t)L_98|((int32_t)(((((float)L_99) < ((float)L_100))? 1 : 0)&((((float)L_101) == ((float)L_102))? 1 : 0))))))
+		{
+			goto IL_0608;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:327>
+		__this->___battle_final = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:328>
+		__this->___battle3 = (bool)0;
+	}
+
+IL_0608:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:332>
+		bool L_103 = __this->___intro;
+		if (!L_103)
+		{
+			goto IL_0616;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:334>
+		audio_Intro_m9D3C6A72A88E36CA9BC90BB8D3705198F7080E27(__this, NULL);
+	}
+
+IL_0616:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:337>
+		bool L_104 = __this->___pause_and_reset;
+		if (!L_104)
+		{
+			goto IL_0624;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:339>
+		audio_Pause_and_reset_m39B7C49721F7A9EF190F901AB5AE04B2FFA05661(__this, NULL);
+	}
+
+IL_0624:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:342>
+		bool L_105 = __this->___battle1_isPlaying;
+		bool L_106 = __this->___battle2_isPlaying;
+		bool L_107 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((((int32_t)L_105) == ((int32_t)0))? 1 : 0)&((((int32_t)L_106) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_107) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_066d;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:344>
+		bool L_108 = __this->___exploration_soft;
+		bool L_109 = __this->___exploration_soft_isPlaying;
+		if (!((int32_t)((int32_t)L_108|(int32_t)L_109)))
+		{
+			goto IL_0658;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:346>
+		audio_Exploration_Soft_m854C5FF4615E07109ECD2E6E2BEE4DC0A6B15273(__this, NULL);
+	}
+
+IL_0658:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:350>
+		bool L_110 = __this->___exploration_loud;
+		bool L_111 = __this->___exploration_loud_isPlaying;
+		if (!((int32_t)((int32_t)L_110|(int32_t)L_111)))
+		{
+			goto IL_066d;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:352>
+		audio_Exploration_Loud_m3E377804C22F51BB13A007CF6E9EE657819283B1(__this, NULL);
+	}
+
+IL_066d:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:356>
+		bool L_112 = __this->___exploration_soft_isPlaying;
+		bool L_113 = __this->___exploration_loud_isPlaying;
+		if (!((int32_t)(((((int32_t)L_112) == ((int32_t)0))? 1 : 0)&((((int32_t)L_113) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_0700;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:358>
+		bool L_114 = __this->___battle2_isPlaying;
+		bool L_115 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((((int32_t)L_114) == ((int32_t)0))? 1 : 0)&((((int32_t)L_115) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_06ac;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:360>
+		bool L_116 = __this->___battle1;
+		bool L_117 = __this->___battle1_isPlaying;
+		if (!((int32_t)((int32_t)L_116|(int32_t)L_117)))
+		{
+			goto IL_06ac;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:362>
+		audio_Battle1_m6D0B0FDF66FEA74CBF3765A67CFBE0C35B693E3C(__this, NULL);
+	}
+
+IL_06ac:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:365>
+		bool L_118 = __this->___battle1_isPlaying;
+		bool L_119 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((((int32_t)L_118) == ((int32_t)0))? 1 : 0)&((((int32_t)L_119) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_06d6;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:367>
+		bool L_120 = __this->___battle2;
+		bool L_121 = __this->___battle2_isPlaying;
+		if (!((int32_t)((int32_t)L_120|(int32_t)L_121)))
+		{
+			goto IL_06d6;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:369>
+		audio_Battle2_mD4E6ECF49BEA3CB879B75F18AD9B8D75F8ADCFCA(__this, NULL);
+	}
+
+IL_06d6:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:373>
+		bool L_122 = __this->___battle1_isPlaying;
+		bool L_123 = __this->___battle2_isPlaying;
+		if (!((int32_t)(((((int32_t)L_122) == ((int32_t)0))? 1 : 0)&((((int32_t)L_123) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_0700;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:375>
+		bool L_124 = __this->___battle3;
+		bool L_125 = __this->___battle3_isPlaying;
+		if (!((int32_t)((int32_t)L_124|(int32_t)L_125)))
+		{
+			goto IL_0700;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:377>
+		audio_Battle3_mAA0B4EE97014733A42300C39976E199B908FA0B0(__this, NULL);
+	}
+
+IL_0700:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:382>
+		bool L_126 = __this->___exploration_soft_isPlaying;
+		bool L_127 = __this->___exploration_loud_isPlaying;
+		bool L_128 = __this->___battle1_isPlaying;
+		bool L_129 = __this->___battle2_isPlaying;
+		bool L_130 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((int32_t)(((int32_t)(((((int32_t)L_126) == ((int32_t)0))? 1 : 0)&((((int32_t)L_127) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_128) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_129) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_130) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_0741;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:384>
+		bool L_131 = __this->___battle_start;
+		if (!L_131)
+		{
+			goto IL_0741;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:386>
+		audio_Battle_start_m1905E3927AB187EFD7D911947FB451E17C46BB6B(__this, NULL);
+	}
+
+IL_0741:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:394>
+		double L_132 = __this->___time;
+		double L_133 = __this->___singleMeasureTime;
+		if ((!(((double)((double)il2cpp_codegen_add(L_132, (1.0)))) > ((double)L_133))))
+		{
+			goto IL_08a7;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:397>
+		int32_t* L_134 = (int32_t*)(&__this->___j);
+		String_t* L_135;
+		L_135 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_134, NULL);
+		double* L_136 = (double*)(&__this->___time);
+		String_t* L_137;
+		L_137 = Double_ToString_m7499A5D792419537DCB9470A3675CEF5117DE339(L_136, NULL);
+		String_t* L_138;
+		L_138 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral9B0FDEBC02A581F0EE19E5F7F08733B74482EE3F, L_135, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_137, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_138, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:398>
+		int32_t* L_139 = (int32_t*)(&__this->___i);
+		String_t* L_140;
+		L_140 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_139, NULL);
+		double* L_141 = (double*)(&__this->___time);
+		String_t* L_142;
+		L_142 = Double_ToString_m7499A5D792419537DCB9470A3675CEF5117DE339(L_141, NULL);
+		String_t* L_143;
+		L_143 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralBD13B4305CB18DB2C4DAF7DD790D022ECA84C0FB, L_140, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_142, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_143, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:399>
+		int32_t* L_144 = (int32_t*)(&__this->___k);
+		String_t* L_145;
+		L_145 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_144, NULL);
+		double* L_146 = (double*)(&__this->___time);
+		String_t* L_147;
+		L_147 = Double_ToString_m7499A5D792419537DCB9470A3675CEF5117DE339(L_146, NULL);
+		String_t* L_148;
+		L_148 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral68EAF05AA2E5EE72FACB5121720E6CCA75A79EF0, L_145, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_147, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_148, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:400>
+		int32_t* L_149 = (int32_t*)(&__this->___l);
+		String_t* L_150;
+		L_150 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_149, NULL);
+		double* L_151 = (double*)(&__this->___time);
+		String_t* L_152;
+		L_152 = Double_ToString_m7499A5D792419537DCB9470A3675CEF5117DE339(L_151, NULL);
+		String_t* L_153;
+		L_153 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral7EFAF2F65A5A55F9B88754051BDF743CB711F0A8, L_150, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_152, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_153, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:401>
+		int32_t L_154 = __this->___j;
+		if ((!(((uint32_t)L_154) == ((uint32_t)((int32_t)16)))))
+		{
+			goto IL_0815;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:403>
+		__this->___j = 0;
+	}
+
+IL_0815:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:405>
+		int32_t L_155 = __this->___i;
+		if ((!(((uint32_t)L_155) == ((uint32_t)8))))
+		{
+			goto IL_0825;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:407>
+		__this->___i = 0;
+	}
+
+IL_0825:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:409>
+		int32_t L_156 = __this->___k;
+		if ((!(((uint32_t)L_156) == ((uint32_t)((int32_t)16)))))
+		{
+			goto IL_0836;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:411>
+		__this->___k = 0;
+	}
+
+IL_0836:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:413>
+		int32_t L_157 = __this->___l;
+		if ((!(((uint32_t)L_157) == ((uint32_t)((int32_t)10)))))
+		{
+			goto IL_0847;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:415>
+		__this->___l = 0;
+	}
+
+IL_0847:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:417>
+		int32_t L_158 = __this->___i;
+		__this->___i = ((int32_t)il2cpp_codegen_add(L_158, 1));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:418>
+		int32_t L_159 = __this->___j;
+		__this->___j = ((int32_t)il2cpp_codegen_add(L_159, 1));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:419>
+		int32_t L_160 = __this->___k;
+		__this->___k = ((int32_t)il2cpp_codegen_add(L_160, 1));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:420>
+		int32_t L_161 = __this->___l;
+		__this->___l = ((int32_t)il2cpp_codegen_add(L_161, 1));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:421>
+		double L_162 = __this->___singleMeasureTime;
+		float L_163 = __this->___bpm;
+		int32_t L_164 = __this->___beatsPerMeasure;
+		__this->___singleMeasureTime = ((double)il2cpp_codegen_add(L_162, ((double)((float)il2cpp_codegen_multiply(((float)((60.0f)/L_163)), ((float)L_164))))));
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:422>
+		audio_CheckDistanceToTrigger_m515D4B6F9672FA1FC6F4B97CB4DADD968AC312B4(__this, NULL);
+	}
+
+IL_08a7:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:425>
+		return;
+	}
+}
+// Method Definition Index: 85781
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Intro_m9D3C6A72A88E36CA9BC90BB8D3705198F7080E27 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:429>
+		bool L_0 = __this->___exploration_soft_isPlaying;
+		bool L_1 = __this->___exploration_loud_isPlaying;
+		bool L_2 = __this->___battle1_isPlaying;
+		bool L_3 = __this->___battle2_isPlaying;
+		bool L_4 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((int32_t)(((int32_t)(((((int32_t)L_0) == ((int32_t)0))? 1 : 0)&((((int32_t)L_1) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_2) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_3) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_4) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:431>
+		int32_t L_5 = __this->___j;
+		if ((!(((uint32_t)L_5) == ((uint32_t)((int32_t)50)))))
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:433>
+		double L_6 = __this->___time;
+		double L_7 = __this->___singleMeasureTime;
+		if ((!(((double)((double)il2cpp_codegen_add(L_6, (1.0)))) > ((double)L_7))))
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:435>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8 = __this->___audio_start_end;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_9 = __this->___AudioArray_trans;
+		NullCheck(L_9);
+		int32_t L_10 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		NullCheck(L_8);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_8, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_11, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:436>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12 = __this->___audio_start_end;
+		double L_13 = __this->___time;
+		NullCheck(L_12);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_12, L_13, NULL);
+	}
+
+IL_0081:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:440>
+		int32_t L_14 = __this->___j;
+		if ((!(((uint32_t)L_14) == ((uint32_t)((int32_t)54)))))
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:442>
+		__this->___intro = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:443>
+		float L_15 = __this->___nearest_gameobject;
+		float L_16 = __this->___soft_exploration_distance;
+		if ((!(((float)L_15) == ((float)L_16))))
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:445>
+		__this->___exploration_soft = (bool)1;
+	}
+
+IL_00a7:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:447>
+		float L_17 = __this->___nearest_gameobject;
+		float L_18 = __this->___loud_exploration_distance;
+		if ((!(((float)L_17) == ((float)L_18))))
+		{
+			goto IL_00bc;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:449>
+		__this->___exploration_loud = (bool)1;
+	}
+
+IL_00bc:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:451>
+		__this->___j = 0;
+	}
+
+IL_00c3:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:456>
+		return;
+	}
+}
+// Method Definition Index: 85782
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Pause_and_reset_m39B7C49721F7A9EF190F901AB5AE04B2FFA05661 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:460>
+		double L_0 = __this->___time;
+		double L_1 = __this->___singleMeasureTime;
+		if ((!(((double)((double)il2cpp_codegen_add(L_0, (1.0)))) > ((double)L_1))))
+		{
+			goto IL_01df;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:462>
+		bool L_2 = __this->___exploration_soft_isPlaying;
+		bool L_3 = __this->___exploration_loud_isPlaying;
+		bool L_4 = __this->___battle1_isPlaying;
+		bool L_5 = __this->___battle2_isPlaying;
+		bool L_6 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((int32_t)(((int32_t)(((((int32_t)L_2) == ((int32_t)0))? 1 : 0)&((((int32_t)L_3) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_4) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_5) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_6) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_01df;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:464>
+		int32_t L_7 = __this->___l;
+		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:467>
+		bool L_8 = __this->___battle_start_initial;
+		if (!L_8)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:470>
+		__this->___battle1 = (bool)1;
+	}
+
+IL_0069:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:472>
+		float L_9 = __this->___nearest_gameobject;
+		float L_10 = __this->___battle1_distance;
+		if ((!(((float)L_9) == ((float)L_10))))
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:474>
+		__this->___battle1 = (bool)1;
+	}
+
+IL_007e:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:476>
+		float L_11 = __this->___nearest_gameobject;
+		float L_12 = __this->___battle2_distance;
+		if ((!(((float)L_11) == ((float)L_12))))
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:478>
+		__this->___battle2 = (bool)1;
+	}
+
+IL_0093:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:480>
+		float L_13 = __this->___nearest_gameobject;
+		float L_14 = __this->___soft_exploration_distance;
+		if ((!(((float)L_13) == ((float)L_14))))
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:482>
+		__this->___exploration_soft = (bool)1;
+	}
+
+IL_00a8:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:484>
+		float L_15 = __this->___nearest_gameobject;
+		float L_16 = __this->___loud_exploration_distance;
+		if ((!(((float)L_15) == ((float)L_16))))
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:486>
+		__this->___exploration_loud = (bool)1;
+	}
+
+IL_00bd:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:491>
+		int32_t L_17 = __this->___l;
+		if ((!(((uint32_t)L_17) == ((uint32_t)2))))
+		{
+			goto IL_0136;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:494>
+		bool L_18 = __this->___battle1;
+		bool L_19 = __this->___battle2;
+		if (!((int32_t)((int32_t)L_18|(int32_t)L_19)))
+		{
+			goto IL_00fe;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:496>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_20 = __this->___audio_start_end;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_21 = __this->___AudioArray_trans;
+		NullCheck(L_21);
+		int32_t L_22 = 0;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_23 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_20);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_20, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_23, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:497>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_24 = __this->___audio_start_end;
+		double L_25 = __this->___time;
+		NullCheck(L_24);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_24, L_25, NULL);
+	}
+
+IL_00fe:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:500>
+		bool L_26 = __this->___exploration_soft;
+		bool L_27 = __this->___exploration_loud;
+		if (!((int32_t)((int32_t)L_26|(int32_t)L_27)))
+		{
+			goto IL_0136;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:502>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_28 = __this->___audio_start_end;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_29 = __this->___AudioArray_trans;
+		NullCheck(L_29);
+		int32_t L_30 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_31 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+		NullCheck(L_28);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_28, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_31, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:503>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_32 = __this->___audio_start_end;
+		double L_33 = __this->___time;
+		NullCheck(L_32);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_32, L_33, NULL);
+	}
+
+IL_0136:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:507>
+		int32_t L_34 = __this->___l;
+		if ((!(((uint32_t)L_34) == ((uint32_t)3))))
+		{
+			goto IL_0171;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:509>
+		bool L_35 = __this->___battle1;
+		bool L_36 = __this->___battle2;
+		if (!((int32_t)((int32_t)L_35|(int32_t)L_36)))
+		{
+			goto IL_0171;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:511>
+		__this->___pause_and_reset = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:512>
+		__this->___battle_start_initial = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:513>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:514>
+		__this->___j = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:515>
+		__this->___k = 0;
+	}
+
+IL_0171:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:518>
+		int32_t L_37 = __this->___l;
+		if ((!(((uint32_t)L_37) == ((uint32_t)5))))
+		{
+			goto IL_01ab;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:520>
+		bool L_38 = __this->___exploration_loud;
+		if (!L_38)
+		{
+			goto IL_01ab;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:522>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_39 = __this->___audio_trans;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_40 = __this->___AudioArray_trans;
+		NullCheck(L_40);
+		int32_t L_41 = 3;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_42 = (L_40)->GetAt(static_cast<il2cpp_array_size_t>(L_41));
+		NullCheck(L_39);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_39, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_42, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:523>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_43 = __this->___audio_trans;
+		double L_44 = __this->___time;
+		NullCheck(L_43);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_43, L_44, NULL);
+	}
+
+IL_01ab:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:527>
+		int32_t L_45 = __this->___l;
+		if ((!(((uint32_t)L_45) == ((uint32_t)6))))
+		{
+			goto IL_01df;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:529>
+		bool L_46 = __this->___exploration_soft;
+		bool L_47 = __this->___exploration_loud;
+		if (!((int32_t)((int32_t)L_46|(int32_t)L_47)))
+		{
+			goto IL_01df;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:531>
+		__this->___pause_and_reset = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:532>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:533>
+		__this->___j = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:534>
+		__this->___k = 0;
+	}
+
+IL_01df:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:539>
+		return;
+	}
+}
+// Method Definition Index: 85783
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Battle_start_m1905E3927AB187EFD7D911947FB451E17C46BB6B (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:546>
+		int32_t L_0 = __this->___i;
+		if (L_0)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:548>
+		double L_1 = __this->___time;
+		double L_2 = __this->___singleMeasureTime;
+		if ((!(((double)((double)il2cpp_codegen_add(L_1, (1.0)))) > ((double)L_2))))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:550>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = __this->___audio_start_end;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_4 = __this->___AudioArray_trans;
+		NullCheck(L_4);
+		int32_t L_5 = 0;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_3);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_3, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_6, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:551>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = __this->___audio_start_end;
+		double L_8 = __this->___time;
+		NullCheck(L_7);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_7, L_8, NULL);
+	}
+
+IL_0049:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:554>
+		int32_t L_9 = __this->___i;
+		if ((!(((uint32_t)L_9) == ((uint32_t)1))))
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:556>
+		__this->___battle_start_initial = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:557>
+		__this->___battle_start = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:558>
+		float L_10 = __this->___nearest_gameobject;
+		float L_11 = __this->___battle1_distance;
+		if ((!(((float)L_10) == ((float)L_11))))
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:560>
+		__this->___battle1 = (bool)1;
+	}
+
+IL_0075:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:562>
+		float L_12 = __this->___nearest_gameobject;
+		float L_13 = __this->___battle2_distance;
+		if ((!(((float)L_12) == ((float)L_13))))
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:564>
+		__this->___battle2 = (bool)1;
+	}
+
+IL_008a:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:566>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:567>
+		__this->___j = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:568>
+		__this->___k = 0;
+	}
+
+IL_009f:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:570>
+		return;
+	}
+}
+// Method Definition Index: 85784
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Exploration_Soft_m854C5FF4615E07109ECD2E6E2BEE4DC0A6B15273 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:574>
+		double L_0 = __this->___time;
+		double L_1 = __this->___singleMeasureTime;
+		if ((!(((double)((double)il2cpp_codegen_add(L_0, (1.0)))) > ((double)L_1))))
+		{
+			goto IL_0191;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:576>
+		int32_t L_2 = __this->___j;
+		bool L_3 = __this->___exploration_soft;
+		if (!((int32_t)(((((int32_t)L_2) == ((int32_t)0))? 1 : 0)&(int32_t)L_3)))
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:578>
+		__this->___intro = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:579>
+		__this->___intro_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:580>
+		__this->___exploration_soft_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:581>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->___audio_explorationA;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_5 = __this->___AudioArray_intro;
+		NullCheck(L_5);
+		int32_t L_6 = 0;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_7 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		NullCheck(L_4);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_4, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_7, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:582>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8 = __this->___audio_explorationA;
+		double L_9 = __this->___time;
+		NullCheck(L_8);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_8, L_9, NULL);
+	}
+
+IL_006b:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:585>
+		int32_t L_10 = __this->___j;
+		bool L_11 = __this->___exploration_soft;
+		if (!((int32_t)(((((int32_t)L_10) == ((int32_t)7))? 1 : 0)&((((int32_t)L_11) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:587>
+		audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA(__this, NULL);
+	}
+
+IL_0086:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:589>
+		int32_t L_12 = __this->___j;
+		bool L_13 = __this->___exploration_soft;
+		if (!((int32_t)(((((int32_t)L_12) == ((int32_t)8))? 1 : 0)&((((int32_t)L_13) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:591>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:592>
+		__this->___k = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:593>
+		__this->___exploration_soft_isPlaying = (bool)0;
+	}
+
+IL_00b0:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:596>
+		int32_t L_14 = __this->___j;
+		bool L_15 = __this->___exploration_soft;
+		if (!((int32_t)(((((int32_t)L_14) == ((int32_t)8))? 1 : 0)&(int32_t)L_15)))
+		{
+			goto IL_00f9;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:598>
+		__this->___exploration_soft_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:599>
+		__this->___intro_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:600>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_16 = __this->___audio_explorationB;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_17 = __this->___AudioArray_intro;
+		NullCheck(L_17);
+		int32_t L_18 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_19 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		NullCheck(L_16);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_16, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_19, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:601>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_20 = __this->___audio_explorationB;
+		double L_21 = __this->___time;
+		NullCheck(L_20);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_20, L_21, NULL);
+	}
+
+IL_00f9:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:603>
+		int32_t L_22 = __this->___j;
+		bool L_23 = __this->___exploration_soft;
+		if (!((int32_t)(((((int32_t)L_22) == ((int32_t)((int32_t)15)))? 1 : 0)&((((int32_t)L_23) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_0115;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:605>
+		audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA(__this, NULL);
+	}
+
+IL_0115:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:607>
+		int32_t L_24 = __this->___j;
+		bool L_25 = __this->___exploration_soft;
+		if (!((int32_t)(((((int32_t)L_24) == ((int32_t)((int32_t)16)))? 1 : 0)&((((int32_t)L_25) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_0147;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:609>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:610>
+		__this->___k = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:611>
+		__this->___j = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:612>
+		__this->___exploration_soft_isPlaying = (bool)0;
+	}
+
+IL_0147:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:614>
+		int32_t L_26 = __this->___j;
+		bool L_27 = __this->___exploration_soft;
+		if (!((int32_t)(((((int32_t)L_26) == ((int32_t)((int32_t)16)))? 1 : 0)&(int32_t)L_27)))
+		{
+			goto IL_0191;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:616>
+		__this->___intro = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:617>
+		__this->___exploration_soft_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:618>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_28 = __this->___audio_explorationA;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_29 = __this->___AudioArray_intro;
+		NullCheck(L_29);
+		int32_t L_30 = 0;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_31 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+		NullCheck(L_28);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_28, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_31, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:619>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_32 = __this->___audio_explorationA;
+		double L_33 = __this->___time;
+		NullCheck(L_32);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_32, L_33, NULL);
+	}
+
+IL_0191:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:623>
+		return;
+	}
+}
+// Method Definition Index: 85785
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Exploration_Loud_m3E377804C22F51BB13A007CF6E9EE657819283B1 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:627>
+		double L_0 = __this->___time;
+		double L_1 = __this->___singleMeasureTime;
+		if ((!(((double)((double)il2cpp_codegen_add(L_0, (1.0)))) > ((double)L_1))))
+		{
+			goto IL_0185;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:629>
+		int32_t L_2 = __this->___j;
+		bool L_3 = __this->___exploration_loud;
+		if (!((int32_t)(((((int32_t)L_2) == ((int32_t)0))? 1 : 0)&(int32_t)L_3)))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:631>
+		__this->___intro_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:632>
+		__this->___exploration_loud_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:633>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->___audio_explorationA;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_5 = __this->___AudioArray_intro;
+		NullCheck(L_5);
+		int32_t L_6 = 2;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_7 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		NullCheck(L_4);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_4, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_7, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:634>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8 = __this->___audio_explorationA;
+		double L_9 = __this->___time;
+		NullCheck(L_8);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_8, L_9, NULL);
+	}
+
+IL_0064:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:636>
+		int32_t L_10 = __this->___j;
+		bool L_11 = __this->___exploration_loud;
+		if (!((int32_t)(((((int32_t)L_10) == ((int32_t)7))? 1 : 0)&((((int32_t)L_11) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:638>
+		audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA(__this, NULL);
+	}
+
+IL_007f:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:640>
+		int32_t L_12 = __this->___j;
+		bool L_13 = __this->___exploration_loud;
+		if (!((int32_t)(((((int32_t)L_12) == ((int32_t)8))? 1 : 0)&((((int32_t)L_13) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:642>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:643>
+		__this->___k = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:644>
+		__this->___exploration_loud_isPlaying = (bool)0;
+	}
+
+IL_00a9:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:646>
+		int32_t L_14 = __this->___j;
+		bool L_15 = __this->___exploration_loud;
+		if (!((int32_t)(((((int32_t)L_14) == ((int32_t)8))? 1 : 0)&(int32_t)L_15)))
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:648>
+		__this->___exploration_loud_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:649>
+		__this->___intro_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:650>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_16 = __this->___audio_explorationB;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_17 = __this->___AudioArray_intro;
+		NullCheck(L_17);
+		int32_t L_18 = 3;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_19 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		NullCheck(L_16);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_16, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_19, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:651>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_20 = __this->___audio_explorationB;
+		double L_21 = __this->___time;
+		NullCheck(L_20);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_20, L_21, NULL);
+	}
+
+IL_00f2:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:653>
+		int32_t L_22 = __this->___j;
+		if ((!(((uint32_t)L_22) == ((uint32_t)((int32_t)15)))))
+		{
+			goto IL_0102;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:655>
+		audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA(__this, NULL);
+	}
+
+IL_0102:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:657>
+		int32_t L_23 = __this->___j;
+		bool L_24 = __this->___exploration_loud;
+		if (!((int32_t)(((((int32_t)L_23) == ((int32_t)((int32_t)16)))? 1 : 0)&((((int32_t)L_24) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_0142;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:660>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:661>
+		__this->___k = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:662>
+		__this->___j = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:663>
+		bool L_25 = __this->___exploration_soft;
+		if (!L_25)
+		{
+			goto IL_013b;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:665>
+		audio_Exploration_Soft_m854C5FF4615E07109ECD2E6E2BEE4DC0A6B15273(__this, NULL);
+	}
+
+IL_013b:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:667>
+		__this->___exploration_loud_isPlaying = (bool)0;
+	}
+
+IL_0142:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:669>
+		int32_t L_26 = __this->___j;
+		bool L_27 = __this->___exploration_loud;
+		if (!((int32_t)(((((int32_t)L_26) == ((int32_t)((int32_t)16)))? 1 : 0)&(int32_t)L_27)))
+		{
+			goto IL_0185;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:671>
+		__this->___exploration_loud_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:672>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_28 = __this->___audio_explorationA;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_29 = __this->___AudioArray_intro;
+		NullCheck(L_29);
+		int32_t L_30 = 2;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_31 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+		NullCheck(L_28);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_28, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_31, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:673>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_32 = __this->___audio_explorationA;
+		double L_33 = __this->___time;
+		NullCheck(L_32);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_32, L_33, NULL);
+	}
+
+IL_0185:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:676>
+		return;
+	}
+}
+// Method Definition Index: 85786
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Battle1_m6D0B0FDF66FEA74CBF3765A67CFBE0C35B693E3C (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:680>
+		double L_0 = __this->___time;
+		double L_1 = __this->___singleMeasureTime;
+		if ((!(((double)((double)il2cpp_codegen_add(L_0, (1.0)))) > ((double)L_1))))
+		{
+			goto IL_0288;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:682>
+		int32_t L_2 = __this->___i;
+		if (L_2)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:684>
+		__this->___battle1_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:685>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = __this->___audio_battleA;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_4 = __this->___AudioArray_battle1;
+		NullCheck(L_4);
+		int32_t L_5 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_3);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_3, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_6, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:686>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = __this->___audio_battleA;
+		double L_8 = __this->___time;
+		NullCheck(L_7);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_7, L_8, NULL);
+	}
+
+IL_0053:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:688>
+		int32_t L_9 = __this->___i;
+		if ((!(((uint32_t)L_9) == ((uint32_t)2))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:690>
+		__this->___battle1_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:691>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = __this->___audio_battleB;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_11 = __this->___AudioArray_battle1;
+		NullCheck(L_11);
+		int32_t L_12 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		NullCheck(L_10);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_10, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_13, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:692>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14 = __this->___audio_battleB;
+		double L_15 = __this->___time;
+		NullCheck(L_14);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_14, L_15, NULL);
+	}
+
+IL_008c:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:694>
+		int32_t L_16 = __this->___i;
+		bool L_17 = __this->___battle1;
+		if (!((int32_t)(((((int32_t)L_16) == ((int32_t)4))? 1 : 0)&((((int32_t)L_17) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:696>
+		__this->___battle1_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:697>
+		audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA(__this, NULL);
+	}
+
+IL_00ae:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:699>
+		int32_t L_18 = __this->___i;
+		bool L_19 = __this->___battle1_isPlaying;
+		if (!((int32_t)(((((int32_t)L_18) == ((int32_t)4))? 1 : 0)&(int32_t)L_19)))
+		{
+			goto IL_00f0;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:701>
+		__this->___battle1_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:702>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_20 = __this->___audio_battleA;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_21 = __this->___AudioArray_battle1;
+		NullCheck(L_21);
+		int32_t L_22 = 2;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_23 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_20);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_20, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_23, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:703>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_24 = __this->___audio_battleA;
+		double L_25 = __this->___time;
+		NullCheck(L_24);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_24, L_25, NULL);
+	}
+
+IL_00f0:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:705>
+		int32_t L_26 = __this->___i;
+		if ((!(((uint32_t)L_26) == ((uint32_t)6))))
+		{
+			goto IL_0129;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:707>
+		__this->___battle1_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:708>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_27 = __this->___audio_battleB;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_28 = __this->___AudioArray_battle1;
+		NullCheck(L_28);
+		int32_t L_29 = 2;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_30 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		NullCheck(L_27);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_27, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_30, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:709>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_31 = __this->___audio_battleB;
+		double L_32 = __this->___time;
+		NullCheck(L_31);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_31, L_32, NULL);
+	}
+
+IL_0129:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:711>
+		int32_t L_33 = __this->___i;
+		bool L_34 = __this->___battle1;
+		if (!((int32_t)(((((int32_t)L_33) == ((int32_t)7))? 1 : 0)&((((int32_t)L_34) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_0176;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:713>
+		bool L_35 = __this->___battle2;
+		bool L_36 = __this->___battle3;
+		if (!((int32_t)((int32_t)L_35|(int32_t)L_36)))
+		{
+			goto IL_0176;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:715>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_37 = __this->___audio_trans;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_38 = __this->___AudioArray_trans;
+		NullCheck(L_38);
+		int32_t L_39 = 2;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_40 = (L_38)->GetAt(static_cast<il2cpp_array_size_t>(L_39));
+		NullCheck(L_37);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_37, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_40, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:716>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_41 = __this->___audio_trans;
+		double L_42 = __this->___time;
+		NullCheck(L_41);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_41, L_42, NULL);
+	}
+
+IL_0176:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:720>
+		int32_t L_43 = __this->___i;
+		bool L_44 = __this->___battle1;
+		if (!((int32_t)(((((int32_t)L_43) == ((int32_t)7))? 1 : 0)&(int32_t)L_44)))
+		{
+			goto IL_01b1;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:722>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_45 = __this->___audio_trans;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_46 = __this->___AudioArray_trans;
+		NullCheck(L_46);
+		int32_t L_47 = 3;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_48 = (L_46)->GetAt(static_cast<il2cpp_array_size_t>(L_47));
+		NullCheck(L_45);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_45, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_48, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:723>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_49 = __this->___audio_trans;
+		double L_50 = __this->___time;
+		NullCheck(L_49);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_49, L_50, NULL);
+	}
+
+IL_01b1:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:725>
+		int32_t L_51 = __this->___i;
+		bool L_52 = __this->___battle1;
+		if (!((int32_t)(((((int32_t)L_51) == ((int32_t)8))? 1 : 0)&(int32_t)L_52)))
+		{
+			goto IL_01d0;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:727>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:728>
+		audio_Battle1_m6D0B0FDF66FEA74CBF3765A67CFBE0C35B693E3C(__this, NULL);
+	}
+
+IL_01d0:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:730>
+		int32_t L_53 = __this->___i;
+		bool L_54 = __this->___battle1;
+		if (!((int32_t)(((((int32_t)L_53) == ((int32_t)8))? 1 : 0)&((((int32_t)L_54) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_022e;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:732>
+		bool L_55 = __this->___exploration_soft;
+		bool L_56 = __this->___exploration_loud;
+		bool L_57 = __this->___intro;
+		if (!((int32_t)(((int32_t)((int32_t)L_55|(int32_t)L_56))|(int32_t)L_57)))
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:734>
+		__this->___battle1_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:735>
+		audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA(__this, NULL);
+		goto IL_022e;
+	}
+
+IL_020a:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:737>
+		bool L_58 = __this->___battle2;
+		bool L_59 = __this->___battle3;
+		if (!((int32_t)((int32_t)L_58|(int32_t)L_59)))
+		{
+			goto IL_022e;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:739>
+		__this->___battle1_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:740>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:741>
+		__this->___k = 0;
+	}
+
+IL_022e:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:744>
+		bool L_60 = __this->___melody;
+		if (!L_60)
+		{
+			goto IL_0288;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:746>
+		int32_t L_61 = __this->___i;
+		int32_t L_62 = __this->___i;
+		int32_t L_63 = __this->___i;
+		int32_t L_64 = __this->___i;
+		if (!((int32_t)(((int32_t)(((int32_t)(((((int32_t)L_61) == ((int32_t)0))? 1 : 0)|((((int32_t)L_62) == ((int32_t)2))? 1 : 0)))|((((int32_t)L_63) == ((int32_t)4))? 1 : 0)))|((((int32_t)L_64) == ((int32_t)6))? 1 : 0))))
+		{
+			goto IL_0288;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:748>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_65 = __this->___audio_melody;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_66 = __this->___AudioArray_battle1;
+		NullCheck(L_66);
+		int32_t L_67 = 3;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_68 = (L_66)->GetAt(static_cast<il2cpp_array_size_t>(L_67));
+		NullCheck(L_65);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_65, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_68, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:749>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_69 = __this->___audio_melody;
+		double L_70 = __this->___time;
+		NullCheck(L_69);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_69, L_70, NULL);
+	}
+
+IL_0288:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:753>
+		return;
+	}
+}
+// Method Definition Index: 85787
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Battle2_mD4E6ECF49BEA3CB879B75F18AD9B8D75F8ADCFCA (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:757>
+		double L_0 = __this->___time;
+		double L_1 = __this->___singleMeasureTime;
+		if ((!(((double)((double)il2cpp_codegen_add(L_0, (1.0)))) > ((double)L_1))))
+		{
+			goto IL_025a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:759>
+		int32_t L_2 = __this->___i;
+		if (L_2)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:761>
+		__this->___battle2_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:762>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = __this->___audio_battleA;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_4 = __this->___AudioArray_battle2;
+		NullCheck(L_4);
+		int32_t L_5 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_3);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_3, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_6, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:763>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = __this->___audio_battleA;
+		double L_8 = __this->___time;
+		NullCheck(L_7);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_7, L_8, NULL);
+	}
+
+IL_0053:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:765>
+		int32_t L_9 = __this->___i;
+		if ((!(((uint32_t)L_9) == ((uint32_t)2))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:767>
+		__this->___battle2_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:768>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = __this->___audio_battleB;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_11 = __this->___AudioArray_battle2;
+		NullCheck(L_11);
+		int32_t L_12 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		NullCheck(L_10);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_10, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_13, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:769>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14 = __this->___audio_battleB;
+		double L_15 = __this->___time;
+		NullCheck(L_14);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_14, L_15, NULL);
+	}
+
+IL_008c:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:771>
+		int32_t L_16 = __this->___i;
+		bool L_17 = __this->___battle2;
+		if (!((int32_t)(((((int32_t)L_16) == ((int32_t)4))? 1 : 0)&((((int32_t)L_17) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_00cd;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:773>
+		bool L_18 = __this->___exploration_soft;
+		bool L_19 = __this->___exploration_loud;
+		bool L_20 = __this->___intro;
+		if (!((int32_t)(((int32_t)((int32_t)L_18|(int32_t)L_19))|(int32_t)L_20)))
+		{
+			goto IL_00c6;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:775>
+		__this->___battle2_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:776>
+		audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA(__this, NULL);
+		goto IL_00cd;
+	}
+
+IL_00c6:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:780>
+		__this->___battle2_isPlaying = (bool)1;
+	}
+
+IL_00cd:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:783>
+		int32_t L_21 = __this->___i;
+		bool L_22 = __this->___battle2_isPlaying;
+		if (!((int32_t)(((((int32_t)L_21) == ((int32_t)4))? 1 : 0)&(int32_t)L_22)))
+		{
+			goto IL_010f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:785>
+		__this->___battle2_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:786>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_23 = __this->___audio_battleA;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_24 = __this->___AudioArray_battle2;
+		NullCheck(L_24);
+		int32_t L_25 = 2;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_26 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		NullCheck(L_23);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_23, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_26, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:787>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_27 = __this->___audio_battleA;
+		double L_28 = __this->___time;
+		NullCheck(L_27);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_27, L_28, NULL);
+	}
+
+IL_010f:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:789>
+		int32_t L_29 = __this->___i;
+		if ((!(((uint32_t)L_29) == ((uint32_t)6))))
+		{
+			goto IL_0148;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:791>
+		__this->___battle2_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:792>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_30 = __this->___audio_battleB;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_31 = __this->___AudioArray_battle2;
+		NullCheck(L_31);
+		int32_t L_32 = 2;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_33 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		NullCheck(L_30);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_30, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_33, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:793>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_34 = __this->___audio_battleB;
+		double L_35 = __this->___time;
+		NullCheck(L_34);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_34, L_35, NULL);
+	}
+
+IL_0148:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:795>
+		int32_t L_36 = __this->___i;
+		bool L_37 = __this->___battle2;
+		if (!((int32_t)(((((int32_t)L_36) == ((int32_t)7))? 1 : 0)&((((int32_t)L_37) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_0195;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:797>
+		bool L_38 = __this->___battle1;
+		bool L_39 = __this->___battle3;
+		if (!((int32_t)((int32_t)L_38|(int32_t)L_39)))
+		{
+			goto IL_0195;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:799>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_40 = __this->___audio_trans;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_41 = __this->___AudioArray_trans;
+		NullCheck(L_41);
+		int32_t L_42 = 2;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_43 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
+		NullCheck(L_40);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_40, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_43, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:800>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_44 = __this->___audio_trans;
+		double L_45 = __this->___time;
+		NullCheck(L_44);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_44, L_45, NULL);
+	}
+
+IL_0195:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:804>
+		int32_t L_46 = __this->___i;
+		bool L_47 = __this->___battle2;
+		if (!((int32_t)(((((int32_t)L_46) == ((int32_t)7))? 1 : 0)&(int32_t)L_47)))
+		{
+			goto IL_01d0;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:806>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_48 = __this->___audio_trans;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_49 = __this->___AudioArray_trans;
+		NullCheck(L_49);
+		int32_t L_50 = 3;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_51 = (L_49)->GetAt(static_cast<il2cpp_array_size_t>(L_50));
+		NullCheck(L_48);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_48, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_51, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:807>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_52 = __this->___audio_trans;
+		double L_53 = __this->___time;
+		NullCheck(L_52);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_52, L_53, NULL);
+	}
+
+IL_01d0:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:810>
+		int32_t L_54 = __this->___i;
+		bool L_55 = __this->___battle2;
+		if (!((int32_t)(((((int32_t)L_54) == ((int32_t)8))? 1 : 0)&(int32_t)L_55)))
+		{
+			goto IL_01ef;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:812>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:813>
+		audio_Battle2_mD4E6ECF49BEA3CB879B75F18AD9B8D75F8ADCFCA(__this, NULL);
+	}
+
+IL_01ef:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:816>
+		int32_t L_56 = __this->___i;
+		bool L_57 = __this->___battle2;
+		if (!((int32_t)(((((int32_t)L_56) == ((int32_t)8))? 1 : 0)&((((int32_t)L_57) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_025a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:818>
+		bool L_58 = __this->___exploration_soft;
+		bool L_59 = __this->___exploration_loud;
+		bool L_60 = __this->___intro;
+		if (!((int32_t)(((int32_t)((int32_t)L_58|(int32_t)L_59))|(int32_t)L_60)))
+		{
+			goto IL_0228;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:820>
+		__this->___battle2_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:821>
+		audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA(__this, NULL);
+		return;
+	}
+
+IL_0228:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:824>
+		bool L_61 = __this->___battle1;
+		bool L_62 = __this->___battle3;
+		if (!((int32_t)((int32_t)L_61|(int32_t)L_62)))
+		{
+			goto IL_025a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:826>
+		__this->___battle2_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:827>
+		__this->___i = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:828>
+		__this->___k = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:829>
+		bool L_63 = __this->___battle1;
+		if (!L_63)
+		{
+			goto IL_025a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:831>
+		audio_Battle1_m6D0B0FDF66FEA74CBF3765A67CFBE0C35B693E3C(__this, NULL);
+	}
+
+IL_025a:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:836>
+		return;
+	}
+}
+// Method Definition Index: 85788
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Battle3_mAA0B4EE97014733A42300C39976E199B908FA0B0 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:840>
+		double L_0 = __this->___time;
+		double L_1 = __this->___singleMeasureTime;
+		if ((!(((double)((double)il2cpp_codegen_add(L_0, (1.0)))) > ((double)L_1))))
+		{
+			goto IL_03ab;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:842>
+		int32_t L_2 = __this->___k;
+		if (L_2)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:844>
+		__this->___battle3_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:845>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = __this->___audio_battleA;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_4 = __this->___AudioArray_battle3;
+		NullCheck(L_4);
+		int32_t L_5 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_3);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_3, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_6, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:846>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = __this->___audio_battleA;
+		double L_8 = __this->___time;
+		NullCheck(L_7);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_7, L_8, NULL);
+	}
+
+IL_0053:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:848>
+		int32_t L_9 = __this->___k;
+		bool L_10 = __this->___battle3;
+		bool L_11 = __this->___battle_final;
+		if (!((int32_t)(((int32_t)(((((int32_t)L_9) == ((int32_t)2))? 1 : 0)&((((int32_t)L_10) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_11) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:850>
+		audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA(__this, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:851>
+		__this->___battle3_isPlaying = (bool)0;
+	}
+
+IL_007f:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:853>
+		int32_t L_12 = __this->___k;
+		bool L_13 = __this->___battle3_isPlaying;
+		bool L_14 = __this->___battle3;
+		if (!((int32_t)(((int32_t)(((((int32_t)L_12) == ((int32_t)2))? 1 : 0)&(int32_t)L_13))&(int32_t)L_14)))
+		{
+			goto IL_00c8;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:855>
+		__this->___battle3_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:856>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_15 = __this->___audio_battleB;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_16 = __this->___AudioArray_battle3;
+		NullCheck(L_16);
+		int32_t L_17 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		NullCheck(L_15);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_15, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_18, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:857>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_19 = __this->___audio_battleB;
+		double L_20 = __this->___time;
+		NullCheck(L_19);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_19, L_20, NULL);
+	}
+
+IL_00c8:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:859>
+		int32_t L_21 = __this->___k;
+		bool L_22 = __this->___battle3_isPlaying;
+		bool L_23 = __this->___battle_final;
+		if (!((int32_t)(((int32_t)(((((int32_t)L_21) == ((int32_t)2))? 1 : 0)&(int32_t)L_22))&(int32_t)L_23)))
+		{
+			goto IL_0111;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:861>
+		__this->___battle3_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:862>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_24 = __this->___audio_battleB;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_25 = __this->___AudioArray_battle3;
+		NullCheck(L_25);
+		int32_t L_26 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_27 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
+		NullCheck(L_24);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_24, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_27, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:863>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_28 = __this->___audio_battleB;
+		double L_29 = __this->___time;
+		NullCheck(L_28);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_28, L_29, NULL);
+	}
+
+IL_0111:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:865>
+		int32_t L_30 = __this->___k;
+		bool L_31 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((((int32_t)L_30) == ((int32_t)4))? 1 : 0)&(int32_t)L_31)))
+		{
+			goto IL_0153;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:867>
+		__this->___battle3_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:868>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_32 = __this->___audio_battleA;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_33 = __this->___AudioArray_battle3;
+		NullCheck(L_33);
+		int32_t L_34 = 2;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_35 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		NullCheck(L_32);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_32, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_35, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:869>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_36 = __this->___audio_battleA;
+		double L_37 = __this->___time;
+		NullCheck(L_36);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_36, L_37, NULL);
+	}
+
+IL_0153:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:871>
+		int32_t L_38 = __this->___k;
+		if ((!(((uint32_t)L_38) == ((uint32_t)6))))
+		{
+			goto IL_018c;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:873>
+		__this->___battle3_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:874>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_39 = __this->___audio_battleB;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_40 = __this->___AudioArray_battle3;
+		NullCheck(L_40);
+		int32_t L_41 = 3;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_42 = (L_40)->GetAt(static_cast<il2cpp_array_size_t>(L_41));
+		NullCheck(L_39);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_39, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_42, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:875>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_43 = __this->___audio_battleB;
+		double L_44 = __this->___time;
+		NullCheck(L_43);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_43, L_44, NULL);
+	}
+
+IL_018c:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:877>
+		int32_t L_45 = __this->___k;
+		bool L_46 = __this->___battle_final;
+		if (!((int32_t)(((((int32_t)L_45) == ((int32_t)8))? 1 : 0)&((((int32_t)L_46) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_01d1;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:879>
+		__this->___battle3_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:880>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_47 = __this->___audio_battleA;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_48 = __this->___AudioArray_battle3;
+		NullCheck(L_48);
+		int32_t L_49 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_50 = (L_48)->GetAt(static_cast<il2cpp_array_size_t>(L_49));
+		NullCheck(L_47);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_47, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_50, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:881>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_51 = __this->___audio_battleA;
+		double L_52 = __this->___time;
+		NullCheck(L_51);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_51, L_52, NULL);
+	}
+
+IL_01d1:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:883>
+		int32_t L_53 = __this->___k;
+		bool L_54 = __this->___battle_final;
+		if (!((int32_t)(((((int32_t)L_53) == ((int32_t)8))? 1 : 0)&(int32_t)L_54)))
+		{
+			goto IL_01f0;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:885>
+		__this->___battle3_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:886>
+		audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA(__this, NULL);
+	}
+
+IL_01f0:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:889>
+		int32_t L_55 = __this->___k;
+		bool L_56 = __this->___battle3;
+		bool L_57 = __this->___battle_final;
+		if (!((int32_t)(((int32_t)(((((int32_t)L_55) == ((int32_t)((int32_t)10)))? 1 : 0)&((((int32_t)L_56) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_57) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_021d;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:891>
+		audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA(__this, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:892>
+		__this->___battle3_isPlaying = (bool)0;
+	}
+
+IL_021d:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:895>
+		int32_t L_58 = __this->___k;
+		bool L_59 = __this->___battle3_isPlaying;
+		bool L_60 = __this->___battle3;
+		if (!((int32_t)(((int32_t)(((((int32_t)L_58) == ((int32_t)((int32_t)10)))? 1 : 0)&(int32_t)L_59))&(int32_t)L_60)))
+		{
+			goto IL_0267;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:897>
+		__this->___battle3_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:898>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_61 = __this->___audio_battleB;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_62 = __this->___AudioArray_battle3;
+		NullCheck(L_62);
+		int32_t L_63 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_64 = (L_62)->GetAt(static_cast<il2cpp_array_size_t>(L_63));
+		NullCheck(L_61);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_61, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_64, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:899>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_65 = __this->___audio_battleB;
+		double L_66 = __this->___time;
+		NullCheck(L_65);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_65, L_66, NULL);
+	}
+
+IL_0267:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:901>
+		int32_t L_67 = __this->___k;
+		bool L_68 = __this->___battle3_isPlaying;
+		bool L_69 = __this->___battle_final;
+		if (!((int32_t)(((int32_t)(((((int32_t)L_67) == ((int32_t)((int32_t)10)))? 1 : 0)&(int32_t)L_68))&(int32_t)L_69)))
+		{
+			goto IL_02b1;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:903>
+		__this->___battle3_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:904>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_70 = __this->___audio_battleB;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_71 = __this->___AudioArray_battle3;
+		NullCheck(L_71);
+		int32_t L_72 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_73 = (L_71)->GetAt(static_cast<il2cpp_array_size_t>(L_72));
+		NullCheck(L_70);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_70, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_73, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:905>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_74 = __this->___audio_battleB;
+		double L_75 = __this->___time;
+		NullCheck(L_74);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_74, L_75, NULL);
+	}
+
+IL_02b1:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:907>
+		int32_t L_76 = __this->___k;
+		if ((!(((uint32_t)L_76) == ((uint32_t)((int32_t)12)))))
+		{
+			goto IL_02eb;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:909>
+		__this->___battle3_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:910>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_77 = __this->___audio_battleA;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_78 = __this->___AudioArray_battle3;
+		NullCheck(L_78);
+		int32_t L_79 = 1;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_80 = (L_78)->GetAt(static_cast<il2cpp_array_size_t>(L_79));
+		NullCheck(L_77);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_77, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_80, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:911>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_81 = __this->___audio_battleA;
+		double L_82 = __this->___time;
+		NullCheck(L_81);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_81, L_82, NULL);
+	}
+
+IL_02eb:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:913>
+		int32_t L_83 = __this->___k;
+		if ((!(((uint32_t)L_83) == ((uint32_t)((int32_t)14)))))
+		{
+			goto IL_0325;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:915>
+		__this->___battle3_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:916>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_84 = __this->___audio_battleB;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_85 = __this->___AudioArray_battle3;
+		NullCheck(L_85);
+		int32_t L_86 = 4;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_87 = (L_85)->GetAt(static_cast<il2cpp_array_size_t>(L_86));
+		NullCheck(L_84);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_84, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_87, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:917>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_88 = __this->___audio_battleB;
+		double L_89 = __this->___time;
+		NullCheck(L_88);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_88, L_89, NULL);
+	}
+
+IL_0325:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:919>
+		int32_t L_90 = __this->___k;
+		bool L_91 = __this->___battle3;
+		bool L_92 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((((int32_t)L_90) == ((int32_t)((int32_t)15)))? 1 : 0)&(int32_t)L_91))&(int32_t)L_92)))
+		{
+			goto IL_0368;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:921>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_93 = __this->___audio_trans;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_94 = __this->___AudioArray_trans;
+		NullCheck(L_94);
+		int32_t L_95 = 2;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_96 = (L_94)->GetAt(static_cast<il2cpp_array_size_t>(L_95));
+		NullCheck(L_93);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_93, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_96, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:922>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_97 = __this->___audio_trans;
+		double L_98 = __this->___time;
+		NullCheck(L_97);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_97, L_98, NULL);
+	}
+
+IL_0368:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:924>
+		int32_t L_99 = __this->___k;
+		bool L_100 = __this->___battle_final;
+		if (!((int32_t)(((((int32_t)L_99) == ((int32_t)((int32_t)16)))? 1 : 0)&((((int32_t)L_100) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_038b;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:926>
+		__this->___k = 0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:927>
+		audio_Battle3_mAA0B4EE97014733A42300C39976E199B908FA0B0(__this, NULL);
+	}
+
+IL_038b:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:930>
+		int32_t L_101 = __this->___k;
+		bool L_102 = __this->___battle_final;
+		if (!((int32_t)(((((int32_t)L_101) == ((int32_t)((int32_t)16)))? 1 : 0)&(int32_t)L_102)))
+		{
+			goto IL_03ab;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:932>
+		__this->___battle3_isPlaying = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:933>
+		audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA(__this, NULL);
+	}
+
+IL_03ab:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:937>
+		return;
+	}
+}
+// Method Definition Index: 85789
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_Transitions_m1C261607EECAE9555D26024F2759587B0BA3ACBA (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6DE1C1E4C47D5ECD168A57606E1FA61B6E900E8F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:942>
+		double L_0 = __this->___time;
+		double L_1 = __this->___singleMeasureTime;
+		if ((!(((double)((double)il2cpp_codegen_add(L_0, (1.0)))) > ((double)L_1))))
+		{
+			goto IL_0296;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:944>
+		bool L_2 = __this->___exploration_loud_isPlaying;
+		if (!L_2)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:946>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = __this->___audio_trans;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_4 = __this->___AudioArray_trans;
+		NullCheck(L_4);
+		int32_t L_5 = 3;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_3);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_3, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_6, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:947>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = __this->___audio_trans;
+		double L_8 = __this->___time;
+		NullCheck(L_7);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_7, L_8, NULL);
+	}
+
+IL_004c:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:949>
+		bool L_9 = __this->___battle_start;
+		if (!L_9)
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:951>
+		bool L_10 = __this->___battle1_isPlaying;
+		bool L_11 = __this->___battle2_isPlaying;
+		bool L_12 = __this->___battle3_isPlaying;
+		if (!((int32_t)(((int32_t)(((((int32_t)L_10) == ((int32_t)0))? 1 : 0)&((((int32_t)L_11) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_12) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:953>
+		bool L_13 = __this->___exploration_soft_isPlaying;
+		bool L_14 = __this->___exploration_loud_isPlaying;
+		if (!((int32_t)((int32_t)L_13|(int32_t)L_14)))
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:955>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_15 = __this->___audio_start_end;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_16 = __this->___AudioArray_trans;
+		NullCheck(L_16);
+		int32_t L_17 = 0;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		NullCheck(L_15);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_15, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_18, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:956>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_19 = __this->___audio_start_end;
+		double L_20 = __this->___time;
+		NullCheck(L_19);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_19, L_20, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:957>
+		__this->___battle_start = (bool)1;
+	}
+
+IL_00b2:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:962>
+		bool L_21 = __this->___exploration_soft_isPlaying;
+		if (!L_21)
+		{
+			goto IL_00e3;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:964>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_22 = __this->___audio_trans;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_23 = __this->___AudioArray_trans;
+		NullCheck(L_23);
+		int32_t L_24 = 3;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_25 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		NullCheck(L_22);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_22, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_25, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:965>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_26 = __this->___audio_trans;
+		double L_27 = __this->___time;
+		NullCheck(L_26);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_26, L_27, NULL);
+	}
+
+IL_00e3:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:970>
+		bool L_28 = __this->___battle3_isPlaying;
+		bool L_29 = __this->___battle3;
+		bool L_30 = __this->___battle_final;
+		if (!((int32_t)(((int32_t)((int32_t)L_28&((((int32_t)L_29) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_30) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_0155;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:972>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_31 = __this->___audio_start_end;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_32 = __this->___AudioArray_battle3;
+		NullCheck(L_32);
+		int32_t L_33 = 0;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_34 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
+		NullCheck(L_31);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_31, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_34, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:973>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_35 = __this->___audio_start_end;
+		double L_36 = __this->___time;
+		NullCheck(L_35);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_35, L_36, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:974>
+		__this->___l = 7;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:975>
+		__this->___pause_and_reset = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:977>
+		__this->___i = ((int32_t)50);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:978>
+		__this->___j = ((int32_t)50);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:979>
+		__this->___k = ((int32_t)50);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:980>
+		__this->___battle3_isPlaying = (bool)0;
+	}
+
+IL_0155:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:982>
+		bool L_37 = __this->___battle1_isPlaying;
+		bool L_38 = __this->___battle1;
+		bool L_39 = __this->___battle2;
+		bool L_40 = __this->___battle3;
+		if (!((int32_t)(((int32_t)(((int32_t)((int32_t)L_37&((((int32_t)L_38) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_39) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_40) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_01d1;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:984>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_41 = __this->___audio_start_end;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_42 = __this->___AudioArray_battle1;
+		NullCheck(L_42);
+		int32_t L_43 = 0;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_44 = (L_42)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		NullCheck(L_41);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_41, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_44, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:985>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_45 = __this->___audio_start_end;
+		double L_46 = __this->___time;
+		NullCheck(L_45);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_45, L_46, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:986>
+		__this->___l = 7;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:987>
+		__this->___pause_and_reset = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:989>
+		__this->___i = ((int32_t)50);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:990>
+		__this->___j = ((int32_t)50);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:991>
+		__this->___k = ((int32_t)50);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:992>
+		__this->___battle1_isPlaying = (bool)0;
+	}
+
+IL_01d1:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:995>
+		bool L_47 = __this->___battle2_isPlaying;
+		bool L_48 = __this->___battle1;
+		bool L_49 = __this->___battle2;
+		bool L_50 = __this->___battle3;
+		if (!((int32_t)(((int32_t)(((int32_t)((int32_t)L_47&((((int32_t)L_48) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_49) == ((int32_t)0))? 1 : 0)))&((((int32_t)L_50) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_024d;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:997>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_51 = __this->___audio_start_end;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_52 = __this->___AudioArray_battle2;
+		NullCheck(L_52);
+		int32_t L_53 = 0;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_54 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
+		NullCheck(L_51);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_51, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_54, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:998>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_55 = __this->___audio_start_end;
+		double L_56 = __this->___time;
+		NullCheck(L_55);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_55, L_56, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:999>
+		__this->___l = 7;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1000>
+		__this->___pause_and_reset = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1002>
+		__this->___i = ((int32_t)50);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1003>
+		__this->___j = ((int32_t)50);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1004>
+		__this->___k = ((int32_t)50);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1005>
+		__this->___battle2_isPlaying = (bool)0;
+	}
+
+IL_024d:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1008>
+		bool L_57 = __this->___battle3_isPlaying;
+		bool L_58 = __this->___battle_final;
+		if (!((int32_t)((int32_t)L_57&(int32_t)L_58)))
+		{
+			goto IL_0296;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1010>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral6DE1C1E4C47D5ECD168A57606E1FA61B6E900E8F, NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1011>
+		__this->___battle3_isPlaying = (bool)0;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1012>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_59 = __this->___audio_start_end;
+		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_60 = __this->___AudioArray_battle3;
+		NullCheck(L_60);
+		int32_t L_61 = 5;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_62 = (L_60)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		NullCheck(L_59);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_59, ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)IsInstSealed((RuntimeObject*)L_62, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1013>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_63 = __this->___audio_start_end;
+		double L_64 = __this->___time;
+		NullCheck(L_63);
+		AudioSource_PlayScheduled_m9F3C7245A13A1D4BC64AFA9A08763357133727D9(L_63, L_64, NULL);
+	}
+
+IL_0296:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1020>
+		return;
+	}
+}
+// Method Definition Index: 85790
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio_CheckDistanceToTrigger_m515D4B6F9672FA1FC6F4B97CB4DADD968AC312B4 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Sort_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA78721058C141C54FF01304FCF4A2B923406C138_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_0 = NULL;
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1026>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_025d;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1030>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Soft_exploration;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1032>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___Player;
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___Soft_exploration;
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		float L_8;
+		L_8 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_5, L_7, NULL);
+		__this->___soft_exploration_distance = L_8;
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1035>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->___Loud_exploration;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1037>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->___Player;
+		NullCheck(L_11);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___Loud_exploration;
+		NullCheck(L_13);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_13, NULL);
+		float L_15;
+		L_15 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_12, L_14, NULL);
+		__this->___loud_exploration_distance = L_15;
+	}
+
+IL_006e:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1040>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = __this->___Battle_start_immediately;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_17;
+		L_17 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_16, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_17)
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1042>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18 = __this->___Player;
+		NullCheck(L_18);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_18, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20 = __this->___Battle_start_immediately;
+		NullCheck(L_20);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_20, NULL);
+		float L_22;
+		L_22 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_19, L_21, NULL);
+		__this->___battle_initial_distance = L_22;
+	}
+
+IL_009d:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1044>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = __this->___Play_battle1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_24;
+		L_24 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_23, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_24)
+		{
+			goto IL_00cc;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1046>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = __this->___Player;
+		NullCheck(L_25);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_25, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = __this->___Play_battle1;
+		NullCheck(L_27);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_27, NULL);
+		float L_29;
+		L_29 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_26, L_28, NULL);
+		__this->___battle1_distance = L_29;
+	}
+
+IL_00cc:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1048>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30 = __this->___Play_battle2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_31;
+		L_31 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_30, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_31)
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1050>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32 = __this->___Player;
+		NullCheck(L_32);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_32, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34 = __this->___Play_battle2;
+		NullCheck(L_34);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
+		L_35 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_34, NULL);
+		float L_36;
+		L_36 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_33, L_35, NULL);
+		__this->___battle2_distance = L_36;
+	}
+
+IL_00fb:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1052>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37 = __this->___Play_battle3;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_38;
+		L_38 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_37, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_38)
+		{
+			goto IL_012a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1054>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39 = __this->___Player;
+		NullCheck(L_39);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
+		L_40 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_39, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_41 = __this->___Play_battle3;
+		NullCheck(L_41);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
+		L_42 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_41, NULL);
+		float L_43;
+		L_43 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_40, L_42, NULL);
+		__this->___battle3_distance = L_43;
+	}
+
+IL_012a:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1056>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44 = __this->___Play_battle_final;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_45;
+		L_45 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_44, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_45)
+		{
+			goto IL_0159;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1058>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46 = __this->___Player;
+		NullCheck(L_46);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47;
+		L_47 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_46, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_48 = __this->___Play_battle_final;
+		NullCheck(L_48);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
+		L_49 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_48, NULL);
+		float L_50;
+		L_50 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_47, L_49, NULL);
+		__this->___battle_final_distance = L_50;
+	}
+
+IL_0159:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1061>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1062>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1063>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1064>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1065>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1066>
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1067>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_51 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)7);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_52 = L_51;
+		float L_53 = __this->___soft_exploration_distance;
+		NullCheck(L_52);
+		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_53);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_54 = L_52;
+		float L_55 = __this->___loud_exploration_distance;
+		NullCheck(L_54);
+		(L_54)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)L_55);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_56 = L_54;
+		float L_57 = __this->___battle_initial_distance;
+		NullCheck(L_56);
+		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)L_57);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_58 = L_56;
+		float L_59 = __this->___battle1_distance;
+		NullCheck(L_58);
+		(L_58)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)L_59);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_60 = L_58;
+		float L_61 = __this->___battle2_distance;
+		NullCheck(L_60);
+		(L_60)->SetAt(static_cast<il2cpp_array_size_t>(4), (float)L_61);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_62 = L_60;
+		float L_63 = __this->___battle3_distance;
+		NullCheck(L_62);
+		(L_62)->SetAt(static_cast<il2cpp_array_size_t>(5), (float)L_63);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_64 = L_62;
+		float L_65 = __this->___battle_final_distance;
+		NullCheck(L_64);
+		(L_64)->SetAt(static_cast<il2cpp_array_size_t>(6), (float)L_65);
+		V_0 = L_64;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1068>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_66 = V_0;
+		Array_Sort_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA78721058C141C54FF01304FCF4A2B923406C138(L_66, Array_Sort_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mA78721058C141C54FF01304FCF4A2B923406C138_RuntimeMethod_var);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1069>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_67 = V_0;
+		NullCheck(L_67);
+		int32_t L_68 = 0;
+		float L_69 = (L_67)->GetAt(static_cast<il2cpp_array_size_t>(L_68));
+		__this->___nearest_gameobject = L_69;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1073>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_70 = __this->___Soft_exploration;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_71;
+		L_71 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_70, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_71)
+		{
+			goto IL_01c7;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1075>
+		__this->___soft_exploration_distance = (5000.0f);
+	}
+
+IL_01c7:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1077>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_72 = __this->___Loud_exploration;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_73;
+		L_73 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_72, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_73)
+		{
+			goto IL_01e0;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1079>
+		__this->___loud_exploration_distance = (5000.0f);
+	}
+
+IL_01e0:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1082>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_74 = __this->___Battle_start_immediately;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_75;
+		L_75 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_74, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_75)
+		{
+			goto IL_01f9;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1084>
+		__this->___battle_initial_distance = (5000.0f);
+	}
+
+IL_01f9:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1086>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_76 = __this->___Play_battle1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_77;
+		L_77 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_76, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_77)
+		{
+			goto IL_0212;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1088>
+		__this->___battle1_distance = (5000.0f);
+	}
+
+IL_0212:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1090>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_78 = __this->___Play_battle2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_79;
+		L_79 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_78, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_79)
+		{
+			goto IL_022b;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1092>
+		__this->___battle2_distance = (5000.0f);
+	}
+
+IL_022b:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1094>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_80 = __this->___Play_battle3;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_81;
+		L_81 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_80, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_81)
+		{
+			goto IL_0244;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1096>
+		__this->___battle3_distance = (5000.0f);
+	}
+
+IL_0244:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1098>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_82 = __this->___Play_battle_final;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_83;
+		L_83 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_82, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_83)
+		{
+			goto IL_025d;
+		}
+	}
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1100>
+		__this->___battle_final_distance = (5000.0f);
+	}
+
+IL_025d:
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:1105>
+		return;
+	}
+}
+// Method Definition Index: 85791
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void audio__ctor_m857593FB8B64B5CCDF159D499D9101B3AA8E8538 (audio_t3989071FA5F451379809C713A6644156D70B78D7* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:10>
+		__this->___bpm = (150.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:11>
+		__this->___beatsPerMeasure = 4;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:57>
+		__this->___single_trigger = (bool)1;
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:59>
+		__this->___soft_exploration_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:60>
+		__this->___loud_exploration_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:61>
+		__this->___battle_initial_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:62>
+		__this->___battle1_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:63>
+		__this->___battle2_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:64>
+		__this->___battle3_distance = (5000.0f);
+		//<source_info:C:/Users/Usuario/Desktop/AR-GEO/Assets/Epic Adventure Orchestral Background Music/EpicAdventureAdaptiveMusic.cs:65>
+		__this->___battle_final_distance = (5000.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 38109
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = ___0_x;
+		float L_1 = ___1_y;
+		float L_2 = ___2_z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_3), L_0, L_1, L_2, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_3, (0.0174532924f), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
+		L_5 = Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E(L_4, NULL);
+		V_0 = L_5;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 38080
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 38071
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 38086
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_lhs;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_rhs;
+		bool L_2;
+		L_2 = Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline(L_0, L_1, NULL);
+		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+// Method Definition Index: 38214
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_v;
+		float L_1 = L_0.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_v;
+		float L_3 = L_2.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_4), L_1, L_3, (0.0f), NULL);
+		V_0 = L_4;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 38082
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+// Method Definition Index: 38079
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 38100
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 38181
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		return;
+	}
+}
+// Method Definition Index: 38064
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_18;
+		L_18 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))))));
+		V_3 = ((float)L_18);
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		float L_19 = V_3;
+		return L_19;
+	}
+}
+// Method Definition Index: 38050
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 38085
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_lhs;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_rhs;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_lhs;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		V_3 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))));
+		float L_18 = V_3;
+		V_4 = (bool)((((float)L_18) < ((float)(9.99999944E-11f)))? 1 : 0);
+		goto IL_0043;
+	}
+
+IL_0043:
+	{
+		bool L_19 = V_4;
+		return L_19;
+	}
+}
