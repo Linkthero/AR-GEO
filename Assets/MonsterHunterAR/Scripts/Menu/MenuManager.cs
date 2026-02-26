@@ -6,7 +6,6 @@ using System.Collections;
 public class MenuManager : MonoBehaviour
 {
     [Header("Paneles del Menu")]
-    [SerializeField] private GameObject panelOpciones; // Panel de opciones
     [SerializeField] private GameObject panelMenuPrincipal; // Panel del menu principal
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,7 +15,7 @@ public class MenuManager : MonoBehaviour
         if(sceneIndex == 0)
         {
             panelMenuPrincipal.SetActive(true); // Mostrar el panel del menú principal
-            panelOpciones.SetActive(false); // Ocultar el panel de opciones
+            
         }
     }
 
@@ -32,13 +31,12 @@ public class MenuManager : MonoBehaviour
         {
             panelMenuPrincipal.SetActive(false); // Ocultar el panel del menú principal
         }
-        panelOpciones.SetActive(true); // Mostrar el panel de opciones
+        
     }
 
     public void VolverAlMenu()
     {
         panelMenuPrincipal.SetActive(true); // Activar el panel del menu principal
-        panelOpciones.SetActive(false); // Desactivar el panel de opciones
     }
 
     public void Salir()
@@ -58,6 +56,11 @@ public class MenuManager : MonoBehaviour
     public void Cargar() // Cargar la escena del nivel
     {
         SceneManager.LoadScene("EscenaJuego");
+    }
+
+    public void Tutorial()
+    {
+        SceneManager.LoadScene("EscenaTutorial");
     }
 
     public void VolverAMenuPrincipal() // Volver al menu principal

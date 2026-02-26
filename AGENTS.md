@@ -2,7 +2,7 @@
 - Project name: AR-GEO
 - Unity version: Unity 6000.2.6f1
 - Active game object:
-  - Name: compassController
+  - Name: MenuManager
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
